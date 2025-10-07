@@ -10,8 +10,16 @@ a {
     color: inherit;
 }
 
+.main-header {
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .upper-header {
-    background-color: #f0f0f0;
+    background-color: #B5BB0F;
     padding: 8px 20px;
     text-align: left; /* Alinha os botões à esquerda */
 }
