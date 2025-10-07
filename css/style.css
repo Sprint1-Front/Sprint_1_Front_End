@@ -1,8 +1,19 @@
+/* Definição das Variáveis de Cor */
+:root {
+    --cor-fundo: #f0f8ff;         /* Azul Neva (Fundo Claro) */
+    --cor-primaria: #4a90e2;      /* Azul Principal (Header) */
+    --cor-secundaria: #00bcd4;    /* Ciano Vívido (Botões/Acento) */
+    --cor-texto: #2c3e50;         /* Azul Marinho (Texto) */
+    --cor-hover: #00798a;         /* Ciano Escuro (Hover) */
+}
+
 /* Reset básico e fontes */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #b2c6cfff ;
+    /* Aplicando a cor de fundo clara */
+    background-color: var(--cor-fundo); 
+    color: var(--cor-texto); /* Aplicando a cor escura ao texto */
 }
 
 a {
@@ -12,25 +23,37 @@ a {
 }
 
 .upper-header a {
-    background-color: rgb(17, 220, 235);
-    transition: background-color, color 1s ease-in-out; 
+    /* Cor de destaque para botões */
+    background-color: var(--cor-secundaria); 
+    color: white; /* Texto branco para alto contraste no botão */
+    transition: background-color 0.3s ease-in-out; 
     display: inline-block;
     border-radius: 15px;  
-    padding: 10px;
+    padding: 10px 15px; /* Adicionado padding horizontal para melhor visual */
+    font-weight: bold;
+}
+
+/* Efeito de hover para os botões */
+.upper-header a:hover {
+    background-color: var(--cor-hover); /* Escurece no hover */
 }
 
 .main-header {
-    background-color: #4CAF50;
-    padding: 10px 20px;
+    /* Cor principal para o header (um azul mais forte) */
+    background-color: var(--cor-primaria); 
+    color: white; /* Texto branco no header principal */
+    padding: 15px 20px; /* Aumento sutil no padding */
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para profundidade */
 }
 
 .upper-header {
-    background-color: #B5BB0F;
+    /* Cor que harmoniza com a paleta, mas mais clara que o main-header */
+    background-color: #92dff3; 
     padding: 8px 20px;
-    text-align: left; /* Alinha os botões à esquerda */
+    text-align: left;
 }
 
 header {
@@ -40,4 +63,5 @@ header {
 
 section {
     text-align: center;
+    padding: 20px; /* Adicionado padding para conteúdo */
 }
