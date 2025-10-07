@@ -28,11 +28,7 @@ a {
 }
 
 .upper-header {
-<<<<<<< HEAD
     background-color: #B5BB0F;
-=======
-    background-color: #93e6ecff ;
->>>>>>> 1554ad816a375111269dbe87a80be2aa76f6bacb
     padding: 8px 20px;
     text-align: left; /* Alinha os botões à esquerda */
 }
