@@ -1,67 +1,107 @@
 /* Definição das Variáveis de Cor */
-:root {
-    --cor-fundo: #f0f8ff;         /* Azul Neva (Fundo Claro) */
-    --cor-primaria: #4a90e2;      /* Azul Principal (Header) */
-    --cor-secundaria: #00bcd4;    /* Ciano Vívido (Botões/Acento) */
-    --cor-texto: #2c3e50;         /* Azul Marinho (Texto) */
-    --cor-hover: #00798a;         /* Ciano Escuro (Hover) */
-}
 
-/* Reset básico e fontes */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    /* Aplicando a cor de fundo clara */
-    background-color: var(--cor-fundo); 
-    color: var(--cor-texto); /* Aplicando a cor escura ao texto */
+main {
+    font-family: 'Arial', sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    background-color: #4a90e2; 
+    color: #333; 
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
-    text-align: center;
+    text-decoration: none; 
 }
-
-.upper-header a {
-    /* Cor de destaque para botões */
-    background-color: var(--cor-secundaria); 
-    color: white; /* Texto branco para alto contraste no botão */
-    transition: background-color 0.3s ease-in-out; 
-    display: inline-block;
-    border-radius: 15px;  
-    padding: 10px 15px;
-    font-weight: bold;
+:root {
+    --cor-primaria: #4a90e2;   /* Azul Principal (Menu de Navegação) */
+    --cor-top-bar: #92dff3;    /* Cor da Barra Superior (Logo e Botões) */
 }
-
-/* Efeito de hover para os botões */
-.upper-header a:hover {
-    background-color: var(--cor-hover); /* Escurece no hover */
-}
-
-.main-header {
-    /* Cor principal para o header (um azul mais forte) */
-    background-color: var(--cor-primaria); 
-    color: white; /* Texto branco no header principal */
-    padding: 15px 20px; /* Aumento sutil no padding */
+/* Estilos Gerais */
+.top-bar {
+    background-color: #a4c639; 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para profundidade */
-}
-
-.upper-header {
-    /* Cor que harmoniza com a paleta, mas mais clara que o main-header */
-    background-color: #92dff3; 
     padding: 8px 20px;
-    text-align: left;
+    z-index: 100; 
+    position: relative;
 }
 
-header {
-    text-align: center;
-    padding: 10px 20px;
+.header-actions {
+    /* Contém os botões */
+    display: flex;
+    gap: 10px;
 }
 
-section {
+.main-header {
+    background-color: #f0f8ff; 
+    padding: 0; 
+}
+
+
+.header-actions-left,
+.header-actions-right {
+    min-width: 150px; 
+    display: flex; 
+    gap: 10px;
+}
+
+.header-actions-right {
+    justify-content: flex-end; 
+}
+
+/* O logo Turma do Bem deve ocupar o centro */
+.logo {
+    flex-grow: 1;
+    text-align: center; 
+    font-size: 1.8em; 
+    font-weight: 900;
+    color: var(--cor-texto);
+}
+
+.main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    background-color: var(--cor-primaria);
+}
+
+.main-nav li a {
+    color: white;
+    padding: 10px 15px;
+    display: block;
+    font-weight: 500;
+    transition: background-color 0.2s;
+}
+
+
+.hero-banner {
+    /* 1. Container para a imagem e o texto 
+    !!! NAO PODE CONTER position: absolute !!! */
+    position: relative; 
+    margin-top: 0; 
+}
+
+.hero-banner {
+    position: relative;
+
+}
+
+.hero-content {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centralização perfeita */
+    
+
+    color: white; 
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 40px;
+    border-radius: 8px;
+    max-width: 80%; 
     text-align: center;
-    padding: 20px; /* Adicionado padding para conteúdo */
+    z-index: 10; 
 }
