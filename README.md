@@ -17,7 +17,7 @@
 
 
 <p align="center">
-  <img src="URL_PARA_SEU_GIF_DE_DEMONSTRAÇÃO_AQUI" alt="Demonstração do Projeto">
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGdla2p6bzI1aGFjcDFjdWV5aXMwenYwNjZxdmowYmd0eTcybG5xNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RuRifKMHunbYnoIUnq/giphy.gif" alt="Demonstração do Projeto">
 </p>
 
 ---
@@ -45,7 +45,8 @@
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      ✔️ <strong>Layout Responsivo:</strong> Adapta-se perfeitamente a desktops, tablets e celulares.<br>
+      ✔️ <strong>Layout Responsivo:</strong> Adapta-se perfeitamente a desktops, tablets e celulares.<br> 
+      <a></a>
       ✔️ <strong>Header Moderno:</strong> Navegação intuitiva com efeitos de hover e dropdowns.<br>
       ✔️ <strong>Cards Interativos:</strong> Efeitos de animação sutis ao passar o mouse sobre os membros da equipe.
     </td>
