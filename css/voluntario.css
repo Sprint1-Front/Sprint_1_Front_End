@@ -42,6 +42,15 @@ main {
 }
 
 /* ==========================
+   VOLUNTARIADO PAGE
+========================== */
+
+.voluntario-main {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+/* ==========================
     HEADER
 ========================== */
 .main-header {
