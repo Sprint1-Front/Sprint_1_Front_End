@@ -65,6 +65,11 @@ main {
   margin-bottom: 15px;
 }
 
+.voluntario-hero p {
+  font-size: 1.1em;
+  margin-bottom: 30px;
+}
+
 /* ==========================
     HEADER
 ========================== */
