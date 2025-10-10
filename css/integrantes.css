@@ -8,6 +8,15 @@
     text-decoration: none;
 }
 
+:root {
+    --cor-confianca: #1E90FF;      /* Azul principal (Nav Bar) */
+    --cor-limpeza: #E0FFFF;        /* Azul claro (Fundo Header/Main) */
+    --cor-frescor: #00CED1;        /* Ciano (Botões) */
+    --cor-texto: #2F4F4F;          /* Cinza-azulado escuro (Texto, Logo) */
+    --cor-destaque-hover: #107FD0; /* Azul escuro no hover */
+}
+
+
 /* ==========================
    VARIÁVEIS DE COR
 ========================== */
@@ -163,10 +172,6 @@ main {
 }
 
 /* ==========================
-   HERO BANNER
-========================== */
-
-/* ==========================
    FOOTER
 ========================== */
 .main-footer {
@@ -202,4 +207,24 @@ main {
     background-color: var(--cor-destaque-hover);
     padding: 10px;
     font-size: 0.9em;
+}
+
+/* ==========================
+   PÁGINA INTEGRANTES
+========================== */
+.integrantes-container {
+    display: flex; /* Usa flexbox para alinhar os cards */
+    justify-content: center; /* Centraliza os cards */
+    flex-wrap: wrap; /* Permite que os cards quebrem para a próxima linha */
+    gap: 30px; /* Espaço entre os cards */
+}
+
+.integrante-card {
+    background-color: var(--cor-branca);
+    border-radius: 15px; /* Cantos mais arredondados */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    text-align: center;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
