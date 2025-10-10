@@ -22,10 +22,11 @@
 /* ==========================
    GERAIS
 ========================== */
-body {
-    font-family: Arial, sans-serif;
-    color: var(--cor-texto);
-    background-color: var(--cor-limpeza);
+@media (min-width: 1300px) {
+    body {
+        max-width: 1300px;
+        margin: 0 auto;
+    }
 }
 
 main {
