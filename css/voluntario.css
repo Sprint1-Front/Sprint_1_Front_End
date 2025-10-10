@@ -59,6 +59,12 @@ main {
   margin: 0 auto 60px;
 }
 
+.voluntario-hero h2 {
+  font-size: 2.2em;
+  color: var(--cor-confianca);
+  margin-bottom: 15px;
+}
+
 /* ==========================
     HEADER
 ========================== */
