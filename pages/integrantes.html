@@ -1,36 +1,100 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/integrantes.css">
     <title>Turma do Bem</title>
+    <link rel="stylesheet" href="../css/integrantes.css">
 </head>
 <body>
-    <div class="upper-header">
-        <a href="#" class="btn-doar">❤️ Quero Doar!</a>
-        <a href="#" class="btn-voluntario">Seja um Voluntário</a>
-    </div>
-    <header class="top-bar">
-        <a href="#">Nossos Programas</a>
-            <a href="#">Voluntariado</a>
-            <a href="#">FAQ</a>
-            <a href="#">Contato</a>
-            <a href="#">Integrantes</a>
+
+    <header class="main-header">
+        <div class="top-bar">
+            <div class="header-actions-left">
+                <a href="#" class="btn-doar">DOAR</a>
+                <a href="#" class="btn-voluntario">SEJA VOLUNTÁRIO</a>
+            </div>
+
+            <h1 class="logo">Turma do Bem</h1>
+
+            <div class="header-actions-right">
+                <!-- Espaço para ações futuras -->
+            </div>
+        </div>
+
+        <nav class="main-nav">
+            <ul>
+                <li class="dropdown">
+                    <a href="#">Nossos Programas</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Dentista do Bem</a></li>
+                        <li><a href="#">Apolônias do Bem</a></li>
+                        <li><a href="#">Estudantes do Bem</a></li>
+                    </ul>
+                </li>
+            
+                <li class="dropdown">
+                    <a href="#">Voluntariado</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="pages/voluntario.html">Beneficios</a></li>
+                        <li><a href="#">Adicionar</a></li>
+                    </ul>
+                </li>
+                
+                <li><a href="#">Sobre</a></li>
+                <li><a href="pages/faq.html">FAQ</a></li>
+                <li><a href="pages/contato.html">Contato</a></li>
+                <li><a href="pages/integrantes.html">Integrantes</a></li>
+            </ul>
+        </nav>
+
     </header>
 
     <main>
         <section class="hero-banner">
-            <img src="#" alt="hero">
             <div class="hero-content">
-                <h1>Conheça Nossa Equipe Dedicada</h1>
+                <h2>Conheça nossa equipe dedicada</h2>
+                <p>Integrantes</p>
                 <div>
-                    <li>Github: </li>
-                    <li>Linkedin</li>
-                    <li>Andre Sousa Matuda</li>
+                    <ul>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                    </ul>
                 </div>
             </div>
         </section>
+
+        
     </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Sobre Nós</h3>
+                <p>A Turma do Bem é uma ONG que transforma vidas através da saúde bucal.</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Contato</h3>
+                <p>Email: nosso@email.com.br</p>
+                <p>Telefone: (11) 1234-5678</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Siga-nos</h3>
+                <p>
+                    <a href="#">Facebook</a> | 
+                    <a href="#">Instagram</a> | 
+                    <a href="#">LinkedIn</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Turma do Bem. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
 </body>
 </html>
