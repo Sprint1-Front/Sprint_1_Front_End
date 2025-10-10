@@ -128,27 +128,26 @@ main {
 }
 
 /* ==========================
-    HEADER
+   HEADER
 ========================== */
 .main-header {
     position: relative;
     z-index: 1000;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil para destacar o header */
 }
 
 /* TOP BAR */
 .top-bar {
-    background-color: var(--cor-branca); /* Fundo branco para o topo */
+    background-color: var(--cor-limpeza);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 25px;
+    padding: 8px 20px;
 }
 
 .logo {
     flex-grow: 1;
     text-align: center;
-    font-size: 2em; /* Tamanho ajustado */
+    font-size: 1.8em;
     font-weight: 900;
     color: var(--cor-texto);
     margin: 0;
@@ -159,29 +158,26 @@ main {
 .header-actions-right {
     min-width: 250px;
     display: flex;
-    gap: 15px; /* Espaçamento ajustado */
+    gap: 10px;
 }
 
 .btn-doar,
 .btn-voluntario {
     background-color: var(--cor-frescor);
-    color: var(--cor-branca);
-    padding: 10px 20px; /* Padding ajustado */
+    color: #fff;
+    padding: 10px 15px;
     border-radius: 5px;
     font-weight: bold;
-    transition: all 0.3s ease; /* Transição mais suave */
+    transition: background-color 0.3s;
     display: inline-flex;
     align-items: center;
-    border: none;
-    cursor: pointer;
 }
 
 .btn-doar:hover,
 .btn-voluntario:hover {
     background-color: var(--cor-destaque-hover);
-    transform: translateY(-2px); /* Efeito de levantar o botão */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
+
 
 /* ==========================
     NAV BAR
