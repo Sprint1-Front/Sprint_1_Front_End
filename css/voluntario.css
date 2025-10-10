@@ -26,7 +26,7 @@
     GERAIS
 ========================== */
 body {
-    font-family: 'Poppins', sans-serif; /* Fonte mais moderna */
+    font-family: 'Poppins', 'Arial', sans-serif;
     color: var(--cor-texto);
     background-color: var(--cor-limpeza);
 }
@@ -37,9 +37,11 @@ main {
 
 @media (min-width: 1300px) {
     body {
+        max-width: 1300px;
         margin: 0 auto;
     }
 }
+
 
 /* ==========================
    VOLUNTARIADO PAGE

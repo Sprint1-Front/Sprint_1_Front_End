@@ -24,10 +24,18 @@
    VARIÁVEIS DE COR
 ========================== */
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', 'Arial', sans-serif;
     color: var(--cor-texto);
     background-color: var(--cor-limpeza);
 }
+
+@media (min-width: 1300px) {
+    body {
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+}
+
 
 main {
     padding: 40px 20px;
