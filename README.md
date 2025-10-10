@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="URL_DA_SUA_IMAGEM_DE_LOGO_AQUI" width="200" alt="Logo Turma do Bem">
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=1000&center=true&vCenter=true&width=435&lines=TURMA+DO+BEM" alt="Typing SVG" /></a>
 </p>
 
 <h1 align="center">
@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGdla2p6bzI1aGFjcDFjdWV5aXMwenYwNjZxdmowYmd0eTcybG5xNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RuRifKMHunbYnoIUnq/giphy.gif" alt="Demonstração do Projeto">
+  <img src="URL_PARA_SEU_GIF_DE_DEMONSTRAÇÃO_AQUI" alt="Demonstração do Projeto">
 </p>
 
 ---
@@ -30,13 +30,16 @@
 * [🚀 Como Executar](#-como-executar)
 * [📁 Estrutura de Pastas](#-estrutura-de-pastas)
 * [✒️ Autores](#️-autores)
----
-
-## Sobre
-
-
 
 ---
+
+# Sobre o Projeto
+<p>
+  A Turma do Bem nasceu de um ideal simples: o de que um sorriso pode, de fato, mudar o mundo. Somos uma organização não governamental dedicada a transformar a realidade da saúde bucal de crianças e jovens em situação de vulnerabilidade no Brasil. Através de uma rede engajada com mais de [número] dentistas voluntários, oferecemos tratamento odontológico gratuito e de qualidade para quem mais precisa. Acreditamos que o acesso à saúde é um direito fundamental, e um sorriso saudável é a porta de entrada para a autoestima, a inclusão social e um futuro com mais oportunidades.
+</p>
+
+---
+
 ## ✨ Funcionalidades Principais
 
 <table width="100%">
@@ -55,11 +58,3 @@
 </table>
 
 ---
-
-## ✨ Funcionalidades
-
-- **Header Criativo:** Um cabeçalho com navegação fixa e menus dropdown. *(Se você implementou o header que fixa ao rolar, mencione aqui!)*
-- **Layout Responsivo:** A página se adapta a diferentes tamanhos de tela (em desenvolvimento).
-- **Cards de Equipe:** Seção de "Integrantes" com cards que possuem um efeito sutil de *hover*, melhorando a interatividade.
-- **Estrutura Semântica:** Uso de tags HTML5 para melhor acessibilidade e SEO.
-- **CSS Moderno:** Utilização de variáveis CSS, Flexbox para alinhamento e transições para uma experiência de usuário mais fluida.
