@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=1000&center=true&vCenter=true&width=435&lines=TURMA+DO+BEM" alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=1E90FF&center=true&vCenter=true&width=435&lines=Turma+do+Bem" alt="Typing SVG" /></a>
 </p>
 
 <h1 align="center">
@@ -7,14 +7,14 @@
 </h1>
 
 <p align="center">
-  Uma landing page moderna e responsiva para a ONG Turma do Bem, focada em apresentar a equipe de forma profissional e atraente.
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=1E90FF&width=435&lines=Cuidando+da+Sa%C3%BAde+Bucal+no+Brasil" alt="Typing SVG" /></a>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/status-concluído-brightgreen" alt="Status do Projeto">
   <img src="https://img.shields.io/badge/linguagem-HTML/CSS-blue" alt="Linguagem">
-  <img src="https://img.shields.io/badge/licença-MIT-informational" alt="Licença">
-</p>
+  <img src="https://img.shields.io/badge/Saúde_Bucal-❤️-red" alt="Foco em Saúde Bucal"> </p>
+
 
 <p align="center">
   <img src="URL_PARA_SEU_GIF_DE_DEMONSTRAÇÃO_AQUI" alt="Demonstração do Projeto">
@@ -58,3 +58,28 @@
 </table>
 
 ---
+
+## 💻 Tecnologias que Constroem Sorrisos
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=html,css,git,vscode,github" alt="Ícones de Tecnologias"/>
+  </a>
+</p>
+<p align="center">
+  Utilizamos ferramentas modernas para garantir que cada pixel do nosso site contribua para a missão da Turma do Bem.
+</p>
+
+---
+
+## 🤝 Quer Contribuir com um Sorriso?
+
+Se você tem interesse em ajudar no desenvolvimento deste projeto, seja reportando um bug, sugerindo uma nova funcionalidade ou melhorando o código, sua contribuição é muito bem-vinda! Juntos, podemos fazer a diferença.
+
+1.  **Faça um Fork** do repositório.
+2.  Crie uma nova **Branch** (`git checkout -b feature/sua-feature`).
+3.  Faça suas alterações e **Commit** (`git commit -m 'feat: Adiciona nova funcionalidade'`).
+4.  Faça um **Push** para a Branch (`git push origin feature/sua-feature`).
+5.  Abra um **Pull Request**.
+
+Obrigado por considerar cuidar do nosso código!
