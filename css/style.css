@@ -1,24 +1,39 @@
-/* Definição das Variáveis de Cor */
+/* Seu código original com pequenos ajustes e comentários */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none; /* Adicionado para remover sublinhado de links */
+}
+
+:root {
+    /* NOVA PALETA DE CORES */
+    --cor-confianca: #1E90FF;    /* Azul Principal (Nav Bar) */
+    --cor-limpeza: #E0FFFF;      /* Azul Claro (Fundo do Header) */
+    --cor-frescor: #00CED1;      /* Ciano Menta (Botões de Ação) */
+    --cor-texto: #2F4F4F;        /* Cinza-azulado Escuro (Texto, Logo) */
+    --cor-destaque-hover: #107FD0;/* Azul Escuro no Hover */
+}
+
+/* Estilos Gerais */
+body {
+    font-family: 'Arial', sans-serif; 
+}
 
 main {
-    font-family: 'Arial', sans-serif; 
-    margin: 0; 
-    padding: 0; 
-    box-sizing: border-box; 
-    background-color: #4a90e2; 
-    color: #333; 
+    background-color: var(--cor-limpeza);
 }
 
-a {
-    text-decoration: none; 
+.main-header {
+    position: relative; 
+    z-index: 1000; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-:root {
-    --cor-primaria: #4a90e2;   /* Azul Principal (Menu de Navegação) */
-    --cor-top-bar: #92dff3;    /* Cor da Barra Superior (Logo e Botões) */
-}
-/* Estilos Gerais */
+
+/* TOP BAR (Barra de Ações e Logo) */
 .top-bar {
-    background-color: #a4c639; 
+    background-color: var(--cor-limpeza); 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,76 +42,82 @@ a {
     position: relative;
 }
 
-.header-actions {
-    /* Contém os botões */
-    display: flex;
-    gap: 10px;
+.logo {
+    flex-grow: 1;
+    text-align: center; 
+    font-size: 1.8em; 
+    font-weight: 900;
+    color: var(--cor-texto); 
+    margin: 0; 
+    line-height: 1.2; 
 }
 
-.main-header {
-    background-color: #f0f8ff; 
-    padding: 0; 
-}
-
-
-.header-actions-left,
-.header-actions-right {
-    min-width: 150px; 
+/* BOTÕES DE AÇÃO */
+.header-actions-left, .header-actions-right {
+    min-width: 250px; 
     display: flex; 
     gap: 10px;
+}
+
+.header-actions-left {
+    justify-content: flex-start; 
 }
 
 .header-actions-right {
     justify-content: flex-end; 
 }
 
-/* O logo Turma do Bem deve ocupar o centro */
-.logo {
-    flex-grow: 1;
-    text-align: center; 
-    font-size: 1.8em; 
-    font-weight: 900;
-    color: var(--cor-texto);
+.btn-doar, .btn-voluntario {
+    background-color: var(--cor-frescor); 
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    line-height: 1.2; 
+    display: inline-flex;
+    align-items: center;
 }
 
+.btn-doar:hover, .btn-voluntario:hover {
+    background-color: var(--cor-destaque-hover);
+}
+
+/* NAV BAR (Barra de Navegação) */
 .main-nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: center; 
-    background-color: var(--cor-primaria);
+    justify-content: center; /* <<< VAMOS MUDAR ESTA LINHA */
+    align-items: center; 
+    background-color: var(--cor-confianca);
 }
 
 .main-nav li a {
     color: white;
-    padding: 10px 15px;
+    padding: 15px 15px;
     display: block;
     font-weight: 500;
     transition: background-color 0.2s;
 }
 
-
-.hero-banner {
-    /* 1. Container para a imagem e o texto 
-    !!! NAO PODE CONTER position: absolute !!! */
-    position: relative; 
-    margin-top: 0; 
+.main-nav li a:hover {
+    background-color: var(--cor-destaque-hover);
 }
 
+/* HERO BANNER */
 .hero-banner {
-    position: relative;
-
+    position: relative; 
+    margin-top: 0; 
+    line-height: 0; /* Remove espaço extra abaixo da imagem */
 }
 
 .hero-content {
-    
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); /* Centralização perfeita */
-    
-
+    transform: translate(-50%, -50%);
     color: white; 
     background-color: rgba(0, 0, 0, 0.5);
     padding: 20px 40px;
