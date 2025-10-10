@@ -11,13 +11,16 @@
 /* ==========================
    VARIÁVEIS DE COR
 ========================== */
-:root {
-    --cor-confianca: #1E90FF;      /* Azul principal (Nav Bar) */
-    --cor-limpeza: #E0FFFF;        /* Azul claro (Fundo Header/Main) */
-    --cor-frescor: #00CED1;        /* Ciano (Botões) */
-    --cor-texto: #2F4F4F;          /* Cinza-azulado escuro (Texto, Logo) */
-    --cor-destaque-hover: #107FD0; /* Azul escuro no hover */
+body {
+    font-family: 'Poppins', sans-serif; /* Fonte mais moderna */
+    color: var(--cor-texto);
+    background-color: var(--cor-limpeza);
 }
+
+main {
+    padding: 40px 20px; /* Adiciona espaço interno no conteúdo principal */
+}
+
 
 /* ==========================
    GERAIS
@@ -33,26 +36,27 @@ main {
 }
 
 /* ==========================
-   HEADER
+    HEADER
 ========================== */
 .main-header {
     position: relative;
     z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil para destacar o header */
 }
 
 /* TOP BAR */
 .top-bar {
-    background-color: var(--cor-limpeza);
+    background-color: var(--cor-branca); /* Fundo branco para o topo */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 20px;
+    padding: 12px 25px;
 }
 
 .logo {
     flex-grow: 1;
     text-align: center;
-    font-size: 1.8em;
+    font-size: 2em;
     font-weight: 900;
     color: var(--cor-texto);
     margin: 0;
@@ -63,19 +67,28 @@ main {
 .header-actions-right {
     min-width: 250px;
     display: flex;
-    gap: 10px;
+    gap: 15px;
 }
 
 .btn-doar,
 .btn-voluntario {
     background-color: var(--cor-frescor);
-    color: #fff;
-    padding: 10px 15px;
+    color: var(--cor-branca);
+    padding: 10px 20px;
     border-radius: 5px;
     font-weight: bold;
-    transition: background-color 0.3s;
+    transition: all 0.3s ease;
     display: inline-flex;
     align-items: center;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-doar:hover,
+.btn-voluntario:hover {
+    background-color: var(--cor-destaque-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 .btn-doar:hover,
@@ -84,7 +97,7 @@ main {
 }
 
 /* ==========================
-   NAV BAR
+    NAV BAR
 ========================== */
 .main-nav {
     position: relative;
@@ -105,14 +118,13 @@ main {
 }
 
 .main-nav a {
-    color: #fff;
-    padding: 15px 20px;
+    color: var(--cor-branca);
+    padding: 15px 25px;
     display: block;
     font-weight: 500;
     transition: background-color 0.2s;
 }
 
-/* Estado hover */
 .main-nav a:hover {
     background-color: var(--cor-destaque-hover);
 }
