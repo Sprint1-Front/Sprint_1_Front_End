@@ -19,6 +19,7 @@
 <p align="center">
   <img src="URL_PARA_SEU_GIF_DE_DEMONSTRAÇÃO_AQUI" alt="Demonstração do Projeto">
 </p>
+
 ---
 
 ## 📋 Índice
@@ -29,5 +30,13 @@
 * [🚀 Como Executar](#-como-executar)
 * [📁 Estrutura de Pastas](#-estrutura-de-pastas)
 * [✒️ Autores](#️-autores)
+
+---
+
+## 📖 Sobre o Projeto
+
+Este projeto foi desenvolvido como parte de um exercício prático para aprimorar habilidades em **HTML5** e **CSS3**. O objetivo foi criar uma página web estática, atraente e funcional para a ONG fictícia "Turma do Bem", com foco especial na seção "Integrantes", apresentando os membros da equipe em cards interativos.
+
+O design foi pensado para transmitir **confiança, limpeza e profissionalismo**, utilizando uma paleta de cores baseada em tons de azul e branco, alinhada à identidade de uma organização da área da saúde.
 
 ---
