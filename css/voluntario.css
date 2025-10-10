@@ -70,6 +70,21 @@ main {
   margin-bottom: 30px;
 }
 
+.btn-principal {
+  background-color: var(--cor-frescor);
+  color: var(--cor-branca);
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.btn-principal:hover {
+  background-color: var(--cor-destaque-hover);
+  transform: translateY(-2px);
+}
+
+
 /* ==========================
     HEADER
 ========================== */
