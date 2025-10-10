@@ -12,11 +12,12 @@
    VARIÁVEIS DE COR
 ========================== */
 :root {
-    --cor-confianca: #1E90FF;      /* Azul principal (Nav Bar) */
-    --cor-limpeza: #E0FFFF;        /* Azul claro (Fundo Header/Main) */
+     --cor-confianca: #1E90FF;      /* Azul principal (Nav Bar) */
+    --cor-limpeza: #F0F8FF;        /* Azul bem claro (Fundo) */
     --cor-frescor: #00CED1;        /* Ciano (Botões) */
     --cor-texto: #2F4F4F;          /* Cinza-azulado escuro (Texto, Logo) */
     --cor-destaque-hover: #107FD0; /* Azul escuro no hover */
+    --cor-branca: #FFFFFF;  /* Azul escuro no hover */
 }
 
 /* ==========================
