@@ -263,6 +263,18 @@ main {
     gap: 10px;
 }
 
+.social-links img {
+    width: 20px;       
+    height: 20px;  
+    vertical-align: middle; 
+    margin-right: 6px; 
+    transition: transform 0.3s ease;
+}
+
+.social-links img:hover {
+    transform: scale(1.1); 
+}
+
 .social-btn {
     color: var(--cor-branca);
     padding: 8px 15px;
