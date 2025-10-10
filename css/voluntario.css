@@ -84,6 +84,16 @@ main {
   transform: translateY(-2px);
 }
 
+/* Benefícios */
+.beneficios-section {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.beneficios-section h2 {
+  color: var(--cor-confianca);
+  margin-bottom: 40px;
+}
 
 /* ==========================
     HEADER
