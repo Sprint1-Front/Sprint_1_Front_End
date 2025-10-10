@@ -126,3 +126,37 @@ main {
     text-align: center;
     z-index: 10; 
 }
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    list-style: none;
+    display: none; 
+    position: absolute; 
+    top: 100%;        
+    left: 0;
+    background-color: var(--cor-confianca);
+    min-width: 200px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    z-index: 1001; 
+}
+
+.dropdown-menu li a {
+    padding: 12px 15px; 
+    font-size: 0.9em;   
+    white-space: nowrap; 
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+footer {
+    background-color: var(--cor-confianca);
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    font-size: 0.9em;
+}
