@@ -5,7 +5,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/status-concluído-brightgreen" alt="Status do Projeto">
   <img src="https://img.shields.io/badge/linguagem-HTML/CSS-blue" alt="Linguagem">
-  <img src="https://img.shields.io/badge/Saúde_Bucal-❤️-red" alt="Foco em Saúde Bucal"> 
+  <img src="https://img.shields.io/badge/Foco-Saúde_Bucal-❤️" alt="Foco em Saúde Bucal"> 
 </p>
 
 <p align="center">
@@ -27,9 +27,9 @@
 ---
 
 ## 📖 Sobre o Projeto
-A "Turma do Bem" nasceu de um ideal simples: o de que um sorriso pode, de fato, mudar o mundo. Somos uma organização não governamental dedicada a transformar a realidade da saúde bucal de crianças e jovens em situação de vulnerabilidade no Brasil. 
+A "Turma do Bem" nasceu de um ideal simples: o de que um sorriso pode, de fato, mudar o mundo. Este projeto consiste em um site institucional moderno e responsivo, desenvolvido para a ONG, com o objetivo de apresentar sua missão, atrair voluntários e facilitar o contato com o público.
 
-Através de uma rede engajada com mais de **[coloque o número aqui]** dentistas voluntários, oferecemos tratamento odontológico gratuito e de qualidade para quem mais precisa. Acreditamos que o acesso à saúde é um direito fundamental, e um sorriso saudável é a porta de entrada para a autoestima, a inclusão social e um futuro com mais oportunidades.
+Através de uma interface limpa e convidativa, buscamos transmitir os valores de confiança e cuidado da organização, que oferece tratamento odontológico gratuito para jovens e mulheres em situação de vulnerabilidade no Brasil.
 
 ---
 
@@ -71,8 +71,8 @@ Este é um projeto puramente front-end. Para visualizá-lo, siga os passos abaix
 
 1.  **Clone o repositório:**
     ```bash
-    # Comando corrigido para funcionar ao copiar e colar
-    git clone [(https://github.com/Sprint1-Front/Sprint_1_Front_End.git)]
+    # CORRIGIDO: Sintaxe do comando para ser copiada e colada diretamente
+    git clone [https://github.com/Sprint1-Front/Sprint_1_Front_End.git](https://github.com/Sprint1-Front/Sprint_1_Front_End.git)
     ```
 
 2.  **Abra o arquivo principal:**
@@ -85,17 +85,14 @@ E pronto! A página estará visível e funcional.
 
 ## 📁 Estrutura de Pastas
 
+O projeto está organizado com uma estrutura de pastas limpa e escalável, com todos os estilos centralizados em `style.css`.
+
 ```
 /
 ├── assets/
 │   └── img/
 ├── css/
-│   ├── integrantes.css
-│   ├── style.css
-|   ├── faq.css
-|   ├── contato.css
-|   ├── sobre.css
-│   └── voluntarios.css
+│   └── style.css  <- Estilos unificados aqui
 ├── pages/
 │   ├── contato.html
 │   ├── faq.html
@@ -112,34 +109,35 @@ E pronto! A página estará visível e funcional.
 
 O projeto conta com as seguintes páginas para uma navegação completa:
 
-- ### 🏠 **Home:** A página principal e de boas-vindas.
-  <p>
-  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExb21lYTFoenRuaTgyZzRweTR0NHM4dnowZTg3MXp6aDJ2Z2twMXh2YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kqVYEodv2y0Uivi5TK/giphy.gif" alt="Demonstração do Projeto" width="800">
-  </p>
-- ### 👥 **Integrantes:** Apresentação da equipe de desenvolvimento.
-  <p>
-  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWFoemh4eTU1ZHVpajVxb2pmYWgxOHI3cWVieWN5ejZyZWZqMGVncyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sTRHQ9l4AkPGPvv8O6/giphy.gif" alt="Demonstração do Projeto" width="800">
-  </p>
-- ### ❗ **Sobre:** Detalhes sobre a missão da Turma do Bem.
-  <p>
-  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmlmcW5ibzhkazd4cnFqcWllOTlvcnhpZHRoMzlmMXFoaWJkdWtsdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/omIKh7XPBotvgG5aLt/giphy.gif" alt="Demonstração do Projeto" width="800">
+- **🏠 Home:** A página principal e de boas-vindas.
+  <p align="center">
+    <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExb21lYTFoenRuaTgyZzRweTR0NHM4dnowZTg3MXp6aDJ2Z2twMXh2YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kqVYEodv2y0Uivi5TK/giphy.gif" alt="Demonstração da Página Home" width="800">
   </p>
 
-- ### 📞 **Contato:** Formulário e informações de contato (EM DESENVOLVIMENTO).
-  <p>
-  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmw1eGpqYjBydWV6NmNzajNlZGg4ejg2amNrcjJrZGczZHNwODN6MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zCgCihIr2FU2YEZWtF/giphy.gif" alt="Demonstração do Projeto" width="800">
+- **👥 Integrantes:** Apresentação da equipe de desenvolvimento.
+  <p align="center">
+    <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWFoemh4eTU1ZHVpajVxb2pmYWgxOHI3cWVieWN5ejZyZWZqMGVncyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sTRHQ9l4AkPGPvv8O6/giphy.gif" alt="Demonstração da Página de Integrantes" width="800">
   </p>
 
-- ### ❓ **FAQ:** Perguntas frequentes sobre a organização (EM DESENVOLVIMENTO).
-  <p>
-  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHIzeXhubHpwaW93aDdjZzhwZzExdnduYWxseWttN295czN3YjljeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/doK5s9xTNXPh3oL1Vf/giphy.gif" alt="Demonstração do Projeto" width="800">
+- **❗ Sobre:** Detalhes sobre a missão da Turma do Bem.
+  <p align="center">
+    <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmlmcW5ibzhkazd4cnFqcWllOTlvcnhpZHRoMzlmMXFoaWJkdWtsdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/omIKh7XPBotvgG5aLt/giphy.gif" alt="Demonstração da Página Sobre" width="800">
   </p>
 
-- ### 👩‍⚕️ **Voluntariado:** Informações para quem deseja se tornar um voluntário.
-  <p>
-  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWZya3U4dG4xYzMyMmdxeWF0MGZ2ODBoYW1qNjN3dHY5NnFlZW85NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/j5Dm9IQMWnj844gZLu/giphy.gif" alt="Demonstração do Projeto" width="800">
+- **👩‍⚕️ Voluntariado:** Informações para quem deseja se tornar um voluntário.
+  <p align="center">
+    <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWZya3U4dG4xYzMyMmdxeWF0MGZ2ODBoYW1qNjN3dHY5NnFlZW85NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/j5Dm9IQMWnj844gZLu/giphy.gif" alt="Demonstração da Página de Voluntariado" width="800">
+  </p>
+  
+- **📞 Contato:** Formulário e informações de contato. <img src="https://img.shields.io/badge/status-em andamento-yellow" alt="Status em andamento">
+  <p align="center">
+    <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmw1eGpqYjBydWV6NmNzajNlZGg4ejg2amNrcjJrZGczZHNwODN6MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zCgCihIr2FU2YEZWtF/giphy.gif" alt="Demonstração da Página de Contato" width="800">
   </p>
 
+- **❓ FAQ:** Perguntas frequentes sobre a organização. <img src="https://img.shields.io/badge/status-em andamento-yellow" alt="Status em andamento">
+  <p align="center">
+    <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHIzeXhubHpwaW93aDdjZzhwZzExdnduYWxseWttN295czN3YjljeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/doK5s9xTNXPh3oL1Vf/giphy.gif" alt="Demonstração da Página de FAQ" width="800">
+  </p>
 
 ---
 

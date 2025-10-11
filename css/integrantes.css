@@ -184,7 +184,7 @@ main {
     background-color: var(--cor-confianca);
     color: var(--cor-branca);
     padding-top: 40px;
-    margin-top: auto; /* Garante que o footer fique no final da página */
+    margin-top: auto;
 }
 
 .footer-content {
@@ -195,12 +195,12 @@ main {
     gap: 30px;
     max-width: 1200px;
     margin: 0 auto;
-    text-align: left; /* Garante alinhamento à esquerda nos cards */
+    text-align: left; 
 }
 
 .footer-section {
-    flex: 1; /* Permite que as seções cresçam igualmente */
-    min-width: 250px; /* Largura mínima para cada seção */
+    flex: 1;
+    min-width: 250px;
 }
 
 .footer-section h3 {
@@ -250,7 +250,7 @@ main {
     margin-top: 20px;
 }
 
-/* Ajustes para responsividade do footer */
+
 @media (max-width: 768px) {
     .footer-content {
         flex-direction: column;
@@ -267,6 +267,95 @@ main {
     }
 
     .social-links-footer a:hover {
-        transform: translateX(0); /* Remove o efeito de deslizar no mobile */
+        transform: translateX(0);
     }
+}
+
+/* ==========================
+   PÁGINA INTEGRANTES
+========================== */
+.integrantes-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.integrante-card {
+    background-color: var(--cor-branca);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    text-align: center;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.integrante-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.integrante-card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid var(--cor-confianca);
+    margin-bottom: 15px;
+}
+
+.integrante-card h3 {
+    font-size: 1.4em;
+    margin-bottom: 5px;
+}
+
+.integrante-card .info {
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* BOTÕES DE REDES SOCIAIS */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-links img {
+    width: 20px;       
+    height: 20px;  
+    vertical-align: middle; 
+    margin-right: 6px; 
+    transition: transform 0.3s ease;
+}
+
+.social-links img:hover {
+    transform: scale(1.1); 
+}
+
+.social-btn {
+    color: var(--cor-branca);
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease;
+}
+
+.social-btn.github {
+    background-color: #333;
+}
+
+.social-btn.github:hover {
+    background-color: #555;
+}
+
+.social-btn.linkedin {
+    background-color: #0A66C2;
+}
+
+.social-btn.linkedin:hover {
+    background-color: #004182;
 }
