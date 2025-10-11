@@ -32,9 +32,8 @@ body {
     background-color: #E9EFF3; /* Fundo sutil para destacar o layout encaixotado */
 }
 
-@media (min-width: 992px) {
-    body {
-        max-width: 1300px;
+@media (max-width: 1300px) {
+    body {        
         margin: 20px auto;
         box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
         border-radius: 10px;
