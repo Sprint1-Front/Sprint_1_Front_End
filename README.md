@@ -131,9 +131,14 @@ O projeto conta com as seguintes páginas para uma navegação completa:
   </p>
 
 - ### ❓ **FAQ:** Perguntas frequentes sobre a organização (EM DESENVOLVIMENTO).
+  <p>
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHIzeXhubHpwaW93aDdjZzhwZzExdnduYWxseWttN295czN3YjljeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/doK5s9xTNXPh3oL1Vf/giphy.gif" alt="Demonstração do Projeto" width="800">
+  </p>
 
-- ### 👩‍⚕️ **Voluntariado:** Informações para quem deseja se tornar um voluntário (EM DESENVOLVIMENTO).
-
+- ### 👩‍⚕️ **Voluntariado:** Informações para quem deseja se tornar um voluntário.
+  <p>
+  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWZya3U4dG4xYzMyMmdxeWF0MGZ2ODBoYW1qNjN3dHY5NnFlZW85NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/j5Dm9IQMWnj844gZLu/giphy.gif" alt="Demonstração do Projeto" width="800">
+  </p>
 
 
 ---
