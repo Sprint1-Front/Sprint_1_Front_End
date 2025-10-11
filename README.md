@@ -1,4 +1,8 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Arial&weight=600&pause=1000&center=true&vCenter=true&width=435&lines=Turma+do+Bem)](https://git.io/typing-svg)
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com/?lines=Turma+do+Bem;Um+Sorriso+Pode+Mudar+Tudo" alt="Typing SVG" />
+  </a>
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/status-concluído-brightgreen" alt="Status do Projeto">
