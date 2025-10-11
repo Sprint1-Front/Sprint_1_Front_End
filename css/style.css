@@ -1,6 +1,12 @@
+/* ===================================================================
+   ARQUIVO DE ESTILO PRINCIPAL - TURMA DO BEM
+   Este arquivo controla a aparência de todas as páginas do site.
+=================================================================== */
+
 /* ==========================
-   RESET BÁSICO
+    RESET BÁSICO E FONTES
 ========================== */
+
 * {
     margin: 0;
     padding: 0;
@@ -9,117 +15,108 @@
 }
 
 /* ==========================
-   VARIÁVEIS DE COR
+    VARIÁVEIS DE COR
 ========================== */
 :root {
-    --cor-confianca: #1E90FF;      /* Azul principal (Nav Bar) */
-    --cor-limpeza: #F0F8FF;        /* Azul bem claro (Fundo) */
-    --cor-frescor: #00CED1;        /* Ciano (Botões) */
-    --cor-texto: #2F4F4F;          /* Cinza-azulado escuro (Texto, Logo) */
-    --cor-destaque-hover: #107FD0; /* Azul escuro no hover */
-    --cor-branca: #FFFFFF;  /* Azul escuro no hover */
+    --cor-confianca: #1E90FF;
+    --cor-limpeza: #F0F8FF;
+    --cor-frescor: #00CED1;
+    --cor-texto: #2F4F4F;
+    --cor-destaque-hover: #107FD0;
+    --cor-branca: #FFFFFF;
+    --cor-fundo-site: #F8FAFC;
 }
 
 /* ==========================
-   GERAIS
+    ESTILOS GERAIS E LAYOUT
 ========================== */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--cor-texto);
+    background-color: var(--cor-fundo-site);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Layout "Encaixotado" para telas maiores */
 @media (max-width: 1300px) {
     body {
-        font-family: 'Poppins', 'Arial', sans-serif;
-        margin: 0 auto;
+        margin: 20px auto;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+        border-radius: 15px;
+        overflow: hidden;
     }
 }
 
 main {
+    flex-grow: 1; /* Faz o main ocupar o espaço disponível, empurrando o footer para baixo */
     background-color: var(--cor-limpeza);
 }
 
 /* ==========================
-   HEADER
+    HEADER E NAVEGAÇÃO
 ========================== */
 .main-header {
     position: relative;
     z-index: 1000;
 }
-
-/* TOP BAR */
 .top-bar {
-    background-color: var(--cor-limpeza);
+    background-color: var(--cor-branca);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 20px;
+    padding: 12px 25px;
 }
-
 .logo {
     flex-grow: 1;
     text-align: center;
-    font-size: 1.8em;
+    font-size: 2em;
     font-weight: 900;
     color: var(--cor-texto);
-    margin: 0;
 }
-
-/* BOTÕES */
-.header-actions-left,
-.header-actions-right {
+.header-actions-left, .header-actions-right {
     min-width: 250px;
     display: flex;
-    gap: 10px;
+    gap: 15px;
 }
-
-.btn-doar,
-.btn-voluntario {
+.btn-doar, .btn-voluntario {
     background-color: var(--cor-frescor);
-    color: #fff;
-    padding: 10px 15px;
+    color: var(--cor-branca);
+    padding: 10px 20px;
     border-radius: 5px;
     font-weight: bold;
-    transition: background-color 0.3s;
-    display: inline-flex;
-    align-items: center;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
 }
-
-.btn-doar:hover,
-.btn-voluntario:hover {
+.btn-doar:hover, .btn-voluntario:hover {
     background-color: var(--cor-destaque-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
-
-/* ==========================
-   NAV BAR
-========================== */
 .main-nav {
-    position: relative;
     z-index: 900;
 }
-
 .main-nav ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
     display: flex;
     justify-content: center;
     background-color: var(--cor-confianca);
 }
-
 .main-nav li {
     position: relative;
 }
-
 .main-nav a {
-    color: #fff;
-    padding: 15px 20px;
+    color: var(--cor-branca);
+    padding: 15px 25px;
     display: block;
     font-weight: 500;
     transition: background-color 0.2s;
 }
-
-/* Estado hover */
 .main-nav a:hover {
     background-color: var(--cor-destaque-hover);
 }
-
-/* DROPDOWN */
 .dropdown-menu {
     display: none;
     opacity: 0;
@@ -127,49 +124,330 @@ main {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: var(--cor-confianca);
+    background-color: var(--cor-branca);
     min-width: 200px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     z-index: 999;
-    transition: opacity 0.2s ease, visibility 0.2s ease;
+    border-radius: 0 0 8px 8px;
+    overflow: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
 }
-
-/* Itens do dropdown */
-.dropdown-menu li {
-    width: 100%;
-}
-
-/* Mostra o submenu apenas no hover */
 .dropdown:hover .dropdown-menu {
     display: block;
     opacity: 1;
     visibility: visible;
 }
-
-/* Garante que o dropdown não empurre o layout */
 .dropdown-menu li a {
-    padding: 12px 16px;
+    padding: 12px 20px;
     white-space: nowrap;
+    color: var(--cor-texto);
+}
+.dropdown-menu li a:hover {
+    background-color: var(--cor-limpeza);
+    color: var(--cor-confianca);
+}
+
+
+/* ==========================
+    COMPONENTES REUTILIZÁVEIS
+========================== */
+.page-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+.section-title {
+    text-align: center;
+    font-size: 2.2em;
+    color: var(--cor-confianca);
+    margin-bottom: 50px;
+}
+.info-card {
+    background-color: var(--cor-branca);
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+}
+.info-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
 }
 
 /* ==========================
-   HERO BANNER
+    PÁGINA HOME (index.html)
 ========================== */
 .hero-banner {
     position: relative;
+    text-align: center;
+    color: var(--cor-branca);
 }
-
+.hero-banner img {
+    width: 100%;
+    display: block;
+    filter: brightness(0.7);
+}
 .hero-content {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 20px 40px;
-    border-radius: 8px;
-    max-width: 80%;
+    width: 80%;
+}
+.hero-content h2 {
+    font-size: 3em;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+.hero-content p {
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* ==========================
+    PÁGINAS VOLUNTÁRIO E SOBRE
+========================== */
+.hero-main-card {
+    background-color: var(--cor-branca);
+    padding: 60px 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    max-width: 900px;
+    margin: 0 auto;
     text-align: center;
+}
+.hero-main-card h2 {
+    font-size: 2.5em;
+    color: var(--cor-texto);
+    margin-bottom: 15px;
+}
+.hero-main-card p {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 30px;
+}
+.btn-principal {
+    background-color: var(--cor-frescor);
+    color: var(--cor-branca);
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: all 0.3s ease;
+}
+.btn-principal:hover {
+    background-color: var(--cor-destaque-hover);
+    transform: scale(1.05);
+}
+.card-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.card-grid .info-card {
+    flex: 1;
+    min-width: 280px;
+    max-width: 350px;
+}
+.card-grid .card-icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+.card-grid h3 {
+    font-size: 1.6em;
+    margin-bottom: 10px;
+}
+.mission-card {
+    flex: 1;
+    min-width: 300px;
+    background-color: var(--cor-limpeza);
+    padding: 25px;
+    border-radius: 8px;
+    border-left: 5px solid var(--cor-confianca);
+}
+.mission-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: var(--cor-confianca);
+}
+
+/* ==========================
+    PÁGINA INTEGRANTES
+========================== */
+.integrantes-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.integrante-card {
+    background-color: var(--cor-branca);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    text-align: center;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.integrante-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+.integrante-card .integrante-foto {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid var(--cor-confianca);
+    margin-bottom: 15px;
+}
+.integrante-card h3 {
+    font-size: 1.4em;
+    margin-bottom: 5px;
+}
+.integrante-card .info {
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 20px;
+}
+.integrante-card .social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.integrante-card .social-links a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 18px;
+    border-radius: 20px;
+    color: var(--cor-branca);
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.integrante-card .social-links .github { background-color: #333; }
+.integrante-card .social-links .linkedin { background-color: #0A66C2; }
+.integrante-card .social-links a:hover { transform: scale(1.05); }
+.integrante-card .social-links img { width: 20px; height: 20px; }
+
+/* ==========================
+    PÁGINA CONTATO
+========================== */
+.contact-layout {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.form-container {
+    flex: 2;
+    min-width: 300px;
+    background-color: var(--cor-branca);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+.form-container h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+.form-container p {
+    margin-bottom: 30px;
+    line-height: 1.6;
+    color: #555;
+}
+.form-contato label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+.form-contato input, .form-contato textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+.form-contato input:focus, .form-contato textarea:focus {
+    outline: none;
+    border-color: var(--cor-confianca);
+    box-shadow: 0 0 0 3px rgba(30, 144, 255, 0.2);
+}
+.form-contato button {
+    width: 100%;
+    padding: 15px;
+    background-color: var(--cor-frescor);
+    color: var(--cor-branca);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.form-contato button:hover {
+    background-color: var(--cor-destaque-hover);
+}
+.contact-info {
+    flex: 1;
+    min-width: 300px;
+}
+.contact-info h3 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--cor-frescor);
+}
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 25px;
+}
+.info-item img {
+    width: 40px;
+    height: 40px;
+}
+.info-item h4 { font-size: 1.2em; margin: 0; }
+.info-item p { margin: 0; color: #555; }
+.map-container {
+    margin-top: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* ==========================
+    PÁGINA FAQ
+========================== */
+.faq-container {
+    background-color: var(--cor-branca);
+    padding: 20px 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+.faq-item {
+    border-bottom: 1px solid #eee;
+    padding: 25px 0;
+}
+.faq-item:last-child {
+    border-bottom: none;
+}
+.faq-item h3 {
+    margin-bottom: 10px;
+    color: var(--cor-confianca);
+    font-size: 1.3em;
+}
+.faq-item p {
+    line-height: 1.7;
+    color: #555;
 }
 
 /* ==========================
@@ -179,9 +457,7 @@ main {
     background-color: var(--cor-confianca);
     color: var(--cor-branca);
     padding-top: 40px;
-    margin-top: auto; /* Garante que o footer fique no final da página */
 }
-
 .footer-content {
     display: flex;
     justify-content: space-around;
@@ -190,14 +466,11 @@ main {
     gap: 30px;
     max-width: 1200px;
     margin: 0 auto;
-    text-align: left; /* Garante alinhamento à esquerda nos cards */
 }
-
 .footer-section {
-    flex: 1; /* Permite que as seções cresçam igualmente */
-    min-width: 250px; /* Largura mínima para cada seção */
+    flex: 1;
+    min-width: 250px;
 }
-
 .footer-section h3 {
     margin-bottom: 15px;
     font-size: 1.4em;
@@ -206,18 +479,15 @@ main {
     border-bottom: 2px solid var(--cor-frescor);
     display: inline-block;
 }
-
 .footer-section p {
     line-height: 1.7;
     opacity: 0.9;
 }
-
 .social-links-footer {
     display: flex;
     flex-direction: column;
     gap: 12px;
 }
-
 .social-links-footer a {
     display: flex;
     align-items: center;
@@ -226,17 +496,14 @@ main {
     transition: all 0.3s ease;
     font-weight: 500;
 }
-
 .social-links-footer a:hover {
     color: var(--cor-frescor);
     transform: translateX(5px);
 }
-
 .social-links-footer img {
     width: 24px;
     height: 24px;
 }
-
 .footer-bottom {
     text-align: center;
     background-color: var(--cor-destaque-hover);
@@ -245,23 +512,35 @@ main {
     margin-top: 20px;
 }
 
-/* Ajustes para responsividade do footer */
+/* ==========================
+    MEDIA QUERIES (Responsividade)
+========================== */
 @media (max-width: 768px) {
+    .header-actions-left, .header-actions-right {
+        min-width: auto;
+    }
+    .logo {
+        font-size: 1.5em;
+    }
+    .main-nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero-content h2 {
+        font-size: 2em;
+    }
     .footer-content {
         flex-direction: column;
         text-align: center;
         align-items: center;
     }
-
     .footer-section h3 {
         border-bottom: none;
     }
-
     .social-links-footer {
         align-items: center;
     }
-
     .social-links-footer a:hover {
-        transform: translateX(0); /* Remove o efeito de deslizar no mobile */
+        transform: translateX(0);
     }
 }
