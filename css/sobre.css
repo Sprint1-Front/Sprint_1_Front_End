@@ -23,7 +23,7 @@
 }
 
 /* ==========================
-    GERAIS
+    ESTILOS GERAIS
 ========================== */
 body {
     font-family: 'Poppins', sans-serif;
@@ -31,7 +31,6 @@ body {
     background-color: #E9EFF3; /* Fundo sutil para destacar o layout encaixotado */
 }
 
-/* MELHORADO: Aplica o layout encaixotado para telas de 992px em diante */
 @media (min-width: 992px) {
     body {
         max-width: 1300px;
@@ -43,11 +42,11 @@ body {
 }
 
 main {
-    background-color: var(--cor-branca); /* Fundo branco para o conteúdo principal */
+    background-color: var(--cor-branca);
 }
 
 /* ==========================
-    HEADER (Seu código está ótimo, apenas pequenos ajustes)
+    HEADER E NAVEGAÇÃO
 ========================== */
 .main-header {
     position: relative;
@@ -67,14 +66,12 @@ main {
     font-weight: 900;
     color: var(--cor-texto);
 }
-.header-actions-left,
-.header-actions-right {
+.header-actions-left, .header-actions-right {
     min-width: 250px;
     display: flex;
     gap: 15px;
 }
-.btn-doar,
-.btn-voluntario {
+.btn-doar, .btn-voluntario {
     background-color: var(--cor-frescor);
     color: var(--cor-branca);
     padding: 10px 20px;
@@ -84,16 +81,12 @@ main {
     border: none;
     cursor: pointer;
 }
-.btn-doar:hover,
-.btn-voluntario:hover {
+.btn-doar:hover, .btn-voluntario:hover {
     background-color: var(--cor-destaque-hover);
     transform: translateY(-2px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
-
-/* NAV BAR (Seu código está ótimo) */
 .main-nav {
-    position: relative;
     z-index: 900;
 }
 .main-nav ul {
@@ -140,61 +133,121 @@ main {
     white-space: nowrap;
 }
 
-
 /* ==================================
-    ADICIONADO: ESTILOS DA PÁGINA SOBRE
+    ESTILOS DA PÁGINA "SOBRE" (ADAPTADOS DO MODELO)
 ================================== */
-.about-hero {
-    background-image: linear-gradient(rgba(20, 40, 80, 0.7), rgba(20, 40, 80, 0.7)), url('https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=2070&auto=format&fit=crop');
-    background-size: cover;
-    background-position: center;
-    padding: 60px 20px;
-    text-align: center;
+.hero-about {
+    background-color: var(--cor-confianca); /* Azul da barra de navegação */
     color: var(--cor-branca);
+    padding: 80px 20px;
+    text-align: center;
+    border-radius: 0 0 10px 10px; /* Cantos arredondados na parte inferior */
+    margin-bottom: 40px; /* Espaço para a próxima seção */
 }
 
-.about-hero h1 {
+.hero-content-about h1 {
     font-size: 2.8em;
-    font-weight: 700;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.hero-content-about p {
+    font-size: 1.2em;
+    max-width: 700px;
+    margin: 0 auto;
+    opacity: 0.9;
+}
+
+/* Seção de Motivação (Cards) */
+.section-motivation {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.section-motivation h2 {
+    font-size: 2.2em;
+    color: var(--cor-texto);
+    margin-bottom: 40px;
+}
+
+.motivation-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap; /* Para responsividade */
+}
+
+.motivation-card {
+    background-color: var(--cor-branca);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    padding: 30px;
+    flex: 1; /* Permite que os cards cresçam */
+    min-width: 280px; /* Largura mínima para cards */
+    max-width: 350px; /* Largura máxima para cards */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.motivation-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.motivation-card .card-icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+    /* Filtrar o SVG para uma cor específica se necessário */
+    /* filter: drop-shadow(0 0 5px rgba(0,0,0,0.2)); */
+}
+
+.motivation-card h3 {
+    font-size: 1.6em;
+    color: var(--cor-confianca);
     margin-bottom: 10px;
 }
 
-.about-page-container {
-    padding-bottom: 40px;
+.motivation-card p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #555;
 }
 
-.about-content {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 40px 20px;
+/* Seção de Missão e Visão (Mantendo o estilo anterior, mas integrado) */
+.section-mission-vision {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 20px;
 }
 
-.about-content h2 {
+.section-mission-vision h2, .section-mission-vision .technologies-title {
+    text-align: center;
     font-size: 2.2em;
     font-weight: 700;
-    margin-bottom: 20px;
-    text-align: center;
-    border-bottom: 3px solid var(--cor-frescor);
+    margin-bottom: 30px;
     padding-bottom: 10px;
+    border-bottom: 3px solid var(--cor-frescor);
     display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
-.about-content p, .about-content ul {
+.mission-vision-intro, .technologies-intro {
     font-size: 1.1em;
     line-height: 1.8;
-    margin-bottom: 30px;
-}
-
-.about-content ul {
-    list-style-position: inside;
-    padding-left: 10px;
+    text-align: center;
+    margin-bottom: 40px;
 }
 
 .mission-vision-container {
     display: flex;
     gap: 30px;
     margin-top: 40px;
-    flex-wrap: wrap; /* Para telas menores */
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .mission-card {
@@ -203,6 +256,7 @@ main {
     padding: 25px;
     border-radius: 8px;
     border-left: 5px solid var(--cor-confianca);
+    min-width: 300px;
 }
 
 .mission-card h3 {
@@ -211,54 +265,122 @@ main {
     color: var(--cor-confianca);
 }
 
+.technologies-list {
+    list-style-position: inside;
+    padding-left: 10px;
+    font-size: 1.1em;
+    line-height: 1.8;
+    text-align: center;
+}
+.technologies-list li {
+    margin-bottom: 5px;
+}
+
+
 /* ==========================
-    FOOTER (Com melhorias)
+    FOOTER (Aprimorado)
 ========================== */
 .main-footer {
     background-color: var(--cor-confianca);
     color: var(--cor-branca);
-    padding-top: 20px;
+    padding-top: 40px; /* Mais padding no topo */
+    margin-top: 60px; /* Espaçamento extra do conteúdo */
 }
 .footer-content {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    text-align: left;
     padding: 20px;
-    gap: 20px;
+    gap: 30px; /* Mais espaço entre as seções */
     max-width: 1200px;
     margin: 0 auto;
+    text-align: left; /* Garante alinhamento à esquerda */
+}
+.footer-section {
+    flex-basis: 250px; /* Largura base para cada seção */
 }
 .footer-section h3 {
     margin-bottom: 15px;
+    font-size: 1.4em; /* Títulos um pouco maiores */
+    color: var(--cor-branca);
+}
+.footer-section p, .footer-section a {
+    font-size: 1em;
+    line-height: 1.6;
+    color: var(--cor-branca);
 }
 .footer-bottom {
     text-align: center;
     background-color: var(--cor-destaque-hover);
-    padding: 15px;
-    font-size: 0.9em;
+    padding: 18px; /* Mais padding */
+    font-size: 0.95em;
 }
-
-/* ADICIONADO: Estilos para os links de redes sociais */
 .social-links {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 12px; /* Mais espaço entre os links */
+    margin-top: 10px;
 }
-
 .social-links a {
     display: flex;
     align-items: center;
     gap: 10px;
     color: var(--cor-branca);
-    transition: opacity 0.3s;
+    transition: color 0.3s, transform 0.3s;
 }
-
 .social-links a:hover {
-    opacity: 0.8;
+    color: var(--cor-frescor); /* Cor de destaque no hover */
+    transform: translateX(5px);
+}
+.social-links img {
+    width: 26px; /* Ícones um pouco maiores */
+    height: 26px;
 }
 
-.social-links img {
-    width: 24px;
-    height: 24px;
+/* Responsividade Básica para telas menores */
+@media (max-width: 768px) {
+    .hero-content-about h1 {
+        font-size: 2em;
+    }
+    .hero-content-about p {
+        font-size: 1em;
+    }
+    .section-motivation h2, .section-mission-vision h2, .section-mission-vision .technologies-title {
+        font-size: 1.8em;
+    }
+    .motivation-card, .mission-card {
+        flex: 1 1 100%; /* Ocupa a largura total em telas pequenas */
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .motivation-cards {
+        gap: 20px;
+    }
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-section {
+        flex-basis: auto;
+    }
+    .social-links {
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-content-about h1 {
+        font-size: 1.6em;
+    }
+    .logo {
+        font-size: 1.5em;
+    }
+    .header-actions-left, .header-actions-right {
+        min-width: unset;
+        gap: 5px;
+    }
+    .btn-doar, .btn-voluntario {
+        padding: 8px 12px;
+        font-size: 0.8em;
+    }
 }
