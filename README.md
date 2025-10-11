@@ -25,6 +25,7 @@
 * [📁 Estrutura de Pastas](#-estrutura-de-pastas)
 * [📄 Páginas do Site](#-páginas-do-site)
 * [✒️ Autores](#️-autores)
+* [✒️ Link Github](#️-Link Github)
 
 ---
 
@@ -151,6 +152,9 @@ Projeto desenvolvido pela equipe:
 - 👨‍💻 **Paulo Henrique Muniz Diedrich**
 - 👨‍💻 **Guilherme Olivera Feitosa**
 
+---
+
+## Link Github
 <br>
 
 <p align="center">
