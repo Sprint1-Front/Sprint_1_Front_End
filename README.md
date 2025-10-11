@@ -111,18 +111,19 @@ E pronto! A página estará visível e funcional.
 
 O projeto conta com as seguintes páginas para uma navegação completa:
 
-- 🏠 **Home:** A página principal e de boas-vindas.
+- ### 🏠 **Home:** A página principal e de boas-vindas.
   <p>
   <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGdla2p6bzI1aGFjcDFjdWV5aXMwenYwNjZxdmowYmd0eTcybG5xNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RuRifKMHunbYnoIUnq/giphy.gif" alt="Demonstração do Projeto" width="800">
   </p>
-- 👥 **Integrantes:** Apresentação da equipe de desenvolvimento.
+- ### 👥 **Integrantes:** Apresentação da equipe de desenvolvimento.
   <p>
   <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWFoemh4eTU1ZHVpajVxb2pmYWgxOHI3cWVieWN5ejZyZWZqMGVncyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sTRHQ9l4AkPGPvv8O6/giphy.gif" alt="Demonstração do Projeto" width="800">
   </p>
-- **Sobre:** Detalhes sobre a missão da Turma do Bem.
-- **Contato:** Formulário e informações de contato.
-- **FAQ:** Perguntas frequentes sobre a organização.
-- **Voluntariado:** Informações para quem deseja se tornar um voluntário.
+- ### **Sobre:** Detalhes sobre a missão da Turma do Bem.
+    
+- ### **Contato:** Formulário e informações de contato.
+- ### **FAQ:** Perguntas frequentes sobre a organização.
+- ### **Voluntariado:** Informações para quem deseja se tornar um voluntário.
 
 ---
 

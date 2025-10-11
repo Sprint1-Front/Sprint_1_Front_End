@@ -278,109 +278,95 @@ main {
 
 
 /* ==========================
-    FOOTER (Aprimorado)
+    FOOTER
 ========================== */
 .main-footer {
     background-color: var(--cor-confianca);
     color: var(--cor-branca);
-    padding-top: 40px; /* Mais padding no topo */
-    margin-top: 60px; /* Espaçamento extra do conteúdo */
+    padding-top: 40px;
+    margin-top: auto; /* Garante que o footer fique no final da página */
 }
+
 .footer-content {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 20px;
-    gap: 30px; /* Mais espaço entre as seções */
+    gap: 30px;
     max-width: 1200px;
     margin: 0 auto;
-    text-align: left; /* Garante alinhamento à esquerda */
+    text-align: left; /* Garante alinhamento à esquerda nos cards */
 }
+
 .footer-section {
-    flex-basis: 250px; /* Largura base para cada seção */
+    flex: 1; /* Permite que as seções cresçam igualmente */
+    min-width: 250px; /* Largura mínima para cada seção */
 }
+
 .footer-section h3 {
     margin-bottom: 15px;
-    font-size: 1.4em; /* Títulos um pouco maiores */
-    color: var(--cor-branca);
+    font-size: 1.4em;
+    font-weight: 700;
+    padding-bottom: 5px;
+    border-bottom: 2px solid var(--cor-frescor);
+    display: inline-block;
 }
-.footer-section p, .footer-section a {
-    font-size: 1em;
-    line-height: 1.6;
-    color: var(--cor-branca);
+
+.footer-section p {
+    line-height: 1.7;
+    opacity: 0.9;
 }
+
+.social-links-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.social-links-footer a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: var(--cor-branca);
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.social-links-footer a:hover {
+    color: var(--cor-frescor);
+    transform: translateX(5px);
+}
+
+.social-links-footer img {
+    width: 24px;
+    height: 24px;
+}
+
 .footer-bottom {
     text-align: center;
     background-color: var(--cor-destaque-hover);
-    padding: 18px; /* Mais padding */
+    padding: 18px;
     font-size: 0.95em;
-}
-.social-links {
-    display: flex;
-    flex-direction: column;
-    gap: 12px; /* Mais espaço entre os links */
-    margin-top: 10px;
-}
-.social-links a {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    color: var(--cor-branca);
-    transition: color 0.3s, transform 0.3s;
-}
-.social-links a:hover {
-    color: var(--cor-frescor); /* Cor de destaque no hover */
-    transform: translateX(5px);
-}
-.social-links img {
-    width: 26px; /* Ícones um pouco maiores */
-    height: 26px;
+    margin-top: 20px;
 }
 
-/* Responsividade Básica para telas menores */
+/* Ajustes para responsividade do footer */
 @media (max-width: 768px) {
-    .hero-content-about h1 {
-        font-size: 2em;
-    }
-    .hero-content-about p {
-        font-size: 1em;
-    }
-    .section-motivation h2, .section-mission-vision h2, .section-mission-vision .technologies-title {
-        font-size: 1.8em;
-    }
-    .motivation-card, .mission-card {
-        flex: 1 1 100%; /* Ocupa a largura total em telas pequenas */
-        max-width: 90%;
-        margin: 0 auto;
-    }
-    .motivation-cards {
-        gap: 20px;
-    }
     .footer-content {
         flex-direction: column;
         text-align: center;
-    }
-    .footer-section {
-        flex-basis: auto;
-    }
-    .social-links {
         align-items: center;
     }
-}
 
-@media (max-width: 480px) {
-    .hero-content-about h1 {
-        font-size: 1.6em;
+    .footer-section h3 {
+        border-bottom: none;
     }
-    .logo {
-        font-size: 1.5em;
+
+    .social-links-footer {
+        align-items: center;
     }
-    .header-actions-left, .header-actions-right {
-        min-width: unset;
-        gap: 5px;
-    }
-    .btn-doar, .btn-voluntario {
-        padding: 8px 12px;
-        font-size: 0.8em;
+
+    .social-links-footer a:hover {
+        transform: translateX(0); /* Remove o efeito de deslizar no mobile */
     }
 }
