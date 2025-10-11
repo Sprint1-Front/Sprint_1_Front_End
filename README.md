@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGdla2p6bzI1aGFjcDFjdWV5aXMwenYwNjZxdmowYmd0eTcybG5xNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RuRifKMHunbYnoIUnq/giphy.gif" alt="Demonstração do Projeto" width="800">
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExb21lYTFoenRuaTgyZzRweTR0NHM4dnowZTg3MXp6aDJ2Z2twMXh2YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kqVYEodv2y0Uivi5TK/giphy.gif" alt="Demonstração do Projeto" width="800">
 </p>
 
 ---
@@ -72,7 +72,7 @@ Este é um projeto puramente front-end. Para visualizá-lo, siga os passos abaix
 1.  **Clone o repositório:**
     ```bash
     # Comando corrigido para funcionar ao copiar e colar
-    git clone [https://github.com/Sprint1-Front/Sprint_1_Front_End.git](https://github.com/Sprint1-Front/Sprint_1_Front_End.git)
+    git clone [(https://github.com/Sprint1-Front/Sprint_1_Front_End.git)]
     ```
 
 2.  **Abra o arquivo principal:**
@@ -92,9 +92,10 @@ E pronto! A página estará visível e funcional.
 ├── css/
 │   ├── integrantes.css
 │   ├── style.css
+|   ├── faq.css
+|   ├── contato.css
+|   ├── sobre.css
 │   └── voluntarios.css
-├── js/
-│   └── script.js
 ├── pages/
 │   ├── contato.html
 │   ├── faq.html
@@ -113,17 +114,27 @@ O projeto conta com as seguintes páginas para uma navegação completa:
 
 - ### 🏠 **Home:** A página principal e de boas-vindas.
   <p>
-  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGdla2p6bzI1aGFjcDFjdWV5aXMwenYwNjZxdmowYmd0eTcybG5xNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RuRifKMHunbYnoIUnq/giphy.gif" alt="Demonstração do Projeto" width="800">
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExb21lYTFoenRuaTgyZzRweTR0NHM4dnowZTg3MXp6aDJ2Z2twMXh2YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kqVYEodv2y0Uivi5TK/giphy.gif" alt="Demonstração do Projeto" width="800">
   </p>
 - ### 👥 **Integrantes:** Apresentação da equipe de desenvolvimento.
   <p>
   <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWFoemh4eTU1ZHVpajVxb2pmYWgxOHI3cWVieWN5ejZyZWZqMGVncyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sTRHQ9l4AkPGPvv8O6/giphy.gif" alt="Demonstração do Projeto" width="800">
   </p>
-- ### **Sobre:** Detalhes sobre a missão da Turma do Bem.
-    
-- ### **Contato:** Formulário e informações de contato.
-- ### **FAQ:** Perguntas frequentes sobre a organização.
-- ### **Voluntariado:** Informações para quem deseja se tornar um voluntário.
+- ### ❗ **Sobre:** Detalhes sobre a missão da Turma do Bem.
+  <p>
+  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmlmcW5ibzhkazd4cnFqcWllOTlvcnhpZHRoMzlmMXFoaWJkdWtsdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/omIKh7XPBotvgG5aLt/giphy.gif" alt="Demonstração do Projeto" width="800">
+  </p>
+
+- ### 📞 **Contato:** Formulário e informações de contato (EM DESENVOLVIMENTO).
+  <p>
+  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmw1eGpqYjBydWV6NmNzajNlZGg4ejg2amNrcjJrZGczZHNwODN6MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zCgCihIr2FU2YEZWtF/giphy.gif" alt="Demonstração do Projeto" width="800">
+  </p>
+
+- ### ❓ **FAQ:** Perguntas frequentes sobre a organização (EM DESENVOLVIMENTO).
+
+- ### 👩‍⚕️ **Voluntariado:** Informações para quem deseja se tornar um voluntário (EM DESENVOLVIMENTO).
+
+
 
 ---
 
