@@ -1,6 +1,4 @@
-<p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=28&duration=4000&pause=1000&color=1E90FF&center=true&vCenter=true&width=500&lines=Turma+do+Bem;Cuidando+da+Saúde+Bucal+no+Brasil" alt="Typing SVG - Turma do Bem" /></a>
-</p>
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Arial&weight=600&pause=1000&center=true&vCenter=true&width=435&lines=Turma+do+Bem)](https://git.io/typing-svg)
 
 <p align="center">
   <img src="https://img.shields.io/badge/status-concluído-brightgreen" alt="Status do Projeto">
