@@ -45,9 +45,10 @@
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      ✔️ <strong>Layout Responsivo:</strong> Adapta-se perfeitamente a desktops, tablets e celulares.<br> 
-      <a></a>
       ✔️ <strong>Header Moderno:</strong> Navegação intuitiva com efeitos de hover e dropdowns.<br>
+      <p align="center">
+        <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXEyajYwczhlazAxdmdpY2Via240NDU4MWU2N2RueHFwMWt5cW1pbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GLwjBhdbTNe59jhtV2/giphy.gif" alt="Demonstração Layout">
+      </p>
       ✔️ <strong>Cards Interativos:</strong> Efeitos de animação sutis ao passar o mouse sobre os membros da equipe.
     </td>
     <td width="50%" valign="top">
@@ -83,4 +84,14 @@ Se você tem interesse em ajudar no desenvolvimento deste projeto, seja reportan
 4.  Faça um **Push** para a Branch (`git push origin feature/sua-feature`).
 5.  Abra um **Pull Request**.
 
-Obrigado por considerar cuidar do nosso código!
+<a href = "./pages/doar.html">Quer Doar?</a>
+
+Feito com amor para Pro Ale
+
+---
+
+<p align="center">
+  <img src = "./assets/img/tooth2.svg">
+</p>
+
+---
