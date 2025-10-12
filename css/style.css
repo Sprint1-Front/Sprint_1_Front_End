@@ -423,11 +423,11 @@ main {
 }
 
 .faq-item {
-    border-bottom: 1px solid #eee; /* Linha cinza clara para separar as perguntas */
+    border-bottom: 1px solid #eee;
     padding: 25px 0;
 }
 
-/* Remove a linha da última pergunta para um acabamento melhor */
+
 .faq-item:last-child {
     border-bottom: none;
 }
@@ -439,24 +439,24 @@ main {
 }
 
 .faq-item p {
-    line-height: 1.7; /* Aumenta o espaçamento entre as linhas para facilitar a leitura */
-    color: #555; /* Um cinza um pouco mais suave para as respostas */
+    line-height: 1.7;
+    color: #555; 
 }
 
 /* ===================================================
    PÁGINA CONTATO
 ====================================================== */
 
-/* Layout principal que divide a página em duas colunas: formulário e informações */
+
 .contact-layout {
     display: flex; /* Alinha os itens lado a lado */
     gap: 40px; /* Espaçamento entre as colunas */
-    align-items: flex-start; /* Alinha as colunas pelo topo */
+    align-items: flex-start; 
 }
 
-/* Container do formulário (coluna da esquerda) */
+
 .form-container {
-    flex: 2; /* Faz o formulário ocupar 2/3 do espaço */
+    flex: 2; 
     background-color: var(--cor-branca);
     padding: 40px;
     border-radius: 15px;
@@ -474,7 +474,7 @@ main {
     color: #555;
 }
 
-/* Estilos para os elementos do formulário */
+
 .form-contato label {
     display: block;
     margin-bottom: 8px;
@@ -488,12 +488,11 @@ main {
     margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    font-family: 'Poppins', sans-serif; /* Garante a mesma fonte do site */
     font-size: 1em;
-    transition: border-color 0.3s, box-shadow 0.3s; /* Efeito suave ao focar */
+    transition: border-color 0.3s, box-shadow 0.3s; 
 }
 
-/* Efeito de destaque azul quando o usuário clica no campo */
+
 .form-contato input:focus,
 .form-contato textarea:focus {
     outline: none;
@@ -504,7 +503,7 @@ main {
 .form-contato button {
     width: 100%;
     padding: 15px;
-    background-color: var(--cor-frescor); /* Cor turquesa de destaque */
+    background-color: var(--cor-frescor);
     color: var(--cor-branca);
     border: none;
     border-radius: 5px;
@@ -515,12 +514,12 @@ main {
 }
 
 .form-contato button:hover {
-    background-color: var(--cor-destaque-hover); /* Azul mais escuro no hover */
+    background-color: var(--cor-destaque-hover);
 }
 
-/* Container das informações de contato (coluna da direita) */
+
 .contact-info {
-    flex: 1; /* Faz as informações ocuparem 1/3 do espaço */
+    flex: 1;
     min-width: 300px;
 }
 
@@ -543,4 +542,48 @@ main {
 .info-item p {
     margin: 0;
     color: #555;
+}
+
+/* ===================================================
+   PÁGINA SOBRE O PROJETO
+====================================================== */
+
+/* Container que envolve todas as seções da página */
+.sobre-container {
+    max-width: 900px; /* Limita a largura do conteúdo para melhor leitura */
+    margin: 0 auto;   /* Centraliza o container na página */
+}
+
+/* Estilo para cada bloco de conteúdo (Ideia, Tecnologias, Roadmap) */
+.sobre-section {
+    background-color: var(--cor-limpeza); /* Fundo azul claro, consistente com o site */
+    padding: 30px;
+    border-radius: 10px; /* Cantos arredondados */
+    margin-bottom: 30px; /* Espaçamento entre as seções */
+    border-left: 5px solid var(--cor-frescor); /* Borda de destaque na cor turquesa */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05); /* Sombra suave */
+}
+
+.sobre-section h3 {
+    font-size: 1.8em;
+    color: var(--cor-texto); /* Cor de texto padrão */
+    margin-bottom: 15px;
+}
+
+.sobre-section p,
+.sobre-section li {
+    line-height: 1.8; /* Aumenta o espaçamento entre linhas para facilitar a leitura */
+    color: #555; /* Cinza suave para o texto descritivo */
+    font-size: 1.05em;
+}
+
+/* Estilo para as listas de tecnologias e roadmap */
+.sobre-section ul {
+    list-style-position: inside; /* Coloca os marcadores dentro da caixa de texto */
+    padding-left: 10px;
+    margin-top: 15px;
+}
+
+.sobre-section li {
+    margin-bottom: 10px; /* Espaçamento entre os itens da lista */
 }
