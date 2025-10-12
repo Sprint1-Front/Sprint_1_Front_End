@@ -125,10 +125,8 @@ https://github.com/user-attachments/assets/f4a693db-6a1d-43f0-8ce3-9bf7de7a488e
 
 * **👥 Integrantes:** Apresentação da equipe de desenvolvimento.
   <p align="center">
-    
 
-https://github.com/user-attachments/assets/b49469c9-799c-4140-b012-beffee8564dd
-
+https://github.com/user-attachments/assets/eba420e5-ea71-4f0b-99bc-7b42a7e3148e
 
   </p>
 
