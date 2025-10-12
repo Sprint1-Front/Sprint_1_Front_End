@@ -25,7 +25,7 @@
 * [📁 Estrutura de Pastas](#-estrutura-de-pastas)
 * [📄 Páginas do Site](#-páginas-do-site)
 * [✒️ Autores](#️-autores)
-* [✒️ Link Github](#️-Link Github)
+* [✒️ Link Github](#️-link-github)
 
 ---
 
