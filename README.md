@@ -99,6 +99,7 @@ O projeto está organizado com uma estrutura de pastas limpa e escalável, com t
 │   ├── contato.html
 │   ├── faq.html
 │   ├── voluntario.html
+│   ├── doar.html
 │   ├── sobre.html
 │   └── integrantes.html
 └── index.html
