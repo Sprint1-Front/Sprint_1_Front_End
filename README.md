@@ -124,12 +124,7 @@ O projeto conta com as seguintes páginas para uma navegação completa:
 
 - **❗ Sobre:** Detalhes sobre a missão da Turma do Bem.
   <p align="center">
-    <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmlmcW5ibzhkazd4cnFqcWllOTlvcnhpZHRoMzlmMXFoaWJkdWtsdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/omIKh7XPBotvgG5aLt/giphy.gif" alt="Demonstração da Página Sobre" width="800">
-  </p>
-
-- **👩‍⚕️ Voluntariado:** Informações para quem deseja se tornar um voluntário.
-  <p align="center">
-    <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWZya3U4dG4xYzMyMmdxeWF0MGZ2ODBoYW1qNjN3dHY5NnFlZW85NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/j5Dm9IQMWnj844gZLu/giphy.gif" alt="Demonstração da Página de Voluntariado" width="800">
+    <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExejV2anh5aHhpZ3FhdXY2OWluNzJ5ZTV1azl4Y2h1enN5aHhhZDhlMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8CVTqYAKLw4nBe67JP/giphy.gif" alt="Demonstração da Página Sobre" width="800">
   </p>
   
 - **📞 Contato:** Formulário e informações de contato. <img src="https://img.shields.io/badge/status-em andamento-yellow" alt="Status em andamento">
