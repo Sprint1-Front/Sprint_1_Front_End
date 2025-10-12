@@ -136,7 +136,11 @@ O projeto conta com as seguintes páginas para uma navegação completa:
 
 * **❓ FAQ:** Perguntas frequentes sobre a organização.
   <p align="center">
-    <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGxmMWR3Z25mOW4wb3gzMnExd2tuaWZxa2l0eTk1dmt6MjMzeGVwMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/12cselX0oZ6LBzIanJ/giphy.gif" alt="Demonstração da Página de FAQ" width="800">
+    
+
+https://github.com/user-attachments/assets/60f293bc-2c0f-46a1-8167-421d32e13d58
+
+
   </p>
 
 ---
