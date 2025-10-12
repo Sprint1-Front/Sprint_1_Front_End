@@ -114,7 +114,7 @@ O projeto conta com as seguintes páginas para uma navegação completa:
 
 - **🏠 Home:** A página principal e de boas-vindas.
   <p align="center">
-    <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExb21lYTFoenRuaTgyZzRweTR0NHM4dnowZTg3MXp6aDJ2Z2twMXh2YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kqVYEodv2y0Uivi5TK/giphy.gif" alt="Demonstração da Página Home" width="800">
+    <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTB4ZG1zeHNmdWhlc3BwYjU1bXJwY29paXRob24yazNpaW93cTNjZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xYjDszgud3stGPs1qe/giphy.gif" alt="Demonstração da Página Home" width="800">
   </p>
 
 - **👥 Integrantes:** Apresentação da equipe de desenvolvimento.
