@@ -434,3 +434,105 @@ main {
     line-height: 1.7; /* Aumenta o espaçamento entre as linhas para facilitar a leitura */
     color: #555; /* Um cinza um pouco mais suave para as respostas */
 }
+
+/* ===================================================
+   PÁGINA CONTATO
+====================================================== */
+
+/* Layout principal que divide a página em duas colunas: formulário e informações */
+.contact-layout {
+    display: flex; /* Alinha os itens lado a lado */
+    gap: 40px; /* Espaçamento entre as colunas */
+    align-items: flex-start; /* Alinha as colunas pelo topo */
+}
+
+/* Container do formulário (coluna da esquerda) */
+.form-container {
+    flex: 2; /* Faz o formulário ocupar 2/3 do espaço */
+    background-color: var(--cor-branca);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.form-container h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.form-container p {
+    margin-bottom: 30px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Estilos para os elementos do formulário */
+.form-contato label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.form-contato input,
+.form-contato textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif; /* Garante a mesma fonte do site */
+    font-size: 1em;
+    transition: border-color 0.3s, box-shadow 0.3s; /* Efeito suave ao focar */
+}
+
+/* Efeito de destaque azul quando o usuário clica no campo */
+.form-contato input:focus,
+.form-contato textarea:focus {
+    outline: none;
+    border-color: var(--cor-confianca);
+    box-shadow: 0 0 0 3px rgba(30, 144, 255, 0.2);
+}
+
+.form-contato button {
+    width: 100%;
+    padding: 15px;
+    background-color: var(--cor-frescor); /* Cor turquesa de destaque */
+    color: var(--cor-branca);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.form-contato button:hover {
+    background-color: var(--cor-destaque-hover); /* Azul mais escuro no hover */
+}
+
+/* Container das informações de contato (coluna da direita) */
+.contact-info {
+    flex: 1; /* Faz as informações ocuparem 1/3 do espaço */
+    min-width: 300px;
+}
+
+.contact-info h3 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--cor-frescor); /* Linha de destaque turquesa */
+}
+
+.info-item {
+    margin-bottom: 25px;
+}
+
+.info-item h4 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.info-item p {
+    margin: 0;
+    color: #555;
+}
