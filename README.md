@@ -136,7 +136,7 @@ https://github.com/user-attachments/assets/2265b979-5962-4774-a2bd-2497535324a6
 
   </p>
   
-* **📞 Contato:** Formulário e informações de contato. <img src="https://img.shields.io/badge/status-em andamento-yellow" alt="Status em andamento">
+* **📞 Contato:** Formulário e informações de contato.
   <p align="center">
   
 
@@ -153,6 +153,10 @@ https://github.com/user-attachments/assets/60f293bc-2c0f-46a1-8167-421d32e13d58
 
 
   </p>
+
+  * **🙌 Voluntario:** Página de voluntariados.  <img src="https://img.shields.io/badge/status-em andamento-yellow" alt="Status em andamento">
+
+  * **❤️ Doações:** Página para doar.  <img src="https://img.shields.io/badge/status-em andamento-yellow" alt="Status em andamento">
 
 ---
 
