@@ -141,7 +141,11 @@ https://github.com/user-attachments/assets/2265b979-5962-4774-a2bd-2497535324a6
   
 * **📞 Contato:** Formulário e informações de contato. <img src="https://img.shields.io/badge/status-em andamento-yellow" alt="Status em andamento">
   <p align="center">
-    <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmw1eGpqYjBydWV6NmNzajNlZGg4ejg2amNrcjJrZGczZHNwODN6MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zCgCihIr2FU2YEZWtF/giphy.gif" alt="Demonstração da Página de Contato" width="800">
+  
+
+https://github.com/user-attachments/assets/386ed4d0-4da5-4463-be49-dcdbe9014159
+
+
   </p>
 
 * **❓ FAQ:** Perguntas frequentes sobre a organização.
