@@ -344,7 +344,15 @@ main {
     color: var(--cor-confianca);
     margin-bottom: 40px;
 }
-.integrantes-container {
+
+.section-title-2 {
+    text-align: center;
+    font-size: 1.5em;
+    color: var(--cor-texto);
+    margin-bottom: 40px;
+}
+
+.integrantes-contaner {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
