@@ -116,7 +116,11 @@ O projeto conta com as seguintes páginas para uma navegação completa:
 
 * **🏠 Home:** A página principal e de boas-vindas.
   <p align="center">
-    <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTB4ZG1zeHNmdWhlc3BwYjU1bXJwY29paXRob24yazNpaW93cTNjZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xYjDszgud3stGPs1qe/giphy.gif" alt="Demonstração da Página Home" width="800">
+    
+
+https://github.com/user-attachments/assets/f4a693db-6a1d-43f0-8ce3-9bf7de7a488e
+
+
   </p>
 
 * **👥 Integrantes:** Apresentação da equipe de desenvolvimento.
