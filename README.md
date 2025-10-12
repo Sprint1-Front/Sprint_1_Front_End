@@ -24,8 +24,7 @@
 * [🚀 Como Executar](#-como-executar)
 * [📁 Estrutura de Pastas](#-estrutura-de-pastas)
 * [📄 Páginas do Site](#-páginas-do-site)
-* [✒️ Autores](#️-autores)
-* [✒️ Link Github](#️-link-github)
+* [✒️ Autores + Link do GITHUB](#️-autores)
 
 ---
 
