@@ -134,9 +134,9 @@ O projeto conta com as seguintes páginas para uma navegação completa:
     <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmw1eGpqYjBydWV6NmNzajNlZGg4ejg2amNrcjJrZGczZHNwODN6MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zCgCihIr2FU2YEZWtF/giphy.gif" alt="Demonstração da Página de Contato" width="800">
   </p>
 
-* **❓ FAQ:** Perguntas frequentes sobre a organização. <img src="https://img.shields.io/badge/status-em andamento-yellow" alt="Status em andamento">
+* **❓ FAQ:** Perguntas frequentes sobre a organização.
   <p align="center">
-    <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHIzeXhubHpwaW93aDdjZzhwZzExdnduYWxseWttN295czN3YjljeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/doK5s9xTNXPh3oL1Vf/giphy.gif" alt="Demonstração da Página de FAQ" width="800">
+    <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGxmMWR3Z25mOW4wb3gzMnExd2tuaWZxa2l0eTk1dmt6MjMzeGVwMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/12cselX0oZ6LBzIanJ/giphy.gif" alt="Demonstração da Página de FAQ" width="800">
   </p>
 
 ---
