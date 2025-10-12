@@ -333,81 +333,7 @@ main {
     margin-top: 20px;
 }
 
-/* ==========================
-    PÁGINA INTEGRANTES
-========================== */
 
-
-.section-title {
-    text-align: center;
-    font-size: 2.2em;
-    color: var(--cor-confianca);
-    margin-bottom: 40px;
-}
-
-.section-title-2 {
-    text-align: center;
-    font-size: 1.5em;
-    color: var(--cor-texto);
-    margin-bottom: 40px;
-}
-
-.integrantes-contaner {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px;
-}
-.integrante-card {
-    background-color: var(--cor-branca);
-    border-radius: 15px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    padding: 25px;
-    text-align: center;
-    width: 300px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.integrante-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-}
-.integrante-card .integrante-foto {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 4px solid var(--cor-confianca);
-    margin-bottom: 15px;
-}
-.integrante-card h3 {
-    font-size: 1.4em;
-    margin-bottom: 5px;
-}
-.integrante-card .info {
-    font-size: 0.9em;
-    color: #555;
-    margin-bottom: 20px;
-}
-.integrante-card .social-links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-}
-.integrante-card .social-links a {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    padding: 8px 18px;
-    border-radius: 20px;
-    color: var(--cor-branca);
-    font-weight: 500;
-    transition: all 0.3s ease;
-}
-.integrante-card .social-links .github { background-color: #333; }
-.integrante-card .social-links .linkedin { background-color: #0A66C2; }
-.integrante-card .social-links a:hover { transform: scale(1.05); }
-.integrante-card .social-links img { width: 20px; height: 20px; }
 
 /* ===================================================
    PÁGINA FAQ (Frequently Asked Questions)
@@ -587,3 +513,74 @@ main {
 .sobre-section li {
     margin-bottom: 10px; /* Espaçamento entre os itens da lista */
 }
+
+/* ==========================
+    PÁGINA INTEGRANTES
+========================== */
+.integrantes-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.integrante-card {
+    background-color: var(--cor-branca);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    text-align: center;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.integrante-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+.integrante-card .integrante-foto {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid var(--cor-confianca);
+    margin-bottom: 15px;
+}
+.integrante-card h3 {
+    font-size: 1.4em;
+    margin-bottom: 5px;
+}
+.integrante-card .info {
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 20px;
+}
+.integrante-card .social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.integrante-card .social-links a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 18px;
+    border-radius: 20px;
+    color: var(--cor-branca);
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.page-container .section-title {
+    text-align: center;
+    font-size: 2.2em;
+    color: var(--cor-confianca);
+    margin-bottom: 40px;
+}
+
+.integrante-card .social-links .github { background-color: #333; }
+.integrante-card .social-links .linkedin { background-color: #0A66C2; }
+.integrante-card .social-links a:hover { transform: scale(1.05); }
+.integrante-card .social-links img { width: 20px; height: 20px; }
+
+/* =================================================== 
+    FIM DO ARQUIVO DE ESTILO
+====================================================== */
