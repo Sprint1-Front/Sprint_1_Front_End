@@ -1,186 +1,99 @@
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com/?lines=Turma+do+Bem;Um+Sorriso+Pode+Mudar+Tudo" alt="Typing SVG" />
-  </a>
-</p>
+# Análise Detalhada do Projeto: Website Institucional "Turma do Bem"
 
-<p align="center">
-  <img src="https://img.shields.io/badge/status-em andamento-yellow" alt="Status em andamento">
-  <img src="https://img.shields.io/badge/linguagem-HTML/CSS-blue" alt="Linguagem">
-  <img src="https://img.shields.io/badge/Foco-Saúde_Bucal-❤️" alt="Foco em Saúde Bucal">
-</p>
+## Visão Geral
 
-<p align="center">
-  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExb21lYTFoenRuaTgyZzRweTR0NHM4dnowZTg3MXp6aDJ2Z2twMXh2YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kqVYEodv2y0Uivi5TK/giphy.gif" alt="Demonstração do Projeto" width="800">
-</p>
+Este documento oferece uma visão aprofundada do projeto de desenvolvimento do site para a ONG "Turma do Bem", expandindo as informações do `README.md` original para fornecer uma perspectiva técnica e estratégica completa.
 
 ---
 
-## 📋 Índice
+### 📖 Sobre o Projeto: Visão Estratégica
 
-* [Sobre o Projeto](#-sobre-o-projeto)
-* [✨ Funcionalidades](#-funcionalidades)
-* [💻 Tecnologias Utilizadas](#-tecnologias-utilizadas)
-* [🚀 Como Executar](#-como-executar)
-* [📁 Estrutura de Pastas](#-estrutura-de-pastas)
-* [📄 Páginas do Site](#-páginas-do-site)
-* [✒️ Autores](#️-autores)
-* [✒️ Link Github](#️-link-github)
+O projeto consiste na criação de um website institucional para a **Turma do Bem**, uma organização não governamental de grande impacto social. O objetivo principal é traduzir a nobre missão da ONG — fornecer tratamento odontológico gratuito a jovens e mulheres em vulnerabilidade — para uma presença digital forte, convidativa e funcional.
 
----
+Mais do que um simples cartão de visitas digital, o site foi concebido para ser uma ferramenta estratégica que visa:
 
-## 📖 Sobre o Projeto
+1.  **Aumentar a Visibilidade:** Apresentar a ONG a um público mais amplo, incluindo potenciais doadores, voluntários e beneficiários.
+2.  **Gerar Confiança:** Transmitir profissionalismo e cuidado através de um design limpo, moderno e organizado, refletindo os valores da organização.
+3.  **Facilitar o Engajamento:** Criar canais diretos e intuitivos para que visitantes possam se voluntariar, tirar dúvidas ou entrar em contato.
+4.  **Contar Histórias:** Ser uma plataforma para compartilhar o impacto positivo da Turma do Bem, inspirando mais pessoas a se juntarem à causa.
 
-A "Turma do Bem" nasceu de um ideal simples: o de que um sorriso pode, de fato, mudar o mundo. Este projeto consiste em um site institucional moderno e responsivo, desenvolvido para a ONG, com o objetivo de apresentar sua missão, atrair voluntários e facilitar o contato com o público.
-
-Através de uma interface limpa e convidativa, buscamos transmitir os valores de confiança e cuidado da organização, que oferece tratamento odontológico gratuito para jovens e mulheres em situação de vulnerabilidade no Brasil.
+A escolha por um design responsivo garante que a experiência seja consistente e agradável em qualquer dispositivo, seja um computador desktop, tablet ou smartphone.
 
 ---
 
-## ✨ Funcionalidades
+### ✨ Funcionalidades Detalhadas
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      ✔️ <strong>Header Moderno:</strong> Navegação intuitiva com efeitos de hover e menus dropdown.<br><br>
-      ✔️ <strong>Cards Interativos:</strong> Animações sutis ao passar o mouse sobre os membros da equipe.<br><br>
-      ✔️ <strong>Design Atraente:</strong> Paleta de cores e tipografia escolhidas para transmitir confiança.
-    </td>
-    <td width="50%" valign="top">
-      ✔️ <strong>Código Limpo:</strong> Estrutura semântica em HTML5 e CSS3 organizado com variáveis.<br><br>
-      ✔️ <strong>Layout Responsivo:</strong> O site se adapta a diferentes tamanhos de tela.<br><br>
-      ✔️ <strong>Performance Otimizada:</strong> Uso de SVGs e imagens leves para um carregamento rápido.
-    </td>
-  </tr>
-</table>
+As funcionalidades do site foram planejadas para equilibrar estética e usabilidade, focando na experiência do usuário e na performance técnica.
+
+#### Experiência do Usuário e Design
+- **Navegação Intuitiva (Header Moderno):** O cabeçalho fixo com menus dropdown permite que o usuário acesse qualquer página do site rapidamente. Efeitos de `hover` sutis guiam o olhar e melhoram a interatividade.
+- **Componentes Interativos (Cards):** Na página "Integrantes", os cards reagem ao passar do mouse, criando um efeito visual agradável que torna a exploração do conteúdo mais dinâmica.
+- **Identidade Visual Consistente:** A paleta de cores e a tipografia foram escolhidas para reforçar a imagem de seriedade e acolhimento da ONG.
+
+#### Excelência Técnica e Performance
+- **Código Semântico e Organizado:** O uso de HTML5 semântico (tags como `<header>`, `<section>`, `<nav>`) melhora a acessibilidade, o SEO e facilita a manutenção futura do código. O CSS é bem estruturado e centralizado.
+- **Design Responsivo (Mobile-First):** O layout foi construído para se adaptar perfeitamente a todos os tamanhos de tela, garantindo uma boa experiência em dispositivos móveis.
+- **Otimização de Carregamento:** A escolha por imagens leves e o uso de SVGs garantem que o site carregue rapidamente, melhorando a retenção de visitantes.
 
 ---
 
-## 💻 Tecnologias que Constroem Sorrisos
+### 💻 Tecnologias Utilizadas: A Base da Construção
 
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,git,vscode,github" alt="Ícones de Tecnologias"/>
-  </a>
-</p>
-<p align="center">
-  Utilizamos ferramentas modernas para garantir que cada pixel do nosso site contribua para a missão da Turma do Bem.
-</p>
+A seleção de tecnologias reflete um foco em criar uma base sólida e universal para o front-end.
+
+- **HTML5:** Utilizado para estruturar todo o conteúdo do site de forma semântica.
+- **CSS3:** Responsável por toda a parte visual, desde o layout e as cores até as animações e a responsividade.
+- **Git & GitHub:** Ferramentas essenciais para o controle de versão e colaboração em equipe.
+- **Visual Studio Code:** O editor de código escolhido, conhecido por sua flexibilidade e ferramentas de produtividade.
 
 ---
 
-## 🚀 Como Executar
+### 📄 Análise das Páginas do Site
 
-Este é um projeto puramente front-end. Para visualizá-lo, siga os passos abaixo:
+Cada página foi projetada com um propósito claro dentro da jornada do usuário.
 
-1. **Clone o repositório:**
+- **`index.html` (Home):**
+  - **Propósito:** Capturar a atenção do visitante, apresentar a missão da ONG e direcioná-lo para as seções mais importantes.
+  - **Conteúdo:** Banner principal, resumo da missão, destaques e chamadas para ação (CTAs).
 
-    ```bash
-    # CORRIGIDO: Sintaxe do comando para ser copiada e colada diretamente
-    git clone [https://github.com/Sprint1-Front/Sprint_1_Front_End.git](https://github.com/Sprint1-Front/Sprint_1_Front_End.git)
-    ```
+      https://github.com/user-attachments/assets/60f293bc-2c0f-46a1-8167-421d32e13d58
 
-2. **Abra o arquivo principal:**
-    * Navegue até a pasta do projeto clonado.
-    * Abra o arquivo `index.html` diretamente no seu navegador de preferência.
+- **`integrantes.html` (Integrantes):**
+  - **Propósito:** Humanizar o projeto, apresentando a equipe de desenvolvimento para gerar transparência.
+  - **Conteúdo:** Cards interativos com informações sobre os membros da equipe.
 
-E pronto! A página estará visível e funcional.
+    https://github.com/user-attachments/assets/eba420e5-ea71-4f0b-99bc-7b42a7e3148e
 
----
+- **`sobre.html` (Sobre):**
+  - **Propósito:** Aprofundar a história e os valores da Turma do Bem, conectando o visitante emocionalmente com a causa.
+  - **Conteúdo:** Detalhes sobre a fundação, missão, visão e o impacto da ONG.
 
-## 📁 Estrutura de Pastas
-
-O projeto está organizado com uma estrutura de pastas limpa e escalável, com todos os estilos centralizados em `style.css`.
-
-```
-/
-├── assets/
-│   └── img/
-├── css/
-│   └── style.css  <- Estilos unificados aqui
-├── pages/
-│   ├── contato.html
-│   ├── faq.html
-│   ├── voluntario.html
-│   ├── sobre.html
-│   └── integrantes.html
-└── index.html
-└── README.md
-```
-
----
-
-## 📄 Páginas do Site
-
-O projeto conta com as seguintes páginas para uma navegação completa:
-
-* **🏠 Home:** A página principal e de boas-vindas.
-  <p align="center">
+    https://github.com/user-attachments/assets/2265b979-5962-4774-a2bd-2497535324a6
     
 
-https://github.com/user-attachments/assets/f4a693db-6a1d-43f0-8ce3-9bf7de7a488e
+- **`contato.html` (Contato):**
+  - **Propósito:** Ser o canal direto de comunicação com a organização.
+  - **Status:** Em andamento.
+  - **Conteúdo Planejado:** Formulário de contato, endereço, mapa, telefones e links para redes sociais.
 
-
-  </p>
-
-* **👥 Integrantes:** Apresentação da equipe de desenvolvimento.
-  <p align="center">
-
-https://github.com/user-attachments/assets/eba420e5-ea71-4f0b-99bc-7b42a7e3148e
-
-  </p>
-
-* **❗ Sobre:** Detalhes sobre a missão da Turma do Bem.
-  <p align="center">
-  
-
-https://github.com/user-attachments/assets/2265b979-5962-4774-a2bd-2497535324a6
-
-
-  </p>
-  
-* **📞 Contato:** Formulário e informações de contato. <img src="https://img.shields.io/badge/status-em andamento-yellow" alt="Status em andamento">
-  <p align="center">
-  
-
-https://github.com/user-attachments/assets/386ed4d0-4da5-4463-be49-dcdbe9014159
-
-
-  </p>
-
-* **❓ FAQ:** Perguntas frequentes sobre a organização.
-  <p align="center">
+    https://github.com/user-attachments/assets/386ed4d0-4da5-4463-be49-dcdbe9014159
     
 
-https://github.com/user-attachments/assets/60f293bc-2c0f-46a1-8167-421d32e13d58
+- **`faq.html` (FAQ):**
+  - **Propósito:** Antecipar e responder às dúvidas mais comuns, otimizando o tempo da equipe e do usuário.
+  - **Conteúdo:** Lista de perguntas e respostas sobre voluntariado, tratamento, doações, etc.
 
-
-  </p>
-
----
-
-## ✒️ Autores
-
-Projeto desenvolvido pela equipe:
-
-* 👨‍💻 **Andre Sousa Matuda**
-* 👨‍💻 **Paulo Henrique Muniz Diedrich**
-* 👨‍💻 **Guilherme Olivera Feitosa**
+    https://github.com/user-attachments/assets/60f293bc-2c0f-46a1-8167-421d32e13d58
 
 ---
 
-## Link Github
+### 🚀 Próximos Passos e Potencial de Evolução
 
-<br>
+O projeto possui uma base sólida que permite futuras expansões:
 
-<p align="center">
-  <a href="https://github.com/Sprint1-Front/Sprint_1_Front_End">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="Link para o Repositório no GitHub">
-  </a>
-</p>
+1.  **Integração com Back-End:** Implementar um back-end (ex: Node.js, Python) para ativar o formulário de contato, gerenciar cadastros e, futuramente, doações online.
+2.  **Criação de um Blog/Área de Notícias:** Adicionar um Sistema de Gerenciamento de Conteúdo (CMS) para que a ONG possa publicar atualizações de forma autônoma.
+3.  **Acessibilidade Avançada (WCAG):** Realizar uma auditoria de acessibilidade para garantir que o site seja inclusivo para todos os usuários.
+4.  **Otimizações de SEO:** Aprofundar as técnicas de SEO para melhorar o ranking do site em motores de busca como o Google.
 
 ---
-
-<p align="center">
-  Feito com ❤️ para a Pro Ale
-</p>
