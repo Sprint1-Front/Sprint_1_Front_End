@@ -132,7 +132,11 @@ https://github.com/user-attachments/assets/eba420e5-ea71-4f0b-99bc-7b42a7e3148e
 
 * **❗ Sobre:** Detalhes sobre a missão da Turma do Bem.
   <p align="center">
-    <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExejV2anh5aHhpZ3FhdXY2OWluNzJ5ZTV1azl4Y2h1enN5aHhhZDhlMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8CVTqYAKLw4nBe67JP/giphy.gif" alt="Demonstração da Página Sobre" width="800">
+  
+
+https://github.com/user-attachments/assets/2265b979-5962-4774-a2bd-2497535324a6
+
+
   </p>
   
 * **📞 Contato:** Formulário e informações de contato. <img src="https://img.shields.io/badge/status-em andamento-yellow" alt="Status em andamento">
