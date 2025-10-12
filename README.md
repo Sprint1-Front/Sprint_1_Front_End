@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/status-concluído-brightgreen" alt="Status do Projeto">
+  <img src="https://img.shields.io/badge/status-em andamento-yellow" alt="Status em andamento">
   <img src="https://img.shields.io/badge/linguagem-HTML/CSS-blue" alt="Linguagem">
   <img src="https://img.shields.io/badge/Foco-Saúde_Bucal-❤️" alt="Foco em Saúde Bucal">
 </p>
