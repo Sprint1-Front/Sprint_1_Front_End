@@ -125,7 +125,11 @@ https://github.com/user-attachments/assets/f4a693db-6a1d-43f0-8ce3-9bf7de7a488e
 
 * **👥 Integrantes:** Apresentação da equipe de desenvolvimento.
   <p align="center">
-    <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWFoemh4eTU1ZHVpajVxb2pmYWgxOHI3cWVieWN5ejZyZWZqMGVncyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sTRHQ9l4AkPGPvv8O6/giphy.gif" alt="Demonstração da Página de Integrantes" width="800">
+    
+
+https://github.com/user-attachments/assets/b49469c9-799c-4140-b012-beffee8564dd
+
+
   </p>
 
 * **❗ Sobre:** Detalhes sobre a missão da Turma do Bem.
