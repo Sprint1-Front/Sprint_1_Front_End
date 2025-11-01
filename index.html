@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Turma do Bem</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
 
     <header class="main-header">
         <div class="top-bar">
             <div class="header-actions-left">
                 <a href="#" class="btn-doar">DOAR</a>
-                <a href="#" class="btn-voluntario">SEJA VOLUNTÁRIO</a>
+                <a href="./pages/voluntario.html" class="btn-voluntario">SEJA VOLUNTÁRIO</a>
             </div>
 
             <h1 class="logo">Turma do Bem</h1>
 
             <div class="header-actions-right">
-                <!-- Espaço para ações futuras -->
             </div>
         </div>
 
@@ -32,69 +33,135 @@
                         <li><a href="#">Estudantes do Bem</a></li>
                     </ul>
                 </li>
-            
+
                 <li class="dropdown">
-                    <a href="#">Voluntariado</a>
+                    <a href="./pages/voluntario.html">Voluntariado</a>
                     <ul class="dropdown-menu">
-                        <li><a href="pages/voluntario.html">Beneficios</a></li>
-                        <li><a href="#">Adicionar</a></li>
+                        <li><a href="./pages/voluntario.html">Beneficios</a></li>
+                        <li><a href="./pages/voluntario.html">Adicionar</a></li>
                     </ul>
                 </li>
 
-                <li><a href="pages/sobre.html">Sobre</a></li>
-                <li><a href="pages/faq.html">FAQ</a></li>
-                <li><a href="pages/contato.html">Contato</a></li>
-                <li><a href="pages/integrantes.html">Integrantes</a></li>
+                <li><a href="./pages/sobre.html">Sobre</a></li>
+                <li><a href="./pages/faq.html">FAQ</a></li>
+                <li><a href="./pages/contato.html">Contato</a></li>
+                <li><a href="./pages/integrantes.html">Integrantes</a></li>
             </ul>
         </nav>
-
     </header>
 
     <main>
         <section class="hero-banner">
-            <img src="./assets/img/turma-do-bem-hero.jpg" alt="Criança sorrindo" style="width: 100%; display: block;">
+            <article>
+                <img src="./assets/img/turma-do-bem-hero.jpg" alt="Criança sorrindo" style="width: 100%; display: block;">
             <div class="hero-content">
                 <h2>Um Sorriso Pode Mudar Tudo</h2>
                 <p>Conheça os projetos que levam saúde bucal para milhares de crianças e jovens no Brasil.</p>
             </div>
+            </article>
+            
         </section>
 
+        <section class="about-us">
+            <div class="container">
+                <h2>Transformando Sorrisos, Mudando Vidas</h2>
+                <p>
+                    A Turma do Bem é a maior rede de voluntariado especializado do mundo. Através do engajamento de
+                    cirurgiões-dentistas voluntários, oferecemos tratamento odontológico gratuito e integral para jovens
+                    de baixa renda e mulheres vítimas de violência, devolvendo-lhes o sorriso, a saúde e a autoestima.
+                </p>
+            </div>
+        </section>
 
+        <section class="our-programs">
+            <div class="container">
+                <h2>Nossos Programas em Destaque</h2>
+                <div class="programs-grid">
+                    <article class="program-card">
+                        <img src="./assets/img/dentista-do-bem.webp" alt="Dentista atendendo criança">
+                        <h3>Dentista do Bem</h3>
+                        <p>O principal programa da TdB, que oferece tratamento odontológico gratuito para jovens de 11 a
+                            17 anos.</p>
+                        <a href="./pages/sobre.html" class="btn-learn-more">Saiba Mais</a>
+                    </article>
+                    <article class="program-card">
+                        <img src="./assets/img/estudantes-do-bem.webp" alt="Jovens estudantes sorrindo">
+                        <h3>Estudantes do Bem</h3>
+                        <p>Um projeto para universitários de Odontologia, que dissemina a importância do voluntariado na
+                            formação acadêmica.</p>
+                        <a href="#" class="btn-learn-more">Saiba Mais</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="impact-stats">
+            <div class="container">
+                <h2>Nosso Impacto em Números</h2>
+                <div class="stats-container">
+                    <div class="stat-item">
+                        <span class="stat-number">+84.000</span>
+                        <p>Jovens e Mulheres Atendidos</p>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">+17.000</span>
+                        <p>Dentistas Voluntários</p>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">12</span>
+                        <p>Países da América Latina e Portugal</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <h2>Faça Parte Desta Corrente do Bem</h2>
+                <p>Sua ajuda é fundamental para que mais pessoas possam sorrir com dignidade. Contribua ou junte-se à
+                    nossa rede de voluntários.</p>
+                <div class="cta-buttons">
+                    <a href="#" class="btn-doar">DOAR AGORA</a>
+                    <a href="./pages/voluntario.html" class="btn-voluntario">SEJA VOLUNTÁRIO</a>
+                </div>
+            </div>
+        </section>
     </main>
-
-<footer class="main-footer">
-    <div class="footer-content">
-        <div class="footer-section">
-            <h3>Sobre Nós</h3>
-            <p>A Turma do Bem é a maior rede de voluntariado especializado do mundo, dedicada a transformar vidas através da saúde bucal.</p>
-        </div>
-        <div class="footer-section">
-            <h3>Contato</h3>
-            <p>Email: nosso@email.com.br</p>
-            <p>Telefone: (11) 1234-5678</p>
-        </div>
-        <div class="footer-section">
-            <h3>Siga-nos</h3>
-            <div class="social-links-footer">
-                <a href="https://www.facebook.com/?locale=pt_BR" target="_blank">
-                    <img src="../assets/img/facebook.svg" alt="Facebook">
-                    Facebook
-                </a>
-                <a href="https://www.instagram.com/" target="_blank">
-                    <img src="../assets/img/instagram.svg" alt="Instagram">
-                    Instagram
-                </a>
-                <a href="https://www.linkedin.com" target="_blank">
-                    <img src="../assets/img/linkedin.svg" alt="LinkedIn">
-                    LinkedIn
-                </a>
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Sobre Nós</h3>
+                <p>A Turma do Bem é a maior rede de voluntariado especializado do mundo, dedicada a transformar vidas
+                    através da saúde bucal.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contato</h3>
+                <p>Email: nosso@email.com.br</p>
+                <p>Telefone: (11) 1234-5678</p>
+            </div>
+            <div class="footer-section">
+                <h3>Siga-nos</h3>
+                <div class="social-links-footer">
+                    <a href="https://www.facebook.com/?locale=pt_BR" target="_blank">
+                        <img src="./assets/img/facebook.svg" alt="Facebook">
+                        Facebook
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="./assets/img/instagram.svg" alt="Instagram">
+                        Instagram
+                    </a>
+                    <a href="https://www.linkedin.com" target="_blank">
+                        <img src="./assets/img/linkedin.svg" alt="LinkedIn">
+                        LinkedIn
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="footer-bottom">
-        <p>&copy; 2025 Turma do Bem. Todos os direitos reservados.</p>
-    </div>
-</footer>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Turma do Bem. Todos os direitos reservados.</p>
+        </div>
+    </footer>
 
 </body>
+
 </html>

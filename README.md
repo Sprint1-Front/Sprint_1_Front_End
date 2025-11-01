@@ -1,11 +1,13 @@
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=28&duration=4000&pause=1000&color=1E90FF&center=true&vCenter=true&width=500&lines=Turma+do+Bem;Cuidando+da+Saúde+Bucal+no+Brasil" alt="Typing SVG - Turma do Bem" /></a>
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com/?lines=Turma+do+Bem;Um+Sorriso+Pode+Mudar+Tudo" alt="Typing SVG" />
+  </a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/status-concluído-brightgreen" alt="Status do Projeto">
+  <img src="https://img.shields.io/badge/status-em andamento-yellow" alt="Status em andamento">
   <img src="https://img.shields.io/badge/linguagem-HTML/CSS-blue" alt="Linguagem">
-  <img src="https://img.shields.io/badge/Foco-Saúde_Bucal-❤️" alt="Foco em Saúde Bucal"> 
+  <img src="https://img.shields.io/badge/Foco-Saúde_Bucal-❤️" alt="Foco em Saúde Bucal">
 </p>
 
 <p align="center">
@@ -22,14 +24,13 @@
 * [🚀 Como Executar](#-como-executar)
 * [📁 Estrutura de Pastas](#-estrutura-de-pastas)
 * [📄 Páginas do Site](#-páginas-do-site)
-* [✒️ Autores](#️-autores)
+* [✒️ Autores + Link do GITHUB](#️-autores)
 
 ---
 
 ## 📖 Sobre o Projeto
-A "Turma do Bem" nasceu de um ideal simples: o de que um sorriso pode, de fato, mudar o mundo. Este projeto consiste em um site institucional moderno e responsivo, desenvolvido para a ONG, com o objetivo de apresentar sua missão, atrair voluntários e facilitar o contato com o público.
 
-Através de uma interface limpa e convidativa, buscamos transmitir os valores de confiança e cuidado da organização, que oferece tratamento odontológico gratuito para jovens e mulheres em situação de vulnerabilidade no Brasil.
+O projeto consiste na criação de um website institucional para a Turma do Bem, uma organização não governamental de grande impacto social. O objetivo principal é traduzir a nobre missão da ONG — fornecer tratamento odontológico gratuito a jovens e mulheres em vulnerabilidade — para uma presença digital forte, convidativa e funcional.
 
 ---
 
@@ -69,15 +70,16 @@ Através de uma interface limpa e convidativa, buscamos transmitir os valores de
 
 Este é um projeto puramente front-end. Para visualizá-lo, siga os passos abaixo:
 
-1.  **Clone o repositório:**
+1. **Clone o repositório:**
+
     ```bash
     # CORRIGIDO: Sintaxe do comando para ser copiada e colada diretamente
     git clone [https://github.com/Sprint1-Front/Sprint_1_Front_End.git](https://github.com/Sprint1-Front/Sprint_1_Front_End.git)
     ```
 
-2.  **Abra o arquivo principal:**
-    - Navegue até a pasta do projeto clonado.
-    - Abra o arquivo `index.html` diretamente no seu navegador de preferência.
+2. **Abra o arquivo principal:**
+    * Navegue até a pasta do projeto clonado.
+    * Abra o arquivo `index.html` diretamente no seu navegador de preferência.
 
 E pronto! A página estará visível e funcional.
 
@@ -97,6 +99,7 @@ O projeto está organizado com uma estrutura de pastas limpa e escalável, com t
 │   ├── contato.html
 │   ├── faq.html
 │   ├── voluntario.html
+│   ├── doar.html
 │   ├── sobre.html
 │   └── integrantes.html
 └── index.html
@@ -109,35 +112,54 @@ O projeto está organizado com uma estrutura de pastas limpa e escalável, com t
 
 O projeto conta com as seguintes páginas para uma navegação completa:
 
-- **🏠 Home:** A página principal e de boas-vindas.
+* **🏠 Home:** A página principal e de boas-vindas.
   <p align="center">
-    <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExb21lYTFoenRuaTgyZzRweTR0NHM4dnowZTg3MXp6aDJ2Z2twMXh2YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kqVYEodv2y0Uivi5TK/giphy.gif" alt="Demonstração da Página Home" width="800">
+    
+
+https://github.com/user-attachments/assets/f4a693db-6a1d-43f0-8ce3-9bf7de7a488e
+
+
   </p>
 
-- **👥 Integrantes:** Apresentação da equipe de desenvolvimento.
+* **👥 Integrantes:** Apresentação da equipe de desenvolvimento.
   <p align="center">
-    <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWFoemh4eTU1ZHVpajVxb2pmYWgxOHI3cWVieWN5ejZyZWZqMGVncyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sTRHQ9l4AkPGPvv8O6/giphy.gif" alt="Demonstração da Página de Integrantes" width="800">
+
+
+https://github.com/user-attachments/assets/2f621a48-a837-4aca-a950-d5e3b1742330
+
+
   </p>
 
-- **❗ Sobre:** Detalhes sobre a missão da Turma do Bem.
+* **❗ Sobre:** Detalhes sobre a missão da Turma do Bem.
   <p align="center">
-    <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmlmcW5ibzhkazd4cnFqcWllOTlvcnhpZHRoMzlmMXFoaWJkdWtsdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/omIKh7XPBotvgG5aLt/giphy.gif" alt="Demonstração da Página Sobre" width="800">
-  </p>
+  
 
-- **👩‍⚕️ Voluntariado:** Informações para quem deseja se tornar um voluntário.
-  <p align="center">
-    <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWZya3U4dG4xYzMyMmdxeWF0MGZ2ODBoYW1qNjN3dHY5NnFlZW85NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/j5Dm9IQMWnj844gZLu/giphy.gif" alt="Demonstração da Página de Voluntariado" width="800">
+https://github.com/user-attachments/assets/2265b979-5962-4774-a2bd-2497535324a6
+
+
   </p>
   
-- **📞 Contato:** Formulário e informações de contato. <img src="https://img.shields.io/badge/status-em andamento-yellow" alt="Status em andamento">
+* **📞 Contato:** Formulário e informações de contato.
   <p align="center">
-    <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmw1eGpqYjBydWV6NmNzajNlZGg4ejg2amNrcjJrZGczZHNwODN6MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zCgCihIr2FU2YEZWtF/giphy.gif" alt="Demonstração da Página de Contato" width="800">
+  
+
+https://github.com/user-attachments/assets/386ed4d0-4da5-4463-be49-dcdbe9014159
+
+
   </p>
 
-- **❓ FAQ:** Perguntas frequentes sobre a organização. <img src="https://img.shields.io/badge/status-em andamento-yellow" alt="Status em andamento">
+* **❓ FAQ:** Perguntas frequentes sobre a organização.
   <p align="center">
-    <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHIzeXhubHpwaW93aDdjZzhwZzExdnduYWxseWttN295czN3YjljeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/doK5s9xTNXPh3oL1Vf/giphy.gif" alt="Demonstração da Página de FAQ" width="800">
+    
+
+https://github.com/user-attachments/assets/60f293bc-2c0f-46a1-8167-421d32e13d58
+
+
   </p>
+
+  * **🙌 Voluntario:** Página de voluntariados.  <img src="https://img.shields.io/badge/status-em andamento-yellow" alt="Status em andamento">
+
+  * **❤️ Doações:** Página para doar.  <img src="https://img.shields.io/badge/status-em andamento-yellow" alt="Status em andamento">
 
 ---
 
@@ -145,9 +167,13 @@ O projeto conta com as seguintes páginas para uma navegação completa:
 
 Projeto desenvolvido pela equipe:
 
-- 👨‍💻 **Andre Sousa Matuda**
-- 👨‍💻 **Paulo Henrique Muniz Diedrich**
-- 👨‍💻 **Guilherme Olivera Feitosa**
+* 👨‍💻 **Andre Sousa Matuda**
+* 👨‍💻 **Paulo Henrique Muniz Diedrich**
+* 👨‍💻 **Guilherme Olivera Feitosa**
+
+---
+
+## Link Github
 
 <br>
 

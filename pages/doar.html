@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
-    <title>FAQ - Turma do Bem</title>
+    <title>Turma do Bem</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
@@ -14,14 +14,18 @@
         <div class="top-bar">
             <div class="header-actions-left">
                 <a href="#" class="btn-doar">DOAR</a>
-                <a href="./voluntario.html" class="btn-voluntario">SEJA VOLUNTÁRIO</a>
+                <a href="./pages/voluntario.html" class="btn-voluntario">SEJA VOLUNTÁRIO</a>
             </div>
+
             <h1 class="logo">Turma do Bem</h1>
-            <div class="header-actions-right"></div>
+
+            <div class="header-actions-right">
+                <!-- Espaço para ações futuras -->
+            </div>
         </div>
+
         <nav class="main-nav">
             <ul>
-                <li><a href="../index.html">Home</a></li>
                 <li class="dropdown">
                     <a href="#">Nossos Programas</a>
                     <ul class="dropdown-menu">
@@ -29,64 +33,43 @@
                         <li><a href="#">Apolônias do Bem</a></li>
                         <li><a href="#">Estudantes do Bem</a></li>
                     </ul>
+                </li>
+
                 <li class="dropdown">
-                    <a href="#">Voluntariado</a>
+                    <a href="./pages/voluntario.html">Voluntariado</a>
                     <ul class="dropdown-menu">
-                        <li><a href="pages/voluntario.html">Beneficios</a></li>
-                        <li><a href="#">Adicionar</a></li>
+                        <li><a href="./pages/voluntario.html">Beneficios</a></li>
+                        <li><a href="./pages/voluntario.html">Adicionar</a></li>
                     </ul>
                 </li>
-                </li>
 
-                <li><a href="./sobre.html">Sobre</a></li>
-                <li><a href="./contato.html">Contato</a></li>
-                <li><a href="./integrantes.html">Integrantes</a></li>
+                <li><a href="./pages/sobre.html">Sobre</a></li>
+                <li><a href="./pages/faq.html">FAQ</a></li>
+                <li><a href="./pages/contato.html">Contato</a></li>
+                <li><a href="./pages/integrantes.html">Integrantes</a></li>
             </ul>
         </nav>
+
     </header>
 
-
     <main>
-        <div class="page-container">
-            <h2 class="section-title">Perguntas Frequentes</h2>
-
-            <div class="faq-container">
-                <div class="faq-item">
-                    <h3>Como posso ser voluntário?</h3>
-                    <p>Basta preencher o formulário disponível na seção “Seja Voluntário” e aguardar o contato da nossa
-                        equipe.</p>
-                </div>
-
-                <div class="faq-item">
-                    <h3>Quem pode participar dos projetos?</h3>
-                    <p>Os projetos são voltados para crianças, jovens e mulheres em vulnerabilidade social.</p>
-                </div>
-
-                <div class="faq-item">
-                    <h3>Como posso doar?</h3>
-                    <p>Você pode realizar uma doação através do botão “DOAR” no topo do site.</p>
-                </div>
-
-                <div class="faq-item">
-                    <h3>Existe algum custo para participar?</h3>
-                    <p>Não. Todos os atendimentos e ações realizadas são 100% gratuitos.</p>
-                </div>
-
-                <div class="faq-item">
-                    <h3>Onde a ONG atua?</h3>
-                    <p>A Turma do Bem está presente em diversas cidades do Brasil e também em outros países da América
-                        Latina.</p>
-                </div>
+        <section class="hero-banner">
+            <img src="./assets/img/turma-do-bem-hero.jpg" alt="Criança sorrindo" style="width: 100%; display: block;">
+            <div class="hero-content">
+                <h2>Um Sorriso Pode Mudar Tudo</h2>
+                <p>Conheça os projetos que levam saúde bucal para milhares de crianças e jovens no Brasil.</p>
             </div>
-        </div>
+        </section>
+
+
     </main>
+
     <footer class="main-footer">
         <div class="footer-content">
             <div class="footer-section">
                 <h3>Sobre Nós</h3>
                 <p>A Turma do Bem é a maior rede de voluntariado especializado do mundo, dedicada a transformar vidas
-                    através da
-                    saúde bucal.</p>
+                    através da saúde bucal.</p>
             </div>
             <div class="footer-section">
                 <h3>Contato</h3>
@@ -115,6 +98,7 @@
             <p>&copy; 2025 Turma do Bem. Todos os direitos reservados.</p>
         </div>
     </footer>
+
 </body>
 
 </html>
