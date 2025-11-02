@@ -17,28 +17,19 @@
    RESPONSIVIDADE
 ========================== */
 
-@media (max-width: 600px) {
-    .main-header .logo {
-        font-size: 1.5em;
-    }
+/* ==========================
+   RESPONSIVIDADE (Tablets Retrato e Celulares Grandes)
+========================== */
 
+@media (min-width: 600px) {
     .hero-content h2 {
-        font-size: 2em;
+        font-size: 2.5em;
     }
 
-    .main-nav ul {
-        flex-direction: column;
-    }
-
-    .programs-grid {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .header-actions-left , .header-actions-right {
-        min-width: auto;
-        gap: 10px;
-        
+    .top-bar {
+        flex-direction: row; 
+        flex-wrap: wrap; 
+        justify-content: center;
     }
 }
 
@@ -85,6 +76,26 @@
         flex-direction: column;
         min-height: 100vh;
     }
+
+    .menu-toggle {
+        display: none; /* Esconde o botão de menu em telas maiores */
+    }
+
+    .main-nav {
+        display: block; 
+        position: static; 
+        width: auto;
+        background: none;
+    }
+
+    .main-nav ul {
+        display: flex;
+    }
+
+    .main-nav ul li a {
+        border-bottom: none;
+        padding: 10px 15px;
+    }
 }
 
 main {
@@ -100,6 +111,7 @@ main {
 /* ==========================
    HEADER E NAVEGAÇÃO - PADRÃO DO SITE
 ========================== */
+
 .main-header {
     position: relative;
     z-index: 1000;
@@ -139,6 +151,7 @@ main {
     transform: translateY(-2px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
+
 .main-nav ul {
     list-style: none;
     display: flex;
@@ -148,12 +161,14 @@ main {
 .main-nav li {
     position: relative;
 }
-.main-nav a {
-    color: var(--cor-branca);
-    padding: 15px 25px;
-    display: block;
-    font-weight: 500;
-    transition: background-color 0.2s;
+.main-nav {
+    display: none; 
+    position: absolute;
+    top: 60px; /* Abaixo do header */
+    left: 0;
+    width: 100%;
+    background-color: var(--cor-confianca);
+    text-align: center;
 }
 .main-nav a:hover {
     background-color: var(--cor-destaque-hover);
