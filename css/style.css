@@ -18,36 +18,134 @@
 ========================== */
 
 /* ==========================
-   RESPONSIVIDADE (Tablets Retrato e Celulares Grandes)
+   RESPONSIVIDADE (Celulares - Extra small devices)
 ========================== */
 
 @media (min-width: 600px) {
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: var(--cor-confianca);
+        color: white;
+    }
+
+    .menu-toggle {
+        background: none;
+        border: none;
+        color: white;
+        font-size: 1.8rem;
+        cursor: pointer;
+        display: block;
+        z-index: 100;
+    }
+
+    .main-nav {
+        display: none;
+        /* Oculto por padrão */
+        position: absolute;
+        top: 60px;
+        /* Abaixo do header (10px padding superior + 10px padding inferior + altura do conteúdo) */
+        left: 0;
+        width: 100%;
+        background-color: var(--cor-confianca);
+        text-align: center;
+    }
+
+    .main-header .logo {
+        font-size: 1.5em;
+    }
+
     .hero-content h2 {
-        font-size: 2.5em;
+        font-size: 2em;
+    }
+
+    .main-nav ul {
+        flex-direction: column;
+    }
+
+    .programs-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-actions-left,
+    .header-actions-right {
+        min-width: auto;
+        gap: 10px;
+    }
+}
+
+
+/* ==========================
+   RESPONSIVIDADE (Tablets Retrato e Celulares Grandes)
+========================== */
+
+@media (max-width: 600px) {
+
+    .main-header {
+        display: flex; /* Garante que o toggle e top-bar fiquem na mesma linha */
+        align-items: center;
+        padding: 0 15px;
     }
 
     .top-bar {
-        flex-direction: row; 
-        flex-wrap: wrap; 
+        /* Permite que o logo e botões se organizem */
+        flex-direction: column;
+        align-items: stretch;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .main-header .logo {
+        font-size: 1.5em;
+        text-align: left;
+        order: -1; /* Manda o logo para o início */
+        flex-grow: 1;
+    }
+
+    .header-actions-left, .header-actions-right {
         justify-content: center;
+        width: 100%;
+        margin-top: 5px;
+        min-width: auto;
+    }
+
+    /* === EMPILHAMENTO DE CONTEÚDO === */
+    .programs-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-layout {
+        flex-direction: column;
+    }
+
+    .form-container, .contact-info {
+        min-width: 100%;
+        padding: 20px;
+    }
+    
+    .stats-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 20px;
     }
 }
 
-@media (min-width: 600px) {
-    
-}
 
-@media (min-width: 768px) {
-    
-}
 
-@media (min-width: 992px) {
-    
-}
+@media (min-width: 768px) {}
 
-@media (min-width: 1300px) {
-    
-}
+@media (min-width: 992px) {}
+
+@media (min-width: 1300px) {}
 
 /* ==========================
    VARIÁVEIS DE COR - PADRÃO DO SITE
@@ -78,23 +176,7 @@
     }
 
     .menu-toggle {
-        display: none; /* Esconde o botão de menu em telas maiores */
-    }
-
-    .main-nav {
-        display: block; 
-        position: static; 
-        width: auto;
-        background: none;
-    }
-
-    .main-nav ul {
-        display: flex;
-    }
-
-    .main-nav ul li a {
-        border-bottom: none;
-        padding: 10px 15px;
+        display: none;
     }
 }
 
@@ -112,11 +194,63 @@ main {
    HEADER E NAVEGAÇÃO - PADRÃO DO SITE
 ========================== */
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 15px;
+    /* Reduzindo o padding base para o Mobile First */
+    background-color: var(--cor-confianca);
+    color: white;
+}
+
+.top-bar {
+    background-color: var(--cor-branca);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 25px;
+    /* Será sobrescrito no mobile abaixo de 600px */
+}
+
+/* Menu Toggle (Hambúrguer): VISÍVEL no Mobile por padrão */
+.menu-toggle {
+    background: none;
+    border: none;
+    color: var(--cor-texto);
+    /* Mudei para a cor do texto para ser visível sobre o top-bar branco */
+    font-size: 1.8rem;
+    cursor: pointer;
+    display: block;
+    /* VISÍVEL NO MOBILE */
+    z-index: 1001;
+    /* Garante que fique acima de tudo */
+}
+
+.main-nav {
+    display: none;
+    /* OCULTO no mobile por padrão */
+    position: absolute;
+    top: 60px;
+    /* Será ajustado na media query */
+    left: 0;
+    width: 100%;
+    background-color: var(--cor-confianca);
+    text-align: center;
+    z-index: 1000;
+}
+
+/* Classe que o JavaScript irá adicionar para MOSTRAR o menu no mobile */
+.main-nav.active {
+    display: block;
+}
+
 .main-header {
     position: relative;
     z-index: 1000;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
+
 .top-bar {
     background-color: var(--cor-branca);
     display: flex;
@@ -124,6 +258,7 @@ main {
     align-items: center;
     padding: 12px 25px;
 }
+
 .logo {
     flex-grow: 1;
     text-align: center;
@@ -131,12 +266,16 @@ main {
     font-weight: 900;
     color: var(--cor-texto);
 }
-.header-actions-left, .header-actions-right {
+
+.header-actions-left,
+.header-actions-right {
     min-width: 250px;
     display: flex;
     gap: 15px;
 }
-.btn-doar, .btn-voluntario {
+
+.btn-doar,
+.btn-voluntario {
     background-color: var(--cor-frescor);
     color: var(--cor-branca);
     padding: 10px 20px;
@@ -146,7 +285,9 @@ main {
     border: none;
     cursor: pointer;
 }
-.btn-doar:hover, .btn-voluntario:hover {
+
+.btn-doar:hover,
+.btn-voluntario:hover {
     background-color: var(--cor-destaque-hover);
     transform: translateY(-2px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
@@ -158,21 +299,26 @@ main {
     justify-content: center;
     background-color: var(--cor-confianca);
 }
+
 .main-nav li {
     position: relative;
 }
+
 .main-nav {
-    display: none; 
+    display: none;
     position: absolute;
-    top: 60px; /* Abaixo do header */
+    top: 60px;
+    /* Abaixo do header */
     left: 0;
     width: 100%;
     background-color: var(--cor-confianca);
     text-align: center;
 }
+
 .main-nav a:hover {
     background-color: var(--cor-destaque-hover);
 }
+
 .dropdown-menu {
     display: none;
     opacity: 0;
@@ -182,22 +328,25 @@ main {
     left: 0;
     background-color: var(--cor-branca);
     min-width: 200px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     z-index: 999;
     border-radius: 0 0 8px 8px;
     overflow: hidden;
     transition: opacity 0.3s ease, visibility 0.3s ease;
 }
+
 .dropdown:hover .dropdown-menu {
     display: block;
     opacity: 1;
     visibility: visible;
 }
+
 .dropdown-menu li a {
     padding: 12px 20px;
     white-space: nowrap;
     color: var(--cor-texto);
 }
+
 .dropdown-menu li a:hover {
     background-color: var(--cor-limpeza);
     color: var(--cor-confianca);
@@ -211,9 +360,11 @@ main {
     text-align: center;
     color: var(--cor-branca);
 }
+
 .hero-banner img {
     filter: brightness(0.7);
 }
+
 .hero-content {
     position: absolute;
     top: 50%;
@@ -221,31 +372,50 @@ main {
     transform: translate(-50%, -50%);
     width: 80%;
 }
+
 .hero-content h2 {
     font-size: 3.5em;
     font-weight: 900;
-    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
+
 .hero-content p {
     font-size: 1.3em;
     max-width: 600px;
     margin: 15px auto 0;
-    text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
 }
 
-.about-us, .our-programs, .impact-stats, .cta-section {
+.about-us,
+.our-programs,
+.impact-stats,
+.cta-section {
     text-align: center;
 }
-.about-us { background-color: var(--cor-branca); }
-.our-programs { background-color: var(--cor-limpeza); }
-.cta-section { background-color: var(--cor-limpeza); }
 
-.about-us h2, .our-programs h2, .impact-stats h2, .cta-section h2 {
+.about-us {
+    background-color: var(--cor-branca);
+}
+
+.our-programs {
+    background-color: var(--cor-limpeza);
+}
+
+.cta-section {
+    background-color: var(--cor-limpeza);
+}
+
+.about-us h2,
+.our-programs h2,
+.impact-stats h2,
+.cta-section h2 {
     font-size: 2.2em;
     color: var(--cor-confianca);
     margin-bottom: 20px;
 }
-.about-us p, .cta-section p {
+
+.about-us p,
+.cta-section p {
     max-width: 800px;
     margin: 0 auto;
     line-height: 1.7;
@@ -259,6 +429,7 @@ main {
     flex-wrap: wrap;
     margin-top: 40px;
 }
+
 .program-card {
     background-color: var(--cor-branca);
     border-radius: 15px;
@@ -270,24 +441,29 @@ main {
     display: flex;
     flex-direction: column;
 }
+
 .program-card:hover {
     transform: translateY(-8px);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
 }
+
 .program-card img {
     width: 100%;
     height: 200px;
     object-fit: cover;
 }
+
 .program-card h3 {
     font-size: 1.6em;
     margin: 20px 20px 10px 20px;
 }
+
 .program-card p {
     padding: 0 20px 20px;
     line-height: 1.6;
     flex-grow: 1;
 }
+
 .btn-learn-more {
     display: inline-block;
     background-color: var(--cor-confianca);
@@ -298,6 +474,7 @@ main {
     font-weight: bold;
     transition: background-color 0.3s;
 }
+
 .btn-learn-more:hover {
     background-color: var(--cor-destaque-hover);
 }
@@ -306,7 +483,11 @@ main {
     background: linear-gradient(45deg, var(--cor-confianca), var(--cor-frescor));
     color: var(--cor-branca);
 }
-.impact-stats h2 { color: var(--cor-branca); }
+
+.impact-stats h2 {
+    color: var(--cor-branca);
+}
+
 .stats-container {
     display: flex;
     justify-content: space-around;
@@ -314,11 +495,13 @@ main {
     gap: 30px;
     margin-top: 40px;
 }
+
 .stat-number {
     display: block;
     font-size: 3.5em;
     font-weight: 900;
 }
+
 .stat-item p {
     font-size: 1.1em;
     opacity: 0.9;
@@ -327,6 +510,7 @@ main {
 .cta-section p {
     margin-bottom: 30px;
 }
+
 .cta-buttons {
     display: flex;
     justify-content: center;
@@ -342,6 +526,7 @@ main {
     color: var(--cor-branca);
     padding-top: 40px;
 }
+
 .footer-content {
     display: flex;
     justify-content: space-around;
@@ -351,10 +536,12 @@ main {
     max-width: 1200px;
     margin: 0 auto;
 }
+
 .footer-section {
     flex: 1;
     min-width: 250px;
 }
+
 .footer-section h3 {
     margin-bottom: 15px;
     font-size: 1.4em;
@@ -363,10 +550,12 @@ main {
     border-bottom: 2px solid var(--cor-frescor);
     display: inline-block;
 }
+
 .footer-section p {
     line-height: 1.7;
     opacity: 0.9;
 }
+
 .social-links-footer a {
     display: flex;
     align-items: center;
@@ -376,15 +565,18 @@ main {
     font-weight: 500;
     margin-bottom: 10px;
 }
+
 .social-links-footer a:hover {
     color: var(--cor-frescor);
     transform: translateX(5px);
 }
+
 .social-links-footer img {
     width: 24px;
     height: 24px;
     filter: brightness(0) invert(1);
 }
+
 .footer-bottom {
     text-align: center;
     background-color: var(--cor-destaque-hover);
@@ -420,13 +612,14 @@ main {
 
 .faq-item h3 {
     margin-bottom: 10px;
-    color: var(--cor-confianca); /* Usa a cor azul principal do site */
+    color: var(--cor-confianca);
+    /* Usa a cor azul principal do site */
     font-size: 1.4em;
 }
 
 .faq-item p {
     line-height: 1.7;
-    color: #555; 
+    color: #555;
 }
 
 /* ===================================================
@@ -435,14 +628,16 @@ main {
 
 
 .contact-layout {
-    display: flex; /* Alinha os itens lado a lado */
-    gap: 40px; /* Espaçamento entre as colunas */
-    align-items: flex-start; 
+    display: flex;
+    /* Alinha os itens lado a lado */
+    gap: 40px;
+    /* Espaçamento entre as colunas */
+    align-items: flex-start;
 }
 
 
 .form-container {
-    flex: 2; 
+    flex: 2;
     background-color: var(--cor-branca);
     padding: 40px;
     border-radius: 15px;
@@ -475,7 +670,7 @@ main {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1em;
-    transition: border-color 0.3s, box-shadow 0.3s; 
+    transition: border-color 0.3s, box-shadow 0.3s;
 }
 
 
@@ -513,7 +708,8 @@ main {
     font-size: 1.8em;
     margin-bottom: 20px;
     padding-bottom: 10px;
-    border-bottom: 2px solid var(--cor-frescor); /* Linha de destaque turquesa */
+    border-bottom: 2px solid var(--cor-frescor);
+    /* Linha de destaque turquesa */
 }
 
 .info-item {
@@ -536,42 +732,54 @@ main {
 
 /* Container que envolve todas as seções da página */
 .sobre-container {
-    max-width: 900px; /* Limita a largura do conteúdo para melhor leitura */
-    margin: 0 auto;   /* Centraliza o container na página */
+    max-width: 900px;
+    /* Limita a largura do conteúdo para melhor leitura */
+    margin: 0 auto;
+    /* Centraliza o container na página */
 }
 
 /* Estilo para cada bloco de conteúdo (Ideia, Tecnologias, Roadmap) */
 .sobre-section {
-    background-color: var(--cor-limpeza); /* Fundo azul claro, consistente com o site */
+    background-color: var(--cor-limpeza);
+    /* Fundo azul claro, consistente com o site */
     padding: 30px;
-    border-radius: 10px; /* Cantos arredondados */
-    margin-bottom: 30px; /* Espaçamento entre as seções */
-    border-left: 5px solid var(--cor-frescor); /* Borda de destaque na cor turquesa */
-    box-shadow: 0 4px 15px rgba(0,0,0,0.05); /* Sombra suave */
+    border-radius: 10px;
+    /* Cantos arredondados */
+    margin-bottom: 30px;
+    /* Espaçamento entre as seções */
+    border-left: 5px solid var(--cor-frescor);
+    /* Borda de destaque na cor turquesa */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    /* Sombra suave */
 }
 
 .sobre-section h3 {
     font-size: 1.8em;
-    color: var(--cor-texto); /* Cor de texto padrão */
+    color: var(--cor-texto);
+    /* Cor de texto padrão */
     margin-bottom: 15px;
 }
 
 .sobre-section p,
 .sobre-section li {
-    line-height: 1.8; /* Aumenta o espaçamento entre linhas para facilitar a leitura */
-    color: #555; /* Cinza suave para o texto descritivo */
+    line-height: 1.8;
+    /* Aumenta o espaçamento entre linhas para facilitar a leitura */
+    color: #555;
+    /* Cinza suave para o texto descritivo */
     font-size: 1.05em;
 }
 
 /* Estilo para as listas de tecnologias e roadmap */
 .sobre-section ul {
-    list-style-position: inside; /* Coloca os marcadores dentro da caixa de texto */
+    list-style-position: inside;
+    /* Coloca os marcadores dentro da caixa de texto */
     padding-left: 10px;
     margin-top: 15px;
 }
 
 .sobre-section li {
-    margin-bottom: 10px; /* Espaçamento entre os itens da lista */
+    margin-bottom: 10px;
+    /* Espaçamento entre os itens da lista */
 }
 
 /* ==========================
@@ -583,6 +791,7 @@ main {
     flex-wrap: wrap;
     gap: 30px;
 }
+
 .integrante-card {
     background-color: var(--cor-branca);
     border-radius: 15px;
@@ -592,10 +801,12 @@ main {
     width: 300px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 .integrante-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
+
 .integrante-card .integrante-foto {
     width: 120px;
     height: 120px;
@@ -604,21 +815,25 @@ main {
     border: 4px solid var(--cor-confianca);
     margin-bottom: 15px;
 }
+
 .integrante-card h3 {
     font-size: 1.4em;
     margin-bottom: 5px;
 }
+
 .integrante-card .info {
     font-size: 0.9em;
     color: #555;
     margin-bottom: 20px;
 }
+
 .integrante-card .social-links {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
 }
+
 .integrante-card .social-links a {
     display: flex;
     align-items: center;
@@ -629,6 +844,7 @@ main {
     font-weight: 500;
     transition: all 0.3s ease;
 }
+
 .page-container .section-title {
     text-align: center;
     font-size: 2.2em;
@@ -636,10 +852,22 @@ main {
     margin-bottom: 40px;
 }
 
-.integrante-card .social-links .github { background-color: #333; }
-.integrante-card .social-links .linkedin { background-color: #0A66C2; }
-.integrante-card .social-links a:hover { transform: scale(1.05); }
-.integrante-card .social-links img { width: 20px; height: 20px; }
+.integrante-card .social-links .github {
+    background-color: #333;
+}
+
+.integrante-card .social-links .linkedin {
+    background-color: #0A66C2;
+}
+
+.integrante-card .social-links a:hover {
+    transform: scale(1.05);
+}
+
+.integrante-card .social-links img {
+    width: 20px;
+    height: 20px;
+}
 
 /* =================================================== 
     FIM DO ARQUIVO DE ESTILO
