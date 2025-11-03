@@ -581,6 +581,66 @@ main {
 .integrante-card .social-links a:hover { transform: scale(1.05); }
 .integrante-card .social-links img { width: 20px; height: 20px; }
 
+
+/* ============================
+    RESPONSIVIDADE
+================================
+*/
+
+/* -----Celular--------------*/
+
+@media (max-width: 600px ) {
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: var(--cor-fundo-site);
+        color: white;
+        main-width: 50%;
+        overflow: auto;
+    }
+    
+ 
+    .main-nav {
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: var(--cor-limpeza);
+        text-align: center;
+    }
+
+    .main-header .logo {
+        font-size: 1.5em;
+    }
+
+    .hero-content h2 {
+        font-size: 2em;
+    }
+
+    .main-nav ul {
+        flex-direction: column;
+    }
+
+    .programs-grid {
+        justify-content: center;
+        display: flexbox;
+        flex-direction:row;
+    }
+
+    .header-actions-left {
+        min-width: auto;
+        gap: 10px;
+    }
+
+
+}
+    
+
+
 /* =================================================== 
     FIM DO ARQUIVO DE ESTILO
 ====================================================== */
