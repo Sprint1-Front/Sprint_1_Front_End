@@ -44,10 +44,8 @@
 
     .main-nav {
         display: none;
-        /* Oculto por padrão */
         position: absolute;
         top: 60px;
-        /* Abaixo do header (10px padding superior + 10px padding inferior + altura do conteúdo) */
         left: 0;
         width: 100%;
         background-color: var(--cor-confianca);
@@ -86,13 +84,12 @@
 @media (max-width: 600px) {
 
     .main-header {
-        display: flex; /* Garante que o toggle e top-bar fiquem na mesma linha */
+        display: flex;
         align-items: center;
         padding: 0 15px;
     }
 
     .top-bar {
-        /* Permite que o logo e botões se organizem */
         flex-direction: column;
         align-items: stretch;
         padding: 10px;
@@ -102,7 +99,7 @@
     .main-header .logo {
         font-size: 1.5em;
         text-align: left;
-        order: -1; /* Manda o logo para o início */
+        order: -1; 
         flex-grow: 1;
     }
 
@@ -111,6 +108,43 @@
         width: 100%;
         margin-top: 5px;
         min-width: auto;
+    }
+
+    .hero-banner {
+        position: relative;
+        min-height: 70vh;
+        max-width: 500px;
+    }
+
+    .hero-banner img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+
+    .hero-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        z-index: 2;
+    }
+
+
+    .hero-content h2 {
+        font-size: 2.2em; /* Reduz o título principal */
+        line-height: 1.1; 
+        margin-bottom: 10px;
+    }
+
+    .hero-content p {
+        font-size: 0.9em; /* Reduz o parágrafo secundário */
+        margin: 0 auto;
     }
 
     /* === EMPILHAMENTO DE CONTEÚDO === */
@@ -137,13 +171,30 @@
         flex-direction: column;
         gap: 20px;
     }
+
+    
+
+
 }
 
 
 
 @media (min-width: 768px) {}
 
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+    .menu-toggle {
+        display: none; 
+    }
+
+    .main-nav {
+        display: block;
+        position: static; 
+    }
+
+    .main-nav ul {
+        display: flex;
+    }
+}
 
 @media (min-width: 1300px) {}
 
@@ -199,7 +250,6 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 8px 15px;
-    /* Reduzindo o padding base para o Mobile First */
     background-color: var(--cor-confianca);
     color: white;
 }
@@ -210,39 +260,31 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 12px 25px;
-    /* Será sobrescrito no mobile abaixo de 600px */
 }
 
-/* Menu Toggle (Hambúrguer): VISÍVEL no Mobile por padrão */
 .menu-toggle {
     background: none;
     border: none;
-    color: var(--cor-texto);
-    /* Mudei para a cor do texto para ser visível sobre o top-bar branco */
-    font-size: 1.8rem;
+    color: var(--cor-texto); 
+    font-size: 1.8rem; 
     cursor: pointer;
-    display: block;
-    /* VISÍVEL NO MOBILE */
-    z-index: 1001;
-    /* Garante que fique acima de tudo */
+    display: block; 
+    z-index: 10001; 
 }
 
 .main-nav {
-    display: none;
-    /* OCULTO no mobile por padrão */
+    display: none; 
     position: absolute;
-    top: 60px;
-    /* Será ajustado na media query */
+    top: 50px; 
     left: 0;
     width: 100%;
     background-color: var(--cor-confianca);
     text-align: center;
-    z-index: 1000;
+    z-index: 10000;
 }
 
-/* Classe que o JavaScript irá adicionar para MOSTRAR o menu no mobile */
 .main-nav.active {
-    display: block;
+    display: block; 
 }
 
 .main-header {
