@@ -81,7 +81,7 @@
    RESPONSIVIDADE (Tablets Retrato e Celulares Grandes)
 ========================== */
 
-@media (max-width: 600px) {
+@media (max-width: 599px) {
 
     .main-header {
         display: flex;
@@ -137,13 +137,13 @@
 
 
     .hero-content h2 {
-        font-size: 2.2em; /* Reduz o título principal */
+        font-size: 2.2em;
         line-height: 1.1; 
         margin-bottom: 10px;
     }
 
     .hero-content p {
-        font-size: 0.9em; /* Reduz o parágrafo secundário */
+        font-size: 0.9em; 
         margin: 0 auto;
     }
 
@@ -250,7 +250,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 8px 15px;
-    background-color: var(--cor-confianca);
+    background-color: var(--cor-branca);
     color: white;
 }
 
