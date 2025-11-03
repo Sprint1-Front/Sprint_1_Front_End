@@ -99,11 +99,11 @@
     .main-header .logo {
         font-size: 1.5em;
         text-align: left;
-        order: -1; 
+        order: -1;
         flex-grow: 1;
     }
 
-    .header-actions-left, .header-actions-right {
+    .header-actions-left {
         justify-content: center;
         width: 100%;
         margin-top: 5px;
@@ -138,12 +138,12 @@
 
     .hero-content h2 {
         font-size: 2.2em;
-        line-height: 1.1; 
+        line-height: 1.1;
         margin-bottom: 10px;
     }
 
     .hero-content p {
-        font-size: 0.9em; 
+        font-size: 0.9em;
         margin: 0 auto;
     }
 
@@ -157,11 +157,12 @@
         flex-direction: column;
     }
 
-    .form-container, .contact-info {
+    .form-container,
+    .contact-info {
         min-width: 100%;
         padding: 20px;
     }
-    
+
     .stats-container {
         flex-direction: column;
         gap: 20px;
@@ -171,30 +172,111 @@
         flex-direction: column;
         gap: 20px;
     }
-
-    
-
-
 }
 
 
 
 @media (min-width: 768px) {}
 
-@media (min-width: 992px) {
+@media (max-width: 992px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: var(--cor-confianca);
+        color: white;
+    }
+
+    .logo {
+        text-align: center;
+        justify-content: center;
+    }
+
     .menu-toggle {
-        display: none; 
+        background: none;
+        border: none;
+        color: white;
+        font-size: 1.8rem;
+        cursor: pointer;
+        display: block;
+        z-index: 100;
     }
 
     .main-nav {
-        display: block;
-        position: static; 
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: var(--cor-confianca);
+        text-align: center;
+    }
+
+    .main-header .logo {
+        font-size: 1.5em;
+    }
+
+    .hero-content h2 {
+        font-size: 2em;
     }
 
     .main-nav ul {
-        display: flex;
+        flex-direction: column;
+    }
+
+    .programs-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-actions-left,
+    .header-actions-right {
+        min-width: auto;
+        gap: 10px;
     }
 }
+
+@media (min-width: 992px) {
+    body {
+        font-family: 'Poppins', 'Arial', sans-serif;
+        color: var(--cor-texto);
+        background-color: var(--cor-fundo-site);
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    .menu-toggle {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    body {
+        font-family: 'Poppins', 'Arial', sans-serif;
+        color: var(--cor-texto);
+        background-color: var(--cor-fundo-site);
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    .menu-toggle {
+        display: none;
+    }
+
+    main {
+        flex-grow: 1;
+    }
+
+    .container {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 60px 20px;
+    }
+}
+
 
 @media (min-width: 1300px) {}
 
@@ -216,30 +298,7 @@
 ========================== */
 
 /* Breakpoint para DESKTOP (Extra-large), conforme especificação do projeto */
-@media (min-width: 992px) {
-    body {
-        font-family: 'Poppins', 'Arial', sans-serif;
-        color: var(--cor-texto);
-        background-color: var(--cor-fundo-site);
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh;
-    }
 
-    .menu-toggle {
-        display: none;
-    }
-}
-
-main {
-    flex-grow: 1;
-}
-
-.container {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 60px 20px;
-}
 
 /* ==========================
    HEADER E NAVEGAÇÃO - PADRÃO DO SITE
@@ -265,17 +324,17 @@ header {
 .menu-toggle {
     background: none;
     border: none;
-    color: var(--cor-texto); 
-    font-size: 1.8rem; 
+    color: var(--cor-texto);
+    font-size: 1.8rem;
     cursor: pointer;
-    display: block; 
-    z-index: 10001; 
+    display: block;
+    z-index: 10001;
 }
 
 .main-nav {
-    display: none; 
+    display: none;
     position: absolute;
-    top: 50px; 
+    top: 50px;
     left: 0;
     width: 100%;
     background-color: var(--cor-confianca);
@@ -284,7 +343,7 @@ header {
 }
 
 .main-nav.active {
-    display: block; 
+    display: block;
 }
 
 .main-header {
@@ -309,11 +368,11 @@ header {
     color: var(--cor-texto);
 }
 
-.header-actions-left,
-.header-actions-right {
+.header-actions-left {
     min-width: 250px;
     display: flex;
     gap: 15px;
+    justify-content: left;
 }
 
 .btn-doar,
@@ -592,6 +651,7 @@ header {
     border-bottom: 2px solid var(--cor-frescor);
     display: inline-block;
 }
+
 
 .footer-section p {
     line-height: 1.7;
