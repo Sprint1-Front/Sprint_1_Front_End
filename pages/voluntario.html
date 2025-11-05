@@ -79,10 +79,18 @@
                     <label for="emailVoluntario">E-mail:</label>
                     <input type="email" id="emailVoluntario" name="emailVoluntario" required>
                     <span class="erro-mensagem" data-erro="emailVoluntario"></span>
-                    
+
                     <label for="profissaoVoluntario">Profissão / Área:</label>
                     <input type="text" id="profissaoVoluntario" name="profissaoVoluntario" required>
                     <span class="erro-mensagem" data-erro="profissaoVoluntario"></span>
+
+                    <label for="telefoneVoluntario">Telefone (DDD + Número):</label>
+                    <input type="tel" id="telefoneVoluntario" name="telefoneVoluntario" required pattern="[0-9]{10,11}">
+                    <span class="erro-mensagem" data-erro="telefoneVoluntario"></span>
+
+                    <label for="motivoVoluntario">Por que você quer ser voluntário?</label>
+                    <textarea id="motivoVoluntario" name="motivoVoluntario" rows="5" required></textarea>
+                    <span class="erro-mensagem" data-erro="motivoVoluntario"></span>
                 </div>
             </form>
         </section>
