@@ -598,10 +598,16 @@ main {
         padding: 10px 20px;
         background-color: var(--cor-fundo-site);
         color: white;
-        main-width: 50%;
+        min-width: 50%;
         overflow: auto;
     }
     
+    .menu-toggle {
+        display: block;
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
  
     .main-nav {
         display: none;
