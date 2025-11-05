@@ -70,32 +70,29 @@
         <section class="voluntario-inscricao container">
             <h2 class="section-title">Formulário de Inscrição</h2>
 
-            <form action="">
-                <div class="form-campus">
-                    <label for="">Nome</label>
-                    <input type="text" id="nomeVoluntario" name="nomeVoluntario" required>
-                    <span class="error-mensage" data-erro="nomeVoluntario"></span>
+            <div class="form-container">
+                <h3>Quer ser um voluntariado ?</h3>
+                <p>Coloque seus dados e espere a resposta: </p>
+                <form class="form-contato">
+                    <label for="nome">Nome Completo:</label>
+                    <input id="nome" type="text" required placeholder="Digite seu nome">
 
-                    <label for="emailVoluntario">E-mail:</label>
-                    <input type="email" id="emailVoluntario" name="emailVoluntario" required>
-                    <span class="erro-mensagem" data-erro="emailVoluntario"></span>
+                    <label for="email">Seu Melhor Email:</label>
+                    <input id="email" type="email" required placeholder="exemplo@email.com">
 
-                    <label for="profissaoVoluntario">Profissão / Área:</label>
-                    <input type="text" id="profissaoVoluntario" name="profissaoVoluntario" required>
-                    <span class="erro-mensagem" data-erro="profissaoVoluntario"></span>
+                    <label for="profissao">Profissão:</label>
+                    <input type="profissao" type="text" required placeholder="Digite sua profissão">
 
                     <label for="telefoneVoluntario">Telefone (DDD + Número):</label>
                     <input type="tel" id="telefoneVoluntario" name="telefoneVoluntario" required pattern="[0-9]{10,11}">
-                    <span class="erro-mensagem" data-erro="telefoneVoluntario"></span>
 
-                    <label for="motivoVoluntario">Por que você quer ser voluntário?</label>
-                    <textarea id="motivoVoluntario" name="motivoVoluntario" rows="5" required></textarea>
-                    <span class="erro-mensagem" data-erro="motivoVoluntario"></span>
+                    <label for="mensagem">Por que quer se voluntariar:</label>
+                    <textarea id="mensagem" rows="6" required
+                        placeholder="Deixe sua dúvida ou sugestão aqui..."></textarea>
 
-                    <button type="submit" id="btnEnviarVoluntario">ENVIAR INSCRIÇÃO</button>
-                    
-                </div>
-            </form>
+                    <button type="submit">Enviar Mensagem</button>
+                </form>
+            </div>
         </section>
     </main>
 

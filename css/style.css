@@ -611,6 +611,24 @@ main {
     gap: 30px;
     flex-wrap: wrap;
     padding: 20px 0 60px 0;
+    align-items: center;
+}
+
+.info-card {
+    flex-basis: calc(33.33% - 20px);
+    background-color: var(--cor-branca);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    flex-direction: column;
+    text-align: center;
+    transition: ;
+
+}
+
+.info-card h3 {
+    margin-bottom: 15px;
+    color: var(--cor-confianca);
 }
 
 /* ============================
