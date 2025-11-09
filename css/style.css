@@ -55,6 +55,17 @@ main {
 /* ==========================
    HEADER E NAVEGAÇÃO - PADRÃO DO SITE
 ========================== */
+
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
 .main-header {
     position: relative;
     z-index: 1000;
@@ -622,7 +633,7 @@ main {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
     flex-direction: column;
     text-align: center;
-    transition: ;
+    
 
 }
 
@@ -632,7 +643,7 @@ main {
 }
 
 /* ============================
-    RESPONSIVIDADE
+    RESPONSIVIDADE (Ajustes Otimizados para Menu Hambúrguer)
 ================================
 */
 
@@ -640,36 +651,105 @@ main {
 
 @media (max-width: 600px ) {
     
-    header {
+    .main-header {
+        position: relative;
+    }
+
+    .top-bar {
+
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
-        padding: 10px 20px;
-        background-color: var(--cor-confianca);
-        color: white;
-        min-width: 50%;
-        overflow: auto;
+        padding-right: 70px;
     }
     
+
     .menu-toggle {
         display: block;
         background: none;
         border: none;
         cursor: pointer;
-        color: var(--cor-branca);
+        color: var(--cor-texto); 
+        font-size: 1.8em;
+        position: absolute; 
+        right: 20px;
+        top: 20px;
+        z-index: 1001; 
     }
- 
+
     .main-nav {
         display: none;
         position: absolute;
-        top: 60px;
+        top: 60px; /* Altura aproximada da top-bar */
         left: 0;
         width: 100%;
-        background-color: var(--cor-limpeza);
-        text-align: center;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        z-index: 999;
+    }
+    
+    .main-header.active .main-nav {
+        display: block;
     }
 
-    .main-header .logo {
+    .main-nav ul {
+        flex-direction: column;
+        background-color: var(--cor-confianca);
+    }
+    
+    .main-nav li {
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid var(--cor-destaque-hover);
+    }
+    
+    .main-nav li:last-child {
+        border-bottom: none;
+    }
+
+    .main-nav a {
+        padding: 15px 0;
+        width: 100%;
+        display: block;
+    }
+    
+    .header-actions-left {
+        display: none;
+    }
+    
+    
+
+    .dropdown:hover .dropdown-menu {
+        display: none; 
+        opacity: 0;
+        visibility: hidden;
+    }
+    
+    .main-nav li.dropdown, .main-nav li.dropdown .dropdown-menu {
+        position: static;
+        width: 100%;
+        display: block;
+        opacity: 1;
+        visibility: visible;
+        box-shadow: none;
+        border-radius: 0;
+    }
+
+    .main-nav li.dropdown .dropdown-menu {
+        padding: 10px 0;
+        background-color: var(--cor-limpeza);
+    }
+    
+    .dropdown-menu li a {
+        color: var(--cor-texto);
+    }
+    
+    .dropdown-menu li a:hover {
+        background-color: var(--cor-branca);
+    }
+    
+
+    .logo {
         font-size: 1.5em;
     }
 
@@ -677,27 +757,48 @@ main {
         font-size: 2em;
     }
 
-    .main-nav ul {
+    .programs-grid {
         flex-direction: column;
     }
-
-    .programs-grid {
-        justify-content: center;
-        display: flexbox;
-        flex-direction:row;
-    }
-
-    .header-actions-left {
-        min-width: auto;
-        gap: 10px;
-    }
-    /*--------------Sobre--------------*/
-    .page-container {
-        padding: 20px;
-    }
-
-}
     
+    .card-grid {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .info-card {
+        flex-basis: auto;
+        width: 100%;
+    }
+    
+    .contact-layout {
+        flex-direction: column;
+    }
+    
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footer-section {
+        min-width: 100%;
+        text-align: center;
+    }
+    
+    .social-links-footer {
+        justify-content: center;
+    }
+    
+    .integrantes-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .integrante-card {
+        width: 90%;
+    }
+}
+   
 /* =================================================== 
     FIM DO ARQUIVO DE ESTILO
 ====================================================== */
