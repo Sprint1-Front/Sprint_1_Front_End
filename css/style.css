@@ -2,7 +2,6 @@
    ARQUIVO DE ESTILO PRINCIPAL - TURMA DO BEM
    Este arquivo controla a aparência de todas as páginas do site.
 =================================================================== */
-
 /* ==========================
    RESET BÁSICO E FONTES - PADRÃO DO SITE
 ========================== */
@@ -12,7 +11,6 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-
 /* ==========================
    VARIÁVEIS DE COR - PADRÃO DO SITE
 ========================== */
@@ -25,11 +23,9 @@
     --cor-branca: #FFFFFF;
     --cor-fundo-site: #F8FAFC;
 }
-
 /* ==========================
    ESTILOS GERAIS E LAYOUT - PADRÃO DO SITE
 ========================== */
-
 /* Breakpoint para DESKTOP (Extra-large), conforme especificação do projeto */
 @media (min-width: 992px) {
     body {
@@ -41,21 +37,17 @@
         min-height: 100vh;
     }
 }
-
 main {
     flex-grow: 1;
 }
-
 .container {
     max-width: 1100px;
     margin: 0 auto;
     padding: 60px 20px;
 }
-
 /* ==========================
    HEADER E NAVEGAÇÃO - PADRÃO DO SITE
 ========================== */
-
 .menu-toggle {
     display: none;
     background: none;
@@ -65,18 +57,15 @@ main {
     cursor: pointer;
     padding: 5px 10px;
 }
-
 .main-header {
     position: relative;
     z-index: 1000;
     box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 }
-
 .main-nav.active {
-    display: block; 
-    z-index: 10000; 
+    display: block;
+    z-index: 10000;
 }
-
 .top-bar {
     background-color: var(--cor-branca);
     display: flex;
@@ -159,7 +148,6 @@ main {
     background-color: var(--cor-limpeza);
     color: var(--cor-confianca);
 }
-
 /* ==========================
    SEÇÕES DA PÁGINA - PADRÃO DO SITE
 ========================== */
@@ -189,14 +177,12 @@ main {
     margin: 15px auto 0;
     text-shadow: 0 1px 3px rgba(0,0,0,0.5);
 }
-
 .about-us, .our-programs, .impact-stats, .cta-section {
     text-align: center;
 }
 .about-us { background-color: var(--cor-branca); }
 .our-programs { background-color: var(--cor-limpeza); }
 .cta-section { background-color: var(--cor-limpeza); }
-
 .about-us h2, .our-programs h2, .impact-stats h2, .cta-section h2 {
     font-size: 2.2em;
     color: var(--cor-confianca);
@@ -208,7 +194,6 @@ main {
     line-height: 1.7;
     font-size: 1.1em;
 }
-
 .programs-grid {
     display: flex;
     justify-content: center;
@@ -226,6 +211,8 @@ main {
     flex-basis: 350px;
     display: flex;
     flex-direction: column;
+    /* CORREÇÃO DO BUG MOBILE: Garante que os itens dentro do card estejam centralizados */
+    align-items: center;
 }
 .program-card:hover {
     transform: translateY(-8px);
@@ -246,51 +233,19 @@ main {
     flex-grow: 1;
 }
 .btn-learn-more {
-    display: inline-block;
+    display: block; /* Garante que ocupe a linha para centralização */
+    width: fit-content; /* Ocupa apenas a largura do conteúdo + padding */
+    margin: 0 auto 25px auto; /* Centraliza o elemento block horizontalmente */
     background-color: var(--cor-confianca);
     color: var(--cor-branca);
     padding: 10px 25px;
     border-radius: 20px;
-    margin: 0 20px 25px 20px;
     font-weight: bold;
     transition: background-color 0.3s;
 }
 .btn-learn-more:hover {
     background-color: var(--cor-destaque-hover);
 }
-
-.impact-stats {
-    background: linear-gradient(45deg, var(--cor-confianca), var(--cor-frescor));
-    color: var(--cor-branca);
-}
-.impact-stats h2 { color: var(--cor-branca); }
-.stats-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 30px;
-    margin-top: 40px;
-}
-.stat-number {
-    display: block;
-    font-size: 3.5em;
-    font-weight: 900;
-}
-.stat-item p {
-    font-size: 1.1em;
-    opacity: 0.9;
-}
-
-.cta-section p {
-    margin-bottom: 30px;
-}
-.cta-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
 /* ==========================
    FOOTER - PADRÃO DO SITE
 ========================== */
@@ -349,13 +304,9 @@ main {
     font-size: 0.95em;
     margin-top: 20px;
 }
-
-
-
 /* ===================================================
    PÁGINA FAQ (Frequently Asked Questions)
 ====================================================== */
-
 .faq-container {
     max-width: 900px;
     margin: 0 auto;
@@ -364,66 +315,51 @@ main {
     border-radius: 15px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
 }
-
 .faq-item {
     border-bottom: 1px solid #eee;
     padding: 25px 0;
 }
-
-
 .faq-item:last-child {
     border-bottom: none;
 }
-
 .faq-item h3 {
     margin-bottom: 10px;
-    color: var(--cor-confianca); /* Usa a cor azul principal do site */
+    color: var(--cor-confianca);
     font-size: 1.4em;
 }
-
 .faq-item p {
     line-height: 1.7;
-    color: #555; 
+    color: #555;
 }
-
 /* ===================================================
    PÁGINA CONTATO
 ====================================================== */
-
-
 .contact-layout {
-    display: flex; /* Alinha os itens lado a lado */
-    gap: 40px; /* Espaçamento entre as colunas */
-    align-items: flex-start; 
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
 }
-
-
 .form-container {
-    flex: 2; 
+    flex: 2;
     background-color: var(--cor-branca);
     padding: 40px;
     border-radius: 15px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
 }
-
 .form-container h3 {
     font-size: 1.8em;
     margin-bottom: 10px;
 }
-
 .form-container p {
     margin-bottom: 30px;
     line-height: 1.6;
     color: #555;
 }
-
-
 .form-contato label {
     display: block;
     margin-bottom: 8px;
     font-weight: 500;
 }
-
 .form-contato input,
 .form-contato textarea {
     width: 100%;
@@ -432,17 +368,14 @@ main {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1em;
-    transition: border-color 0.3s, box-shadow 0.3s; 
+    transition: border-color 0.3s, box-shadow 0.3s;
 }
-
-
 .form-contato input:focus,
 .form-contato textarea:focus {
     outline: none;
     border-color: var(--cor-confianca);
     box-shadow: 0 0 0 3px rgba(30, 144, 255, 0.2);
 }
-
 .form-contato button {
     width: 100%;
     padding: 15px;
@@ -455,84 +388,67 @@ main {
     cursor: pointer;
     transition: all 0.3s ease;
 }
-
 .form-contato button:hover {
     background-color: var(--cor-destaque-hover);
 }
-
-
 .contact-info {
     flex: 1;
     min-width: 300px;
 }
-
 .contact-info h3 {
     font-size: 1.8em;
     margin-bottom: 20px;
     padding-bottom: 10px;
-    border-bottom: 2px solid var(--cor-frescor); /* Linha de destaque turquesa */
+    border-bottom: 2px solid var(--cor-frescor);
+    display: inline-block;
 }
-
 .info-item {
     margin-bottom: 25px;
 }
-
 .info-item h4 {
     font-size: 1.2em;
     margin-bottom: 5px;
 }
-
 .info-item p {
     margin: 0;
     color: #555;
 }
-
 /* ===================================================
    PÁGINA SOBRE O PROJETO
 ====================================================== */
-
-/* Container que envolve todas as seções da página */
 .sobre-container {
-    max-width: 900px; /* Limita a largura do conteúdo para melhor leitura */
-    margin: 0 auto;   /* Centraliza o container na página */
+    max-width: 900px;
+    margin: 0 auto;
 }
-
-/* Estilo para cada bloco de conteúdo (Ideia, Tecnologias, Roadmap) */
 .sobre-section {
-    background-color: var(--cor-limpeza); /* Fundo azul claro, consistente com o site */
+    background-color: var(--cor-limpeza);
     padding: 30px;
-    border-radius: 10px; /* Cantos arredondados */
-    margin-bottom: 30px; /* Espaçamento entre as seções */
-    border-left: 5px solid var(--cor-frescor); /* Borda de destaque na cor turquesa */
-    box-shadow: 0 4px 15px rgba(0,0,0,0.05); /* Sombra suave */
+    border-radius: 10px;
+    margin-bottom: 30px;
+    border-left: 5px solid var(--cor-frescor);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
 }
-
 .sobre-section h3 {
     font-size: 1.8em;
-    color: var(--cor-texto); /* Cor de texto padrão */
+    color: var(--cor-texto);
     margin-bottom: 15px;
 }
-
 .sobre-section p,
 .sobre-section li {
-    line-height: 1.8; /* Aumenta o espaçamento entre linhas para facilitar a leitura */
-    color: #555; /* Cinza suave para o texto descritivo */
+    line-height: 1.8;
+    color: #555;
     font-size: 1.05em;
 }
-
-/* Estilo para as listas de tecnologias e roadmap */
 .sobre-section ul {
-    list-style-position: inside; /* Coloca os marcadores dentro da caixa de texto */
+    list-style-position: inside;
     padding-left: 10px;
     margin-top: 15px;
 }
-
 .sobre-section li {
-    margin-bottom: 10px; /* Espaçamento entre os itens da lista */
+    margin-bottom: 10px;
 }
-
 /* ==========================
-    PÁGINA INTEGRANTES
+   PÁGINA INTEGRANTES
 ========================== */
 .integrantes-container {
     display: flex;
@@ -592,22 +508,18 @@ main {
     color: var(--cor-confianca);
     margin-bottom: 40px;
 }
-
 .integrante-card .social-links .github { background-color: #333; }
 .integrante-card .social-links .linkedin { background-color: #0A66C2; }
 .integrante-card .social-links a:hover { transform: scale(1.05); }
 .integrante-card .social-links img { width: 20px; height: 20px; }
-
 /* ===================================================
    PÁGINA VOLUNTARIADO - ESTILOS E FORMULÁRIO
 ====================================================== */
-
 .page-container {
     max-width: 1100px;
     margin: 0 auto;
     padding: 20px;
 }
-
 .hero-main-card {
     background-color: var(--cor-limpeza);
     padding: 40px;
@@ -615,7 +527,6 @@ main {
     border-radius: 10px;
     text-align: center;
 }
-
 .card-grid {
     display: flex;
     justify-content: space-between;
@@ -624,7 +535,6 @@ main {
     padding: 20px 0 60px 0;
     align-items: center;
 }
-
 .info-card {
     flex-basis: calc(33.33% - 20px);
     background-color: var(--cor-branca);
@@ -633,98 +543,76 @@ main {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
     flex-direction: column;
     text-align: center;
-    
-
 }
-
 .info-card h3 {
     margin-bottom: 15px;
     color: var(--cor-confianca);
 }
-
 /* ============================
-    RESPONSIVIDADE (Ajustes Otimizados para Menu Hambúrguer)
+   RESPONSIVIDADE
 ================================
 */
-
 /*--------------Celular--------------*/
-
 @media (max-width: 600px ) {
-    
     .main-header {
         position: relative;
     }
-
     .top-bar {
-
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
         padding-right: 70px;
     }
-    
-
     .menu-toggle {
         display: block;
         background: none;
         border: none;
         cursor: pointer;
-        color: var(--cor-texto); 
+        color: var(--cor-texto);
         font-size: 1.8em;
-        position: absolute; 
+        position: absolute;
         right: 20px;
         top: 20px;
-        z-index: 1001; 
+        z-index: 1001;
     }
-
     .main-nav {
         display: none;
         position: absolute;
-        top: 60px; /* Altura aproximada da top-bar */
+        top: 60px;
         left: 0;
         width: 100%;
         box-shadow: 0 4px 10px rgba(0,0,0,0.1);
         z-index: 999;
     }
-    
     .main-header.active .main-nav {
         display: block;
     }
-
     .main-nav ul {
         flex-direction: column;
         background-color: var(--cor-confianca);
     }
-    
     .main-nav li {
         width: 100%;
         text-align: center;
         border-bottom: 1px solid var(--cor-destaque-hover);
     }
-    
     .main-nav li:last-child {
         border-bottom: none;
     }
-
     .main-nav a {
         padding: 15px 0;
         width: 100%;
         display: block;
     }
-    
     .header-actions-left {
         display: none;
     }
-    
-    
-
     .dropdown:hover .dropdown-menu {
-        display: none; 
+        display: none;
         opacity: 0;
         visibility: hidden;
     }
-    
     .main-nav li.dropdown, .main-nav li.dropdown .dropdown-menu {
         position: static;
         width: 100%;
@@ -734,71 +622,55 @@ main {
         box-shadow: none;
         border-radius: 0;
     }
-
     .main-nav li.dropdown .dropdown-menu {
         padding: 10px 0;
         background-color: var(--cor-limpeza);
     }
-    
     .dropdown-menu li a {
         color: var(--cor-texto);
     }
-    
     .dropdown-menu li a:hover {
         background-color: var(--cor-branca);
     }
-    
-
     .logo {
         font-size: 1.5em;
     }
-
     .hero-content h2 {
         font-size: 2em;
     }
-
     .programs-grid {
         flex-direction: column;
     }
-    
     .card-grid {
         flex-direction: column;
         gap: 20px;
     }
-    
     .info-card {
         flex-basis: auto;
         width: 100%;
     }
-    
     .contact-layout {
         flex-direction: column;
     }
-    
     .footer-content {
         flex-direction: column;
         align-items: center;
     }
-    
     .footer-section {
         min-width: 100%;
         text-align: center;
     }
-    
     .social-links-footer {
         justify-content: center;
     }
-    
     .integrantes-container {
         flex-direction: column;
         align-items: center;
     }
-    
     .integrante-card {
         width: 90%;
     }
 }
-   
-/* =================================================== 
-    FIM DO ARQUIVO DE ESTILO
+/* ===================================================
+   FIM DO ARQUIVO DE ESTILO
 ====================================================== */
