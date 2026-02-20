@@ -2,7 +2,6 @@
    ARQUIVO DE ESTILO PRINCIPAL - TURMA DO BEM
    Este arquivo controla a aparência de todas as páginas do site.
 =================================================================== */
-
 /* ==========================
    RESET BÁSICO E FONTES - PADRÃO DO SITE
 ========================== */
@@ -12,285 +11,30 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-
 /* ==========================
-   RESPONSIVIDADE
-========================== */
-
-/* ==========================
-   RESPONSIVIDADE (Celulares - Extra small devices)
-========================== */
-
-@media (min-width: 600px) {
-
-    header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px 20px;
-        background-color: var(--cor-confianca);
-        color: white;
-    }
-
-    .menu-toggle {
-        background: none;
-        border: none;
-        color: white;
-        font-size: 1.8rem;
-        cursor: pointer;
-        display: block;
-        z-index: 100;
-    }
-
-    .main-nav {
-        display: none;
-        position: absolute;
-        top: 60px;
-        left: 0;
-        width: 100%;
-        background-color: var(--cor-confianca);
-        text-align: center;
-    }
-
-    .main-header .logo {
-        font-size: 1.5em;
-    }
-
-    .hero-content h2 {
-        font-size: 2em;
-    }
-
-    .main-nav ul {
-        flex-direction: column;
-    }
-
-    .programs-grid {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .header-actions-left,
-    .header-actions-right {
-        min-width: auto;
-        gap: 10px;
-    }
-}
-
-
-/* ==========================
-   RESPONSIVIDADE (Tablets Retrato e Celulares Grandes)
-========================== */
-
-@media (max-width: 599px) {
-
-    .main-header {
-        display: flex;
-        align-items: center;
-        padding: 0 15px;
-    }
-
-    .top-bar {
-        flex-direction: column;
-        align-items: stretch;
-        padding: 10px;
-        width: 100%;
-    }
-
-    .main-header .logo {
-        font-size: 1.5em;
-        text-align: left;
-        order: -1;
-        flex-grow: 1;
-    }
-
-    .header-actions-left {
-        justify-content: center;
-        width: 100%;
-        margin-top: 5px;
-        min-width: auto;
-    }
-
-    .hero-banner {
-        position: relative;
-        min-height: 70vh;
-        max-width: 500px;
-    }
-
-    .hero-banner img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 1;
-    }
-
-    .hero-content {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 90%;
-        z-index: 2;
-    }
-
-
-    .hero-content h2 {
-        font-size: 2.2em;
-        line-height: 1.1;
-        margin-bottom: 10px;
-    }
-
-    .hero-content p {
-        font-size: 0.9em;
-        margin: 0 auto;
-    }
-
-    /* === EMPILHAMENTO DE CONTEÚDO === */
-    .programs-grid {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .contact-layout {
-        flex-direction: column;
-    }
-
-    .form-container,
-    .contact-info {
-        min-width: 100%;
-        padding: 20px;
-    }
-
-    .stats-container {
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .footer-content {
-        flex-direction: column;
-        gap: 20px;
-    }
-}
-
-
-
-@media (min-width: 768px) {}
-
-@media (max-width: 992px) {
-    header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px 20px;
-        background-color: var(--cor-confianca);
-        color: white;
-    }
-
-    .logo {
-        text-align: center;
-        justify-content: center;
-    }
-
-    .menu-toggle {
-        background: none;
-        border: none;
-        color: white;
-        font-size: 1.8rem;
-        cursor: pointer;
-        display: block;
-        z-index: 100;
-    }
-
-    .main-nav {
-        display: none;
-        position: absolute;
-        top: 60px;
-        left: 0;
-        width: 100%;
-        background-color: var(--cor-confianca);
-        text-align: center;
-    }
-
-    .main-header .logo {
-        font-size: 1.5em;
-    }
-
-    .hero-content h2 {
-        font-size: 2em;
-    }
-
-    .main-nav ul {
-        flex-direction: column;
-    }
-
-    .programs-grid {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .header-actions-left,
-    .header-actions-right {
-        min-width: auto;
-        gap: 10px;
-    }
-}
-
-@media (min-width: 992px) {
-    body {
-        font-family: 'Poppins', 'Arial', sans-serif;
-        color: var(--cor-texto);
-        background-color: var(--cor-fundo-site);
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh;
-    }
-
-    .menu-toggle {
-        display: none;
-    }
-}
-
-@media (min-width: 992px) {
-    body {
-        font-family: 'Poppins', 'Arial', sans-serif;
-        color: var(--cor-texto);
-        background-color: var(--cor-fundo-site);
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh;
-    }
-
-    .menu-toggle {
-        display: none;
-    }
-
-    main {
-        flex-grow: 1;
-    }
-
-    .container {
-        max-width: 1100px;
-        margin: 0 auto;
-        padding: 60px 20px;
-    }
-}
-
-
-@media (min-width: 1300px) {}
-
-/* ==========================
-   VARIÁVEIS DE COR - PADRÃO DO SITE
+   CATPPUCCIN FRAPPÉ PALETTE
 ========================== */
 :root {
-    --cor-confianca: #1E90FF;
-    --cor-limpeza: #F0F8FF;
-    --cor-frescor: #00CED1;
-    --cor-texto: #2F4F4F;
-    --cor-destaque-hover: #107FD0;
-    --cor-branca: #FFFFFF;
-    --cor-fundo-site: #F8FAFC;
+    --cor-base: #303446;
+    --cor-mantle: #292c3c;
+    --cor-crust: #232634;
+
+    --cor-texto: #c6d0f5;
+    --cor-subtexto: #a5adce;
+
+    --cor-surface0: #414559;
+    --cor-surface1: #51576d;
+
+    --cor-azul: #8caaee;
+    --cor-lavanda: #babbf1;
+    --cor-mauve: #ca9ee6;
+    --cor-verde: #a6d189;
+    --cor-amarelo: #e5c890;
+    --cor-vermelho: #e78284;
+    --cor-teal: #81c8be;
+    --cor-sky: #99d1db;
+
+    --cor-hover: #626880;
 }
 
 /* ==========================
@@ -298,8 +42,24 @@
 ========================== */
 
 /* Breakpoint para DESKTOP (Extra-large), conforme especificação do projeto */
-
-
+@media (min-width: 992px) {
+    body {
+        font-family: 'Poppins', 'Arial', sans-serif;
+        color: var(--cor-texto);
+        background-color: var(--cor-fundo-site);
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+}
+main {
+    flex-grow: 1;
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
 /* ==========================
    HEADER E NAVEGAÇÃO - PADRÃO DO SITE
 ========================== */
@@ -353,7 +113,7 @@ header {
 }
 
 .top-bar {
-    background-color: var(--cor-branca);
+    background-color: var(--cor-crust);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -374,9 +134,7 @@ header {
     gap: 15px;
     justify-content: left;
 }
-
-.btn-doar,
-.btn-voluntario {
+.btn-doar, .btn-voluntario {
     background-color: var(--cor-frescor);
     color: var(--cor-branca);
     padding: 10px 20px;
@@ -386,9 +144,7 @@ header {
     border: none;
     cursor: pointer;
 }
-
-.btn-doar:hover,
-.btn-voluntario:hover {
+.btn-doar:hover, .btn-voluntario:hover {
     background-color: var(--cor-destaque-hover);
     transform: translateY(-2px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
@@ -398,26 +154,22 @@ header {
     list-style: none;
     display: flex;
     justify-content: center;
-    background-color: var(--cor-confianca);
+    background-color: var(--cor-mantle);
 }
 
 .main-nav li {
     position: relative;
 }
-
-.main-nav {
-    display: none;
-    position: absolute;
-    top: 60px;
-    /* Abaixo do header */
-    left: 0;
-    width: 100%;
-    background-color: var(--cor-confianca);
-    text-align: center;
+.main-nav a {
+    color: var(--cor-branca);
+    padding: 15px 25px;
+    display: block;
+    font-weight: 500;
+    transition: background-color 0.2s;
 }
 
 .main-nav a:hover {
-    background-color: var(--cor-destaque-hover);
+    background-color: var(--cor-hover);
 }
 
 .dropdown-menu {
@@ -427,7 +179,7 @@ header {
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: var(--cor-branca);
+    background-color: var(--cor-crust);
     min-width: 200px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     z-index: 999;
@@ -445,14 +197,13 @@ header {
 .dropdown-menu li a {
     padding: 12px 20px;
     white-space: nowrap;
-    color: var(--cor-texto);
+    color: var(--cor-hover);
 }
 
 .dropdown-menu li a:hover {
     background-color: var(--cor-limpeza);
     color: var(--cor-confianca);
 }
-
 /* ==========================
    SEÇÕES DA PÁGINA - PADRÃO DO SITE
 ========================== */
@@ -566,7 +317,9 @@ header {
 }
 
 .btn-learn-more {
-    display: inline-block;
+    display: block; /* Garante que ocupe a linha para centralização */
+    width: fit-content; /* Ocupa apenas a largura do conteúdo + padding */
+    margin: 0 auto 25px auto; /* Centraliza o elemento block horizontalmente */
     background-color: var(--cor-confianca);
     color: var(--cor-branca);
     padding: 10px 25px;
@@ -577,7 +330,7 @@ header {
 }
 
 .btn-learn-more:hover {
-    background-color: var(--cor-destaque-hover);
+    background-color: var(--cor-lavanda);
 }
 
 .impact-stats {
