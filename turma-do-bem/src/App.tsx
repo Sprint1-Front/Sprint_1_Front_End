@@ -3,6 +3,7 @@ import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
 import Home from './pages/Home';
 import Doar from './pages/Doar';
+import Integrantes from './pages/Integrantes';
 import './index.css';
 
 
@@ -18,6 +19,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/doar" element={<Doar />} />
+            <Route path="/integrantes" element={<Integrantes />} />
             
             {/* Rotas para os cadastros específicos */}
             <Route path="/cadastrar-aluno" element={<div className="p-20 text-center">Página da Professora (Em breve)</div>} />
