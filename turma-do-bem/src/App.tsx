@@ -5,6 +5,8 @@ import Home from './pages/Home';
 import Doar from './pages/Doar';
 import Integrantes from './pages/Integrantes';
 import './index.css';
+import Cadastro from './pages/Cadastro';
+import Voluntario from './pages/Voluntario';
 
 
 function App() {
@@ -20,10 +22,11 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/doar" element={<Doar />} />
             <Route path="/integrantes" element={<Integrantes />} />
+            <Route path="/sobre" element={<>Sobre</>} />            
             
             {/* Rotas para os cadastros específicos */}
-            <Route path="/cadastrar-aluno" element={<div className="p-20 text-center">Página da Professora (Em breve)</div>} />
-            <Route path="/seja-voluntario" element={<div className="p-20 text-center">Página do Dentista/Estagiário (Em breve)</div>} />
+            <Route path="/cadastrar-aluno" element={<Cadastro/>} />
+            <Route path="/seja-voluntario" element={<Voluntario/>} />
             
             {/* Rota de 404 minimalista */}
             <Route path="*" element={

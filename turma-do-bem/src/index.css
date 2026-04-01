@@ -1,5 +1,4 @@
-/* src/index.css */
-@import "tailwindcss"; /* <-- PRECISA ser a primeira linha */
+@import "tailwindcss"; 
 
 @theme {
   --color-base: #24273a;

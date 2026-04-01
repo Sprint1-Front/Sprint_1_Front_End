@@ -7,26 +7,23 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Base (Inspirado no visual limpo)
-        base: '#24273a', // Macchiato Base (Fundo principal)
-        mantle: '#1e2030', // Macchiato Mantle (Card background)
-        text: '#cad3f5', // Macchiato Text
+        base: '#24273a',
+        mantle: '#1e2030', 
+        text: '#cad3f5', 
 
-        // Cores de Destaque (Inspiradas na Turma do Bem)
-        accent: '#c6a0f6', // Mauve (Para botões principais/links)
-        success: '#a6da95', // Green (Para o sorriso final)
-        warning: '#eed49f', // Yellow (Para alertas de cadastro)
+        accent: '#c6a0f6', 
+        success: '#a6da95', 
+        warning: '#eed49f',
         
-        // Cores secundárias da paleta Catppuccin
+
         teal: '#8bd5ca',
         peach: '#f5a97f',
       },
       borderRadius: {
-        'apple': '12px', // Cantos arredondados estilo Apple
+        'apple': '12px',
         'apple-lg': '20px',
       },
       fontFamily: {
-        // Tente usar uma fonte Sans-serif limpa como Inter
         sans: ['Inter', 'ui-sans-serif', 'system-ui'],
       },
     },
