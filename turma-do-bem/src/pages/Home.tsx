@@ -10,7 +10,7 @@ const Home: React.FC = () => {
           Turma do Bem Digital
         </span>
         <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-text max-w-4xl leading-[1.1]">
-          O maior projeto de <br />
+          O maior projeto de 
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent to-peach">
             sorrisos do mundo.
           </span>
