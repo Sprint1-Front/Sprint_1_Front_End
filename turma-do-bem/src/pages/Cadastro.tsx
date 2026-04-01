@@ -60,6 +60,15 @@ const Cadastro: React.FC = () => {
             />
             {errors.senha && <span className="text-red-500 text-xs">{errors.senha.message}</span>}
           </div>
+          
+          {/* Botão de Cadastro */}
+          <button
+            type="submit"
+            className="w-full bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700 transition-colors font-semibold"
+          >
+            Cadastrar
+          </button>
+
         </form>
       </div>
     </div>
