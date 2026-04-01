@@ -6,8 +6,19 @@ interface CadastroFormData {
   email: string;
   senha: string;
 }
+
 const Cadastro: React.FC = () => {
-  
-};
+  const { 
+    register, 
+    handleSubmit, 
+    formState: { errors } 
+  } = useForm<CadastroFormData>();
+
+  const onSubmit = (data: CadastroFormData) => {
+    console.log("Dados validados:", data);
+    alert("Cadastro realizado com sucesso (Simulação)!");
+  };
+
+  return ();
 
 export default Cadastro;
