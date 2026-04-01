@@ -27,6 +27,7 @@ const Cadastro: React.FC = () => {
           Cadastro - Turma do Bem
         </h2>
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
+          {/* Campo Nome */}
           <div>
             <label className="block text-sm font-medium text-gray-700">Nome Completo</label>
             <input
@@ -35,6 +36,19 @@ const Cadastro: React.FC = () => {
               className={`mt-1 block w-full p-2 border rounded-md shadow-sm focus:ring-green-500 focus:border-green-500 ${errors.nome ? 'border-red-500' : 'border-gray-300'}`}
             />
             {errors.nome && <span className="text-red-500 text-xs">{errors.nome.message}</span>}
+          </div>
+          {/* Campo Email */}
+          <div>
+            <label className="block text-sm font-medium text-gray-700">E-mail</label>
+            <input
+              type="email"
+              {...register("email", { 
+                required: "E-mail é obrigatório", 
+                pattern: { value: /^\S+@\S+$/i, message: "E-mail inválido" } 
+              })}
+              className={`mt-1 block w-full p-2 border rounded-md shadow-sm focus:ring-green-500 focus:border-green-500 ${errors.email ? 'border-red-500' : 'border-gray-300'}`}
+            />
+            {errors.email && <span className="text-red-500 text-xs">{errors.email.message}</span>}
           </div>
         </form>
       </div>
