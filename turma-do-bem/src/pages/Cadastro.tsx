@@ -50,6 +50,16 @@ const Cadastro: React.FC = () => {
             />
             {errors.email && <span className="text-red-500 text-xs">{errors.email.message}</span>}
           </div>
+          {/* Campo Senha */}
+          <div>
+            <label className="block text-sm font-medium text-gray-700">Senha</label>
+            <input
+              type="password"
+              {...register("senha", { required: "A senha é obrigatória", minLength: { value: 6, message: "Mínimo 6 caracteres" } })}
+              className={`mt-1 block w-full p-2 border rounded-md shadow-sm focus:ring-green-500 focus:border-green-500 ${errors.senha ? 'border-red-500' : 'border-gray-300'}`}
+            />
+            {errors.senha && <span className="text-red-500 text-xs">{errors.senha.message}</span>}
+          </div>
         </form>
       </div>
     </div>
