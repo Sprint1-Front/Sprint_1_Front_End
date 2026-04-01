@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 const Home: React.FC = () => {
   return (
     <div className="pt-24 min-h-screen bg-base">
-      {/* --- HERO SECTION (Estilo Apple) --- */}
       <section className="max-w-7xl mx-auto px-6 py-20 text-center flex flex-col items-center">
         <span className="text-accent font-semibold tracking-widest uppercase text-xs mb-4 animate-fade-in">
           Turma do Bem Digital
@@ -12,7 +11,7 @@ const Home: React.FC = () => {
         <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-text max-w-4xl leading-[1.1]">
           O maior projeto de 
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent to-peach">
-            sorrisos do mundo.
+             sorrisos do mundo.
           </span>
         </h1>
         <p className="mt-8 text-lg md:text-xl text-subtext max-w-2xl leading-relaxed">

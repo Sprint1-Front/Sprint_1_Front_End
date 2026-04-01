@@ -1,5 +1,5 @@
-import React from 'react';
-import { useForm } from 'react-hook-form';
+import React from "react";
+import { useForm } from "react-hook-form";
 
 interface CadastroFormData {
   nome: string;
@@ -8,10 +8,10 @@ interface CadastroFormData {
 }
 
 const Cadastro: React.FC = () => {
-  const { 
-    register, 
-    handleSubmit, 
-    formState: { errors } 
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
   } = useForm<CadastroFormData>();
 
   const onSubmit = (data: CadastroFormData) => {
@@ -21,11 +21,9 @@ const Cadastro: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-base text-text selection:bg-accent/30 selection:text-accent font-sans antialiased flex items-center justify-center px-6">
-      
       <div className="w-full max-w-md bg-mantle rounded-apple-lg p-10 shadow-2xl border border-white/5 space-y-6">
-        
-        <h2 className="text-3xl font-semibold text-center tracking-tight">
-          Cadastro <span className="text-accent">Turma do Bem</span>
+        <h2 className="text-2xl font-semibold text-center">
+          🦷 Cadastro para atendimento
         </h2>
 
         <p className="text-subtext text-center text-sm">
@@ -33,21 +31,22 @@ const Cadastro: React.FC = () => {
         </p>
 
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-5">
-          
           {/* Nome */}
           <div>
             <label className="block text-sm text-subtext">Nome completo</label>
             <input
               type="text"
-              {...register("nome", { 
-                required: "O nome é obrigatório", 
-                minLength: { value: 3, message: "Mínimo 3 caracteres" } 
+              {...register("nome", {
+                required: "O nome é obrigatório",
+                minLength: { value: 3, message: "Mínimo 3 caracteres" },
               })}
               className={`mt-1 w-full p-3 rounded-lg bg-base border outline-none transition
-              ${errors.nome ? 'border-red-500' : 'border-white/10 focus:border-accent'}`}
+              ${errors.nome ? "border-red-500" : "border-white/10 focus:border-accent"}`}
             />
             {errors.nome && (
-              <span className="text-red-400 text-xs">{errors.nome.message}</span>
+              <span className="text-red-400 text-xs">
+                {errors.nome.message}
+              </span>
             )}
           </div>
 
@@ -56,15 +55,17 @@ const Cadastro: React.FC = () => {
             <label className="block text-sm text-subtext">E-mail</label>
             <input
               type="email"
-              {...register("email", { 
+              {...register("email", {
                 required: "E-mail é obrigatório",
-                pattern: { value: /^\S+@\S+$/i, message: "E-mail inválido" }
+                pattern: { value: /^\S+@\S+$/i, message: "E-mail inválido" },
               })}
               className={`mt-1 w-full p-3 rounded-lg bg-base border outline-none transition
-              ${errors.email ? 'border-red-500' : 'border-white/10 focus:border-accent'}`}
+              ${errors.email ? "border-red-500" : "border-white/10 focus:border-accent"}`}
             />
             {errors.email && (
-              <span className="text-red-400 text-xs">{errors.email.message}</span>
+              <span className="text-red-400 text-xs">
+                {errors.email.message}
+              </span>
             )}
           </div>
 
@@ -73,15 +74,17 @@ const Cadastro: React.FC = () => {
             <label className="block text-sm text-subtext">Senha</label>
             <input
               type="password"
-              {...register("senha", { 
+              {...register("senha", {
                 required: "A senha é obrigatória",
-                minLength: { value: 6, message: "Mínimo 6 caracteres" }
+                minLength: { value: 6, message: "Mínimo 6 caracteres" },
               })}
               className={`mt-1 w-full p-3 rounded-lg bg-base border outline-none transition
-              ${errors.senha ? 'border-red-500' : 'border-white/10 focus:border-accent'}`}
+              ${errors.senha ? "border-red-500" : "border-white/10 focus:border-accent"}`}
             />
             {errors.senha && (
-              <span className="text-red-400 text-xs">{errors.senha.message}</span>
+              <span className="text-red-400 text-xs">
+                {errors.senha.message}
+              </span>
             )}
           </div>
 
@@ -92,7 +95,6 @@ const Cadastro: React.FC = () => {
           >
             Criar conta
           </button>
-
         </form>
       </div>
     </div>
