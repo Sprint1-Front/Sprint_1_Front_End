@@ -73,5 +73,5 @@ const Cadastro: React.FC = () => {
       </div>
     </div>
   ); 
-
+};
 export default Cadastro;
