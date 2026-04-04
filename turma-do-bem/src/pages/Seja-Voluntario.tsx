@@ -109,6 +109,15 @@ export default function Voluntario() {
           </div>
         )}
       </section>
+      <div className="mt-10 text-center text-sm text-text">
+        <p>Se você é um dentista e deseja se voluntariar, entre em contato conosco!</p>
+        <button
+          onClick={() => window.alert("Formulário de voluntariado")}
+          className="mt-2 px-6 py-3 bg-accent text-subtext font-medium rounded-apple hover:bg-green-600 transition-all"
+        >
+          Quero ser voluntário
+        </button>
+      </div>
     </main>
   </div>
   );
