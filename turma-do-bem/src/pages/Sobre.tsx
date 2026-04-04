@@ -28,8 +28,33 @@ const Sobre: React.FC = () => {
             trazendo autoestima, saúde e novas oportunidades.
           </p>
         </div>
+
+        {/* O que fazemos */}
+        <div className="grid md:grid-cols-3 gap-6">
+          
+          <div className="bg-mantle border border-gray-200 rounded-apple p-6 shadow-sm space-y-3">
+            <h3 className="text-lg font-semibold">🦷 Tratamentos</h3>
+            <p className="text-subtext text-sm leading-relaxed">
+              Organizamos atendimentos com dentistas voluntários para quem mais precisa.
+            </p>
+          </div>
+
+          <div className="bg-mantle border border-gray-200 rounded-apple p-6 shadow-sm space-y-3">
+            <h3 className="text-lg font-semibold">🤝 Voluntariado</h3>
+            <p className="text-subtext text-sm leading-relaxed">
+              Conectamos profissionais e estudantes a ações sociais reais.
+            </p>
+          </div>
+
+          <div className="bg-mantle border border-gray-200 rounded-apple p-6 shadow-sm space-y-3">
+            <h3 className="text-lg font-semibold">💚 Impacto</h3>
+            <p className="text-subtext text-sm leading-relaxed">
+              Levamos saúde bucal e autoestima para centenas de crianças.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
   );
 };
 
