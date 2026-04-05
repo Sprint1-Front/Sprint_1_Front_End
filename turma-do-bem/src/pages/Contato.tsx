@@ -13,7 +13,44 @@ const Contato: React.FC = () => {
             Estamos aqui para ouvir você! Seja para dúvidas, sugestões ou parcerias, entre em contato conosco.
           </p>
         </div>
-        
+        {/* Conteúdo */}
+        <div className="grid md:grid-cols-2 gap-10">
+          
+          {/* Formulário */}
+          <div className="bg-mantle border border-gray-200 rounded-apple-lg p-8 shadow-sm space-y-6">
+            <h2 className="text-2xl font-semibold tracking-tight text-accent">
+              Envie uma mensagem
+            </h2>
+
+            <form className="space-y-4">
+              
+              <input
+                type="text"
+                placeholder="Seu nome"
+                className="w-full p-3 rounded-lg bg-white border border-gray-300 focus:border-accent focus:ring-2 focus:ring-accent/20 outline-none transition"
+              />
+
+              <input
+                type="email"
+                placeholder="Seu e-mail"
+                className="w-full p-3 rounded-lg bg-white border border-gray-300 focus:border-accent focus:ring-2 focus:ring-accent/20 outline-none transition"
+              />
+
+              <textarea
+                placeholder="Sua mensagem"
+                rows={4}
+                className="w-full p-3 rounded-lg bg-white border border-gray-300 focus:border-accent focus:ring-2 focus:ring-accent/20 outline-none transition"
+              />
+
+              <button
+                type="submit"
+                className="w-full py-3 bg-accent text-white rounded-apple font-semibold hover:brightness-110 transition"
+              >
+                Enviar mensagem
+              </button>
+            </form>
+          </div>
+        </div>
       </div>
     </div>
     );
