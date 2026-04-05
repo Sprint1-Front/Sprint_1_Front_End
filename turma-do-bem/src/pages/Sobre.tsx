@@ -52,6 +52,7 @@ const Sobre: React.FC = () => {
               Levamos saúde bucal e autoestima para centenas de crianças.
             </p>
           </div>
+          
         </div>
       </div>
     </div>
