@@ -10,12 +10,12 @@ const Contato: React.FC = () => {
             Fale Conosco
           </h1>
           <p className="text-subtext text-lg leading-relaxed max-w-2xl mx-auto">
-            Estamos aqui para ouvir você! Seja para dúvidas, sugestões ou parcerias, entre em contato conosco.
+            Estamos aqui para ouvir você! Seja para dúvidas, sugestões ou
+            parcerias, entre em contato conosco.
           </p>
         </div>
         {/* Conteúdo */}
         <div className="grid md:grid-cols-2 gap-10">
-          
           {/* Formulário */}
           <div className="bg-mantle border border-gray-200 rounded-apple-lg p-8 shadow-sm space-y-6">
             <h2 className="text-2xl font-semibold tracking-tight text-accent">
@@ -23,7 +23,6 @@ const Contato: React.FC = () => {
             </h2>
 
             <form className="space-y-4">
-              
               <input
                 type="text"
                 placeholder="Seu nome"
@@ -51,9 +50,27 @@ const Contato: React.FC = () => {
             </form>
           </div>
         </div>
+        {/* Informações */}
+        <div className="space-y-6">
+          <div className="bg-mantle boder border-gray-200 rounded-apple-lg p-6 shadow-sm">
+            <h3 className="font-semibold text-lg">📍 Endereço</h3>
+            <p className="text-subtext text-sm mt-2">
+              Rua Exemplo, 123 - Bairro, Cidade - Estado, CEP 00000-000
+            </p>
+          </div>
+          <div className="bg-mantle border border-gray-200 rounded-apple p-6 shadow-sm">
+            <h3 className="font-semibold text-lg">📧 E-mail</h3>
+            <p className="text-subtext text-sm mt-2">contato@turmadobem.org</p>
+          </div>
+
+          <div className="bg-mantle border border-gray-200 rounded-apple p-6 shadow-sm">
+            <h3 className="font-semibold text-lg">📱 Telefone</h3>
+            <p className="text-subtext text-sm mt-2">(11) 99999-9999</p>
+          </div>
+        </div>
       </div>
     </div>
-    );
+  );
 };
 
 export default Contato;
