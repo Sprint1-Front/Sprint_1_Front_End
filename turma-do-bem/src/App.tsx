@@ -7,7 +7,10 @@ import Integrantes from './pages/Integrantes';
 import Cadastro from './pages/Cadastro';
 import Voluntario from './pages/Seja-Voluntario';
 import Sobre from './pages/Sobre';
+import Contato from './pages/Contato';
+import Faq from './pages/Faq';
 import './index.css';
+
 
 function App() {
   return (
@@ -24,6 +27,8 @@ function App() {
             <Route path="/doar" element={<Doar />} />
             <Route path="/integrantes" element={<Integrantes />} />
             <Route path="/sobre" element={<Sobre />} />
+            <Route path="/contato" element={<Contato />} />
+            <Route path="/faq" element={<Faq />} />
 
             {/* Cadastros */}
             <Route path="/cadastrar-aluno" element={<Cadastro />} />
