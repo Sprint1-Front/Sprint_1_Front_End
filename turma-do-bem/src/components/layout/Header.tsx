@@ -25,11 +25,11 @@ const Header: React.FC = () => {
         {/* Logo Minimalista */}
         <Link to="/" className="group flex items-center gap-2">
           <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center group-hover:rotate-12 transition-transform">
-            <span className="text-base font-bold text-white">B</span>
+            <div className="text-base font-bold text-white">T</div>
           </div>
-          <span className="text-text font-semibold tracking-tight text-lg">
+          <div className="text-text font-semibold tracking-tight text-lg">
             Turma do Bem
-          </span>
+          </div>
         </Link>
 
         {/* Navegação Desktop */}

@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
 import Home from './pages/Home';
+import CadastroAluno from './pages/CadastroAluno';
 import Doar from './pages/Doar';
 import Integrantes from './pages/Integrantes';
 import Cadastro from './pages/Cadastro';
@@ -31,7 +32,7 @@ function App() {
             <Route path="/faq" element={<Faq />} />
 
             {/* Cadastros */}
-            <Route path="/cadastrar-aluno" element={<Cadastro />} />
+            <Route path="/cadastrar-aluno" element={<CadastroAluno />} />
             <Route path="/seja-voluntario" element={<Voluntario />} />
 
             {/* 404 */}
