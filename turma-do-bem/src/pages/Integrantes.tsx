@@ -48,11 +48,11 @@ const Integrantes: React.FC = () => {
       <div className="max-w-7xl mx-auto px-6">
         
         <header className="mb-16 text-center">
-          <span className="text-accent font-semibold tracking-widest uppercase text-xs mb-3 block">
+          <div className="text-accent font-semibold tracking-widest uppercase text-xs mb-3 block">
             Sprint 3 - Front End
-          </span>
+          </div>
           <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-text">
-            Conheça Nossa <span className="text-accent">Equipe Dedicada</span>
+            Conheça Nossa <div className="text-accent">Equipe Dedicada</div>
           </h2>
           <p className="mt-4 text-subtext text-lg max-w-2xl mx-auto">
             Os desenvolvedores por trás da transformação digital da Turma do Bem, 
@@ -86,12 +86,12 @@ const Integrantes: React.FC = () => {
               </h3>
               
               <div className="flex gap-3 mb-8">
-                <span className="bg-base px-4 py-1.5 rounded-full border border-white/5 text-xs font-medium text-subtext">
-                  RM: <span className="text-text font-mono">{member.rm}</span>
-                </span>
-                <span className="bg-base px-4 py-1.5 rounded-full border border-white/5 text-xs font-medium text-text">
+                <div className="bg-base px-4 py-1.5 rounded-full border border-white/5 text-xs font-medium text-subtext">
+                  RM: <div className="text-text font-mono">{member.rm}</div>
+                </div>
+                <div className="bg-base px-4 py-1.5 rounded-full border border-white/5 text-xs font-medium text-text">
                   {member.turma}
-                </span>
+                </div>
               </div>
 
               {/* Botões de Redes Sociais */}

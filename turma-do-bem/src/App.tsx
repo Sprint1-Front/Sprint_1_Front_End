@@ -33,6 +33,7 @@ function App() {
 
             {/* Cadastros */}
             <Route path="/cadastrar-aluno" element={<CadastroAluno />} />
+            <Route path="/cadastrar" element={<Cadastro />} />
             <Route path="/seja-voluntario" element={<Voluntario />} />
 
             {/* 404 */}

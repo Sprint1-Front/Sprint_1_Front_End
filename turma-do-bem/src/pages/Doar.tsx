@@ -27,8 +27,8 @@ export default function DoacaoPage() {
           {/* Lado do Conteúdo (Apple Style) */}
           <div className="flex-1 space-y-8">
             <h1 className="text-5xl font-semibold tracking-tight leading-tight">
-              Um pequeno gesto, <br/>
-              <span className="text-accent">um novo sorriso.</span>
+              Um pequeno gesto, 
+              <div className="text-accent">um novo sorriso.</div>
             </h1>
             
             <p className="text-subtext text-lg leading-relaxed">
@@ -41,11 +41,11 @@ export default function DoacaoPage() {
                 onClick={() => setDoou(true)}
                 className="group relative px-8 py-4 bg-accent text-base font-bold rounded-apple overflow-hidden transition-all hover:hover:brightness-110 active:scale-95"
               >
-                <span className="relative z-10">Doar agora e ver o sorriso</span>
+                <div className="relative z-10">Doar agora e ver o sorriso</div>
               </button>
             ) : (
               <div className="animate-fade-in text-success flex items-center gap-2 font-medium">
-                <span className="w-2 h-2 rounded-full bg-success animate-pulse" />
+                <div className="w-2 h-2 rounded-full bg-success animate-pulse" />
                 Obrigado! Você mudou uma vida hoje.
               </div>
             )}

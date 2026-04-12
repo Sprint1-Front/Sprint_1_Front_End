@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
           {/* Coluna Logo/Missão */}
           <div className="col-span-1 md:col-span-1">
             <h2 className="text-accent font-bold text-xl mb-4 tracking-tight">
-              Turma do Bem <span className="text-text/30">| Digital</span>
+              Turma do Bem <div className="text-text/30">| Digital</div>
             </h2>
             <p className="text-subtext text-sm leading-relaxed max-w-xs">
               A maior rede de voluntariado especializado do mundo. Transformando vidas através do sorriso desde 2002.
