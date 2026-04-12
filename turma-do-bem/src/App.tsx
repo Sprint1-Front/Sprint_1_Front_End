@@ -32,7 +32,7 @@ function App() {
             <Route path="/faq" element={<Faq />} />
 
             {/* Cadastros */}
-            <Route path="/cadastrar-aluno" element={<Cadastro />} />
+            <Route path="/cadastrar-aluno" element={<CadastroAluno />} />
             <Route path="/seja-voluntario" element={<Voluntario />} />
 
             {/* 404 */}

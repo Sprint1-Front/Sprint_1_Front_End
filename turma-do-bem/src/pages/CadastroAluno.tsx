@@ -5,7 +5,6 @@ interface CadastroFormData {
  nome: string;
  email: string;
  colegio: string;
- idade: number;
  nomeResponsavel: string;
  contatoResponsavel: string;
  cpf: string;
@@ -94,21 +93,20 @@ const CadastroAluno: React.FC = () => {
              )}
            </div>
  
-           {/* Idade */}
+           {/* dataNascimento */}
            <div>
-             <label className="block text-sm text-subtext">Idade</label>
+             <label className="block text-sm text-subtext">Data de Nascimento</label>
              <input
-               type="number"
-               {...register("idade", {
-                 required: "A idade é obrigatória",
-                 min: { value: 0, message: "Idade inválida" },
+               type="date"
+               {...register("dataNascimento", {
+                 required: "A data de nascimento é obrigatória",
                })}
                className={`mt-1 w-full p-3 rounded-lg bg-base border outline-none transition
-               ${errors.idade ? "border-red-500" : "border-white/10 focus:border-accent"}`}
+               ${errors.dataNascimento ? "border-red-500" : "border-white/10 focus:border-accent"}`}
              />
-             {errors.idade && (
+             {errors.dataNascimento && (
                <span className="text-red-400 text-xs">
-                 {errors.idade.message}
+                 {errors.dataNascimento.message}
                </span>
              )}
            </div>
