@@ -1,109 +1,63 @@
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com/?lines=Turma+do+Bem;Um+Sorriso+Pode+Mudar+Tudo" alt="Typing SVG" />
-  </a>
-</p>
+# Turma do Bem - Website Institucional (Sprint 3)
 
 <p align="center">
-  <img src="https://img.shields.io/badge/status-em andamento-yellow" alt="Status em andamento">
-  <img src="https://img.shields.io/badge/linguagem-HTML/CSS-blue" alt="Linguagem">
-  <img src="https://img.shields.io/badge/Foco-Saúde_Bucal-❤️" alt="Foco em Saúde Bucal">
+  <img src="https://img.shields.io/badge/status-em%20andamento-yellow" alt="Status">
+  <img src="https://img.shields.io/badge/tecnologias-HTML%20%7C%20CSS-blue" alt="Tecnologias">
 </p>
-
-<p align="center">
-  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExb21lYTFoenRuaTgyZzRweTR0NHM4dnowZTg3MXp6aDJ2Z2twMXh2YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kqVYEodv2y0Uivi5TK/giphy.gif" alt="Demonstração do Projeto" width="800">
-</p>
-
----
-
-## 📋 Índice
-
-* [Sobre o Projeto](#-sobre-o-projeto)
-* [✨ Funcionalidades](#-funcionalidades)
-* [💻 Tecnologias Utilizadas](#-tecnologias-utilizadas)
-* [🚀 Como Executar](#-como-executar)
-* [📁 Estrutura de Pastas](#-estrutura-de-pastas)
-* [📄 Páginas do Site](#-páginas-do-site)
-* [✒️ Autores + Link do GITHUB](#️-autores)
-
----
 
 ## 📖 Sobre o Projeto
-
-O projeto consiste na criação de um website institucional para a Turma do Bem, uma organização não governamental de grande impacto social. O objetivo principal é traduzir a nobre missão da ONG — fornecer tratamento odontológico gratuito a jovens e mulheres em vulnerabilidade — para uma presença digital forte, convidativa e funcional.
+Este projeto consiste no desenvolvimento de um website institucional para a **Turma do Bem**, a maior rede de voluntariado especializado do mundo. O site foi criado como parte de um desafio académico (*Challenge de Front-End Design*) com o objetivo de dar visibilidade à missão da ONG: oferecer tratamento odontológico gratuito a jovens e mulheres em situação de vulnerabilidade.
 
 ---
 
 ## ✨ Funcionalidades
-
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      ✔️ <strong>Header Moderno:</strong> Navegação intuitiva com efeitos de hover e menus dropdown.<br><br>
-      ✔️ <strong>Cards Interativos:</strong> Animações sutis ao passar o mouse sobre os membros da equipe.<br><br>
-      ✔️ <strong>Design Atraente:</strong> Paleta de cores e tipografia escolhidas para transmitir confiança.
-    </td>
-    <td width="50%" valign="top">
-      ✔️ <strong>Código Limpo:</strong> Estrutura semântica em HTML5 e CSS3 organizado com variáveis.<br><br>
-      ✔️ <strong>Layout Responsivo:</strong> O site se adapta a diferentes tamanhos de tela.<br><br>
-      ✔️ <strong>Performance Otimizada:</strong> Uso de SVGs e imagens leves para um carregamento rápido.
-    </td>
-  </tr>
-</table>
+* **Design Responsivo:** O layout adapta-se a diferentes tamanhos de ecrã.
+* **Menu de Navegação:** Header com menus dropdown para acesso rápido às secções de programas e voluntariado.
+* **Páginas Informativas:** Secções detalhadas sobre a equipa, FAQ, contacto e missão.
+* **Interatividade:** Cards com efeitos de hover e formulários estruturados para contacto.
 
 ---
 
-## 💻 Tecnologias que Constroem Sorrisos
-
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,git,vscode,github" alt="Ícones de Tecnologias"/>
-  </a>
-</p>
-<p align="center">
-  Utilizamos ferramentas modernas para garantir que cada pixel do nosso site contribua para a missão da Turma do Bem.
-</p>
+## 🛠️ Tecnologias Utilizadas
+* **REACT:** Estruturação semântica do conteúdo e criação de funções junto com o typescript.
+* **TAILWIND:** Estilização baseada na paleta de cores *Catppuccin Latte*, garantindo uma interface moderna e acessível.
+* **TYPESCRIPT** Usado no projeto de REACT para fazer as funções e deixar a pagina responsiva.
+* **Google Fonts:** Utilização da tipografia 'Poppins' para melhor legibilidade.
 
 ---
 
-## 🚀 Como Executar
-
-Este é um projeto puramente front-end. Para visualizá-lo, siga os passos abaixo:
-
-1. **Clone o repositório:**
-
-    ```bash
-    # CORRIGIDO: Sintaxe do comando para ser copiada e colada diretamente
-    git clone [https://github.com/Sprint1-Front/Sprint_1_Front_End.git](https://github.com/Sprint1-Front/Sprint_1_Front_End.git)
-    ```
-
-2. **Abra o arquivo principal:**
-    * Navegue até a pasta do projeto clonado.
-    * Abra o arquivo `index.html` diretamente no seu navegador de preferência.
-
-E pronto! A página estará visível e funcional.
-
----
-
-## 📁 Estrutura de Pastas
-
-O projeto está organizado com uma estrutura de pastas limpa e escalável, com todos os estilos centralizados em `style.css`.
+## 📁 Estrutura do Projeto
+A estrutura de pastas está organizada da seguinte forma:
 
 ```
-/
+/src
 ├── assets/
 │   └── img/
-├── css/
-│   └── style.css  <- Estilos unificados aqui
+|   └── icons/
+│   
+├── index.css
+|
+├── components/
+|   └── layout/
+|       └── Header.tsx
+|       └── Footer.tsx
+|   └── ui/
+|       └── Button.tsx
+|
 ├── pages/
-│   ├── contato.html
-│   ├── faq.html
-│   ├── voluntario.html
-│   ├── doar.html
-│   ├── sobre.html
-│   └── integrantes.html
-└── index.html
+│   ├── Cadastro.tsx
+│   ├── Faq.tsx
+│   ├── Contato.tsx
+│   ├── Seja-Voluntario.tsx
+│   ├── Doar.tsx
+│   ├── Sobre.tsx
+│   ├── Integrantes.tsx
+│   └── CadastroAluno.tsx
+├── App.tsx
+├── main.tsx
+├── index.html
 └── README.md
+
 ```
 
 ---
@@ -119,6 +73,12 @@ O projeto conta com as seguintes páginas para uma navegação completa:
 https://github.com/user-attachments/assets/f4a693db-6a1d-43f0-8ce3-9bf7de7a488e
 
 
+
+https://github.com/user-attachments/assets/323b4dc9-889f-458d-805f-1453f95ad6b6
+
+
+
+
   </p>
 
 * **👥 Integrantes:** Apresentação da equipe de desenvolvimento.
@@ -126,6 +86,12 @@ https://github.com/user-attachments/assets/f4a693db-6a1d-43f0-8ce3-9bf7de7a488e
 
 
 https://github.com/user-attachments/assets/2f621a48-a837-4aca-a950-d5e3b1742330
+
+
+
+https://github.com/user-attachments/assets/b011161e-030c-4224-9d85-f71125fd1183
+
+
 
 
   </p>
@@ -137,6 +103,10 @@ https://github.com/user-attachments/assets/2f621a48-a837-4aca-a950-d5e3b1742330
 https://github.com/user-attachments/assets/2265b979-5962-4774-a2bd-2497535324a6
 
 
+
+https://github.com/user-attachments/assets/ed396758-9395-4bac-996f-e1220f673b16
+
+
   </p>
   
 * **📞 Contato:** Formulário e informações de contato.
@@ -144,6 +114,12 @@ https://github.com/user-attachments/assets/2265b979-5962-4774-a2bd-2497535324a6
   
 
 https://github.com/user-attachments/assets/386ed4d0-4da5-4463-be49-dcdbe9014159
+
+
+
+https://github.com/user-attachments/assets/9f1620b3-a176-4fc1-ac6c-3f1eefd6fb35
+
+
 
 
   </p>
@@ -155,11 +131,17 @@ https://github.com/user-attachments/assets/386ed4d0-4da5-4463-be49-dcdbe9014159
 https://github.com/user-attachments/assets/60f293bc-2c0f-46a1-8167-421d32e13d58
 
 
+
+https://github.com/user-attachments/assets/b92f49a4-da5f-4bbe-949b-b93251949c8a
+
+
+
+
   </p>
 
-  * **🙌 Voluntario:** Página de voluntariados.  <img src="https://img.shields.io/badge/status-em andamento-yellow" alt="Status em andamento">
+  * **🙌 Voluntario:** Página de voluntariados.  <img src="https://img.shields.io/badge/status-em andamento-yellow" alt="Status em BREVE">
 
-  * **❤️ Doações:** Página para doar.  <img src="https://img.shields.io/badge/status-em andamento-yellow" alt="Status em andamento">
+  * **❤️ Doações:** Página para doar.  <img src="https://img.shields.io/badge/status-em andamento-yellow" alt="Status em BREVE">
 
 ---
 
