@@ -44,9 +44,9 @@ const Cadastro: React.FC = () => {
               ${errors.nome ? "border-red-500" : "border-white/10 focus:border-accent"}`}
             />
             {errors.nome && (
-              <span className="text-red-400 text-xs">
+              <div className="text-red-400 text-xs">
                 {errors.nome.message}
-              </span>
+              </div>
             )}
           </div>
 
@@ -63,9 +63,9 @@ const Cadastro: React.FC = () => {
               ${errors.email ? "border-red-500" : "border-white/10 focus:border-accent"}`}
             />
             {errors.email && (
-              <span className="text-red-400 text-xs">
+              <div className="text-red-400 text-xs">
                 {errors.email.message}
-              </span>
+              </div>
             )}
           </div>
 
@@ -82,9 +82,9 @@ const Cadastro: React.FC = () => {
               ${errors.senha ? "border-red-500" : "border-white/10 focus:border-accent"}`}
             />
             {errors.senha && (
-              <span className="text-red-400 text-xs">
+              <div className="text-red-400 text-xs">
                 {errors.senha.message}
-              </span>
+              </div>
             )}
           </div>
 

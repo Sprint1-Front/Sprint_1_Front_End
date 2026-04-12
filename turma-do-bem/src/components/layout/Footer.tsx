@@ -60,7 +60,7 @@ const Footer: React.FC = () => {
             <a href="#" className="hover:underline">Termos de Uso</a>
           </div>
           <p className="flex items-center gap-1">
-            Desenvolvido com <span className="text-accent">♥</span> para um mundo com mais sorrisos.
+            Desenvolvido com <div className="text-accent">♥</div> para um mundo com mais sorrisos.
           </p>
         </div>
       </div>

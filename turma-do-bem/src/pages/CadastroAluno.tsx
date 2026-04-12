@@ -126,9 +126,7 @@ const CadastroAluno: React.FC = () => {
                    {errors.endereco.message}
                  </span>
                )}
-             </div>
-            
-
+             </div>            
            {/* Botão */}
            <button
              type="submit"
