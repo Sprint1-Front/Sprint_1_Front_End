@@ -162,6 +162,41 @@ const CadastroAluno: React.FC = () => {
                  </div>
                )}
              </div>
+                {/* Nome do Responsável */}
+           <div>
+             <label className="block text-sm text-subtext">Nome do Responsável</label>
+             <input
+               type="text"
+               {...register("nomeResponsavel", {
+                 required: "O nome do responsável é obrigatório",
+               })}
+               className={`mt-1 w-full p-3 rounded-lg bg-base border outline-none transition
+               ${errors.nomeResponsavel ? "border-red-500" : "border-white/10 focus:border-accent"}`}
+             />
+             {errors.nomeResponsavel && (
+               <div className="text-red-400 text-xs">
+                 {errors.nomeResponsavel.message}
+               </div>
+             )}
+           </div>
+            {/* Contato do Responsável */}
+            <div>
+             <label className="block text-sm text-subtext">Contato do Responsável</label>
+             <input
+               type="tel"
+               {...register("contatoResponsavel", {
+                 required: "O contato do responsável é obrigatório",
+               })}
+               className={`mt-1 w-full p-3 rounded-lg bg-base border outline-none transition
+               ${errors.contatoResponsavel ? "border-red-500" : "border-white/10 focus:border-accent"}`}
+             />
+             {errors.contatoResponsavel && (
+               <div className="text-red-400 text-xs">
+                 {errors.contatoResponsavel.message}
+               </div>
+             )}
+           </div>
+
            {/* Botão */}
            <button
              type="submit"
