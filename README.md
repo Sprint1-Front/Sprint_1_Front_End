@@ -2,7 +2,9 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/status-em%20andamento-yellow" alt="Status">
-  <img src="https://img.shields.io/badge/tecnologias-HTML%20%7C%20CSS-blue" alt="Tecnologias">
+  <img src="https://img.shields.io/badge/tecnologias-REACT-blue" alt="Tecnologias">
+  <img src="https://img.shields.io/badge/tecnologias-TAILWIND%20%7C%20CSS-blue" alt="Tecnologias">
+  <img src="https://img.shields.io/badge/tecnologias-TYPESCRIPT-blue" alt="Tecnologias">
 </p>
 
 ## 📖 Sobre o Projeto
@@ -70,11 +72,6 @@ O projeto conta com as seguintes páginas para uma navegação completa:
   <p align="center">
     
 
-https://github.com/user-attachments/assets/f4a693db-6a1d-43f0-8ce3-9bf7de7a488e
-
-
-
-https://github.com/user-attachments/assets/323b4dc9-889f-458d-805f-1453f95ad6b6
 
 
 

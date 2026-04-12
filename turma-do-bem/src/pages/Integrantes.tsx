@@ -1,7 +1,7 @@
 import React from 'react';
-import feitosaImg from '../assets/img/feitosa.jpg';
-import munizImg from '../assets/img/muniz.png';
-import matudaImg from '../assets/img/matuda.jpg';
+import feitosaImg from '../assets/integrantes/feitosa.jpg';
+import munizImg from '../assets/integrantes/muniz.png';
+import matudaImg from '../assets/integrantes/matuda.jpg';
 
 
 import GithubIcon from '../assets/icons/github.svg?react';
