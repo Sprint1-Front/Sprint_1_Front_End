@@ -50,12 +50,12 @@ const CadastroAluno: React.FC = () => {
                ${errors.nome ? "border-red-500" : "border-white/10 focus:border-accent"}`}
              />
              {errors.nome && (
-               <span className="text-red-400 text-xs">
+               <div className="text-red-400 text-xs">
                  {errors.nome.message}
-               </span>
+               </div>
              )}
            </div>
- 
+
            {/* Email */}
            <div>
              <label className="block text-sm text-subtext">E-mail</label>
@@ -69,12 +69,12 @@ const CadastroAluno: React.FC = () => {
                ${errors.email ? "border-red-500" : "border-white/10 focus:border-accent"}`}
              />
              {errors.email && (
-               <span className="text-red-400 text-xs">
+               <div className="text-red-400 text-xs">
                  {errors.email.message}
-               </span>
+               </div>
              )}
            </div>
- 
+
            {/* colegio */}
            <div>
              <label className="block text-sm text-subtext">Colegio</label>
@@ -87,9 +87,9 @@ const CadastroAluno: React.FC = () => {
                ${errors.colegio ? "border-red-500" : "border-white/10 focus:border-accent"}`}
              />
              {errors.colegio && (
-               <span className="text-red-400 text-xs">
+               <div className="text-red-400 text-xs">
                  {errors.colegio.message}
-               </span>
+               </div>
              )}
            </div>
  
@@ -105,9 +105,9 @@ const CadastroAluno: React.FC = () => {
                ${errors.dataNascimento ? "border-red-500" : "border-white/10 focus:border-accent"}`}
              />
              {errors.dataNascimento && (
-               <span className="text-red-400 text-xs">
+               <div className="text-red-400 text-xs">
                  {errors.dataNascimento.message}
-               </span>
+               </div>
              )}
            </div>
              {/* Endereço */}
@@ -122,11 +122,28 @@ const CadastroAluno: React.FC = () => {
                  ${errors.endereco ? "border-red-500" : "border-white/10 focus:border-accent"}`}
                />
                {errors.endereco && (
-                 <span className="text-red-400 text-xs">
+                 <div className="text-red-400 text-xs">
                    {errors.endereco.message}
-                 </span>
+                 </div>
                )}
-             </div>            
+             </div>
+             {/* Telefone */}
+             <div>
+               <label className="block text-sm text-subtext">Telefone</label>
+               <input
+                 type="tel"
+                 {...register("telefone", {
+                   required: "O telefone é obrigatório",
+                 })}
+                 className={`mt-1 w-full p-3 rounded-lg bg-base border outline-none transition
+                 ${errors.telefone ? "border-red-500" : "border-white/10 focus:border-accent"}`}
+               />
+               {errors.telefone && (
+                 <div className="text-red-400 text-xs">
+                   {errors.telefone.message}
+                 </div>
+               )}
+             </div>
            {/* Botão */}
            <button
              type="submit"
