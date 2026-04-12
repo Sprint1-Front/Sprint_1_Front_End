@@ -17,3 +17,21 @@
   --radius-apple: 12px;
   --radius-apple-lg: 20px;
 }
+
+@theme-dark{
+  --color-base: #24273a;
+  --color-mantle: #4c4f69;
+
+  --color-text: #eff1f5;
+  --color-subtext: #e6e9ef;
+
+  --color-accent: #40a02b;
+  --color-accent-soft: #a6d189;
+
+  --color-highlight: #1e66f5;
+  --color-success: #22c55e;
+  --color-danger: #e64553;
+
+  --radius-apple: 12px;
+  --radius-apple-lg: 20px;
+}
