@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Solucao from '../../pages/Solucao';
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -16,9 +15,11 @@ const Footer: React.FC = () => {
 
   const linksInstitucional = [
     { name: 'Sobre Nós', path: '/sobre' },
-    { name: 'Projetos', path: '/projetos' },
+    { name: 'Projetos', path: '/nossos-projetos' },
     { name: 'Equipe', path: '/integrantes' },
     { name: 'Doar', path: '/doar' },
+    { name: 'FAQ', path: '/faq' },
+    { name: ''}
   ];
 
   return (

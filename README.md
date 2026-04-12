@@ -2,7 +2,10 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/status-em%20andamento-yellow" alt="Status">
-  <img src="https://img.shields.io/badge/tecnologias-HTML%20%7C%20CSS-blue" alt="Tecnologias">
+  <img src="https://img.shields.io/badge/tecnologias-REACT-blue" alt="Tecnologias">
+  <img src="https://img.shields.io/badge/tecnologias-TAILWIND%20%7C%20CSS-blue" alt="Tecnologias">
+  <img src="https://img.shields.io/badge/tecnologias-TYPESCRIPT-blue" alt="Tecnologias">
+  <img src="https://img.shields.io/badge/tecnologias-GOOGLE%20FONTS-blue" alt="Tecnologias">
 </p>
 
 ## 📖 Sobre o Projeto
@@ -62,10 +65,18 @@ A estrutura de pastas está organizada da seguinte forma:
 
 ---
 
+# PAGINAS
+
+# HOME:
+
+![alt text](image.png)
+
 ## 👥 Equipa de Desenvolvimento
 * **Andre Sousa Matuda** (RM: 566733)
 * **Paulo Henrique Muniz Diedrich** (RM: 567618)
 * **Guilherme Olivera Feitosa** (RM: 566842)
+
+---
 
 ## 🚀 Próximos Passos (Roadmap)
 1.  **Sprint 02:** Melhoria da responsividade para dispositivos móveis.
