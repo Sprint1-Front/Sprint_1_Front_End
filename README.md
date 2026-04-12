@@ -119,12 +119,6 @@ O projeto conta com as seguintes páginas para uma navegação completa:
 https://github.com/user-attachments/assets/f4a693db-6a1d-43f0-8ce3-9bf7de7a488e
 
 
-
-https://github.com/user-attachments/assets/323b4dc9-889f-458d-805f-1453f95ad6b6
-
-
-
-
   </p>
 
 * **👥 Integrantes:** Apresentação da equipe de desenvolvimento.
@@ -132,12 +126,6 @@ https://github.com/user-attachments/assets/323b4dc9-889f-458d-805f-1453f95ad6b6
 
 
 https://github.com/user-attachments/assets/2f621a48-a837-4aca-a950-d5e3b1742330
-
-
-
-https://github.com/user-attachments/assets/b011161e-030c-4224-9d85-f71125fd1183
-
-
 
 
   </p>
@@ -149,10 +137,6 @@ https://github.com/user-attachments/assets/b011161e-030c-4224-9d85-f71125fd1183
 https://github.com/user-attachments/assets/2265b979-5962-4774-a2bd-2497535324a6
 
 
-
-https://github.com/user-attachments/assets/ed396758-9395-4bac-996f-e1220f673b16
-
-
   </p>
   
 * **📞 Contato:** Formulário e informações de contato.
@@ -160,12 +144,6 @@ https://github.com/user-attachments/assets/ed396758-9395-4bac-996f-e1220f673b16
   
 
 https://github.com/user-attachments/assets/386ed4d0-4da5-4463-be49-dcdbe9014159
-
-
-
-https://github.com/user-attachments/assets/9f1620b3-a176-4fc1-ac6c-3f1eefd6fb35
-
-
 
 
   </p>
@@ -177,17 +155,11 @@ https://github.com/user-attachments/assets/9f1620b3-a176-4fc1-ac6c-3f1eefd6fb35
 https://github.com/user-attachments/assets/60f293bc-2c0f-46a1-8167-421d32e13d58
 
 
-
-https://github.com/user-attachments/assets/b92f49a4-da5f-4bbe-949b-b93251949c8a
-
-
-
-
   </p>
 
-  * **🙌 Voluntario:** Página de voluntariados.  <img src="https://img.shields.io/badge/status-em andamento-yellow" alt="Status em BREVE">
+  * **🙌 Voluntario:** Página de voluntariados.  <img src="https://img.shields.io/badge/status-em andamento-yellow" alt="Status em andamento">
 
-  * **❤️ Doações:** Página para doar.  <img src="https://img.shields.io/badge/status-em andamento-yellow" alt="Status em BREVE">
+  * **❤️ Doações:** Página para doar.  <img src="https://img.shields.io/badge/status-em andamento-yellow" alt="Status em andamento">
 
 ---
 
