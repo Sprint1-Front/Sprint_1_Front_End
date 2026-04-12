@@ -6,7 +6,7 @@ import CadastroAluno from './pages/CadastroAluno';
 import Doar from './pages/Doar';
 import Integrantes from './pages/Integrantes';
 import Cadastro from './pages/Cadastro';
-import Voluntario from './pages/Seja-Voluntario';
+import Voluntario from './pages/SejaVoluntario';
 import Sobre from './pages/Sobre';
 import Contato from './pages/Contato';
 import Faq from './pages/Faq';
