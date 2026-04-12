@@ -30,6 +30,13 @@ const SejaVoluntario: React.FC = () => {
         cidade: "Rio de Janeiro",
         contato: "carlos@email.com",
       },
+      {
+        id: 3,
+        nome: "Dr. Alexandre C. Jesus",
+        especialidade: "Odontia",
+        cidade: "São Paulo",
+        contato: "alexandrecj@emial.com"
+      },
     ];
 
     setTimeout(() => {
