@@ -110,7 +110,25 @@ const CadastroAluno: React.FC = () => {
                </span>
              )}
            </div>
- 
+             {/* Endereço */}
+             <div>
+               <label className="block text-sm text-subtext">Endereço</label>
+               <input
+                 type="text"
+                 {...register("endereco", {
+                   required: "O endereço é obrigatório",
+                 })}
+                 className={`mt-1 w-full p-3 rounded-lg bg-base border outline-none transition
+                 ${errors.endereco ? "border-red-500" : "border-white/10 focus:border-accent"}`}
+               />
+               {errors.endereco && (
+                 <span className="text-red-400 text-xs">
+                   {errors.endereco.message}
+                 </span>
+               )}
+             </div>
+            
+
            {/* Botão */}
            <button
              type="submit"
