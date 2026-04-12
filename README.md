@@ -19,8 +19,9 @@ Este projeto consiste no desenvolvimento de um website institucional para a **Tu
 ---
 
 ## 🛠️ Tecnologias Utilizadas
-* **HTML5:** Estruturação semântica do conteúdo.
-* **CSS3:** Estilização baseada na paleta de cores *Catppuccin Frappé*, garantindo uma interface moderna e acessível.
+* **REACT:** Estruturação semântica do conteúdo e criação de funções junto com o typescript.
+* **TAILWIND:** Estilização baseada na paleta de cores *Catppuccin Latte*, garantindo uma interface moderna e acessível.
+* **TYPESCRIPT** Usado no projeto de REACT para fazer as funções e deixar a pagina responsiva.
 * **Google Fonts:** Utilização da tipografia 'Poppins' para melhor legibilidade.
 
 ---
@@ -68,5 +69,5 @@ A estrutura de pastas está organizada da seguinte forma:
 
 ## 🚀 Próximos Passos (Roadmap)
 1.  **Sprint 02:** Melhoria da responsividade para dispositivos móveis.
-2.  **Sprint 03:** Adição de lógica com JavaScript para validação de formulários.
-3.  **Sprint 04:** Integração com APIs e funcionalidades de back-end.
+2.  **Sprint 03:** Utilização do REACT com Tailwind para estilização da página mais moderna e atual.
+3.  **Sprint 04:** EM BREVE...
