@@ -144,6 +144,24 @@ const CadastroAluno: React.FC = () => {
                  </div>
                )}
              </div>
+             {/* CPF */}
+             <div>
+               <label className="block text-sm text-subtext">CPF</label>
+               <input
+                 type="text"
+                 {...register("cpf", {
+                   required: "O CPF é obrigatório",
+                   pattern: { value: /^\d{3}\.\d{3}\.\d{3}-\d{2}$/, message: "CPF inválido" },
+                 })}
+                 className={`mt-1 w-full p-3 rounded-lg bg-base border outline-none transition
+                 ${errors.cpf ? "border-red-500" : "border-white/10 focus:border-accent"}`}
+               />
+               {errors.cpf && (
+                 <div className="text-red-400 text-xs">
+                   {errors.cpf.message}
+                 </div>
+               )}
+             </div>
            {/* Botão */}
            <button
              type="submit"
