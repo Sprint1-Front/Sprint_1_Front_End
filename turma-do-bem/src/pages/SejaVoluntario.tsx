@@ -8,7 +8,7 @@ type Dentista = {
   contato: string;
 };
 
-export default function Voluntario() {
+const SejaVoluntario: React.FC = () => {
   const [dentistas, setDentistas] = useState<Dentista[]>([]);
   const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState("");
@@ -122,3 +122,5 @@ export default function Voluntario() {
   </div>
   );
 }
+
+export default SejaVoluntario;

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -22,18 +23,18 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-text font-medium text-xs uppercase tracking-widest mb-6">Participar</h3>
             <ul className="space-y-3 text-sm text-subtext">
-              <li><a href="#" className="hover:text-accent transition-colors">Cadastrar Aluno</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">Seja um Dentista</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">Quero ser um Doador</a></li>
+              <li><Link to="./CadastroAluno" className="hover:text-accent transition-colors">Cadastrar Aluno</Link></li>
+              <li><Link to="./SejaVoluntario" className="hover:text-accent transition-colors">Seja um Dentista</Link></li>
+              <li><Link to="./Sobre" className="hover:text-accent transition-colors">Saiba como funciona</Link></li>
             </ul>
           </div>
 
           <div>
             <h3 className="text-text font-medium text-xs uppercase tracking-widest mb-6">Institucional</h3>
             <ul className="space-y-3 text-sm text-subtext">
-              <li><a href="#" className="hover:text-accent transition-colors">Sobre Nós</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">Projetos</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">Transparência</a></li>
+              <li><Link to="./Sobre" className="hover:text-accent transition-colors">Sobre Nós</Link></li>
+              <li><Link to="./Projetos" className="hover:text-accent transition-colors">Projetos</Link></li>
+              <li><Link to="./Transparencia" className="hover:text-accent transition-colors">Transparência</Link></li>
             </ul>
           </div>
 
@@ -51,7 +52,13 @@ const Footer: React.FC = () => {
             </div>
           </div>
         </div>
-
+        <div>
+          <h3 className="text-text font-medium text-xs uppercase tracking-widest mb-6">Suporte</h3>
+          <ul className="space-y-3 text-sm text-subtext">
+            <li><Link to="./Faq" className="hover:text-accent transition-colors">Perguntas Frequentes</Link></li>
+            <li><Link to="./Contato" className="hover:text-accent transition-colors">Contato</Link></li>
+          </ul>
+        </div>
         {/* Linha Final de Copyright */}
         <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-[12px] text-subtext/60">
           <div className="flex gap-6">

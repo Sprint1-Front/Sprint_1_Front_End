@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import felizImg from '../assets/img/crianca-feliz.png';
+import tristeImg from '../assets/img/crianca-triste.png';
 
 export default function DoacaoPage() {
   const [doou, setDoou] = useState(false);
@@ -13,14 +15,13 @@ export default function DoacaoPage() {
             {/* Estado 1: Triste / Escondendo a boca */}
             <div className={`absolute inset-0 transition-all duration-700 ease-apple-in-out
               ${doou ? 'opacity-0 scale-75 -rotate-12 translate-y-10' : 'opacity-100 scale-100'}`}>
-              <img src="/menino-triste.svg" alt="Menino triste" className="w-full h-full object-contain" />
-              {/* Opcional: Efeito de mãos sobre a boca via CSS se não tiver o SVG pronto */}
+              <img src={tristeImg} alt="Menino triste" className="w-full h-full object-contain" />
             </div>
 
             {/* Estado 2: Feliz / Sorriso Branco */}
             <div className={`absolute inset-0 transition-all duration-1000 delay-200 ease-apple-out
               ${doou ? 'opacity-100 scale-110 rotate-0' : 'opacity-0 scale-125'}`}>
-              <img src="/menino-feliz.svg" alt="Menino sorrindo" className="w-full h-full object-contain drop-shadow-[0_0_15px_rgba(166,218,149,0.3)]" />
+              <img src={felizImg} alt="Menino sorrindo" className="w-full h-full object-contain drop-shadow-[0_0_15px_rgba(166,218,149,0.3)]" />
             </div>
           </div>
 

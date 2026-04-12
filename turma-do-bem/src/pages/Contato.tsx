@@ -41,6 +41,17 @@ const Contato: React.FC = () => {
                 className="w-full p-3 rounded-lg bg-white border border-gray-300 focus:border-accent focus:ring-2 focus:ring-accent/20 outline-none transition"
               />
 
+              <label htmlFor="assunto">Tipo de Suporte:</label>
+              <select id="assunto" name="assunto" required>
+                <option value="" disabled selected>
+                  Selecione uma opção
+                </option>
+                <option value="dentista">Sou Dentista (Voluntariado)</option>
+                <option value="cadastro">Dúvidas sobre Cadastro</option>
+                <option value="parcerias">Parcerias e Doações</option>
+                <option value="outros">Outros Assuntos</option>
+              </select>
+
               <button
                 type="submit"
                 className="w-full py-3 bg-accent text-white rounded-apple font-semibold hover:brightness-110 transition"
