@@ -13,6 +13,8 @@ import Faq from './pages/Faq';
 import Solucao from './pages/Solucao';
 import CadastroDentista from './pages/CadastroDentista';
 import './index.css';
+import NossosProjetos from './pages/NossosProjetos';
+
 
 
 function App() {
@@ -35,6 +37,7 @@ function App() {
             <Route path="/cadastro" element={<Cadastro />} />
             <Route path="/seja-voluntario" element={<Voluntario />} />
             <Route path="/solucao" element={<Solucao />} />
+            <Route path="/nossos-projetos" element={<NossosProjetos />} />
 
             {/* Cadastros */}
             <Route path="/cadastrar-aluno" element={<CadastroAluno />} />
