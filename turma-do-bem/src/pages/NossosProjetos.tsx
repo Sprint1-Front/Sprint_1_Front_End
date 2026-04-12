@@ -11,9 +11,12 @@ const NossosProjetos: React.FC = () => {
                     </h1>
                     <p className="text-subtext text-lg leading-relaxed max-w-2xl mx-auto">
                         Desenvolvemos soluções digitais com foco em facilitar o acesso à informação e melhorar a experiência do usuário. Nossos projetos buscam unir tecnologia e usabilidade para criar plataformas intuitivas, funcionais e acessíveis.
-
+                    </p>
+                    <p className="text-subtext text-lg leading-relaxed max-w-2xl mx-auto">                        
                         Entre nossas iniciativas, destacamos sistemas que auxiliam na organização de atendimentos, na orientação de usuários e no acesso a conteúdos educacionais, sempre priorizando a clareza, eficiência e inovação.
 
+                    </p>
+                    <p className="text-subtext text-lg leading-relaxed max-w-2xl mx-auto">
                         Estamos constantemente evoluindo nossas soluções para atender melhor às necessidades dos usuários e gerar impacto positivo por meio da tecnologia.
                     </p>
                 </div>
