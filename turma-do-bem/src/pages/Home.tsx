@@ -1,38 +1,42 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import criancaTristeImg from '../assets/img/turma-do-bem-hero.jpg';
+import '../index.css';
+import Sobre from './Sobre';
 
 const Home: React.FC = () => {
   return (
-    <div className="pt-24 min-h-screen bg-base">
-      <section className="max-w-7xl mx-auto px-6 py-20 text-center flex flex-col items-center">
-        <div className="text-accent font-semibold tracking-widest uppercase text-xs mb-4 animate-fade-in">
-          Turma do Bem Digital
-        </div>
-        <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-text max-w-4xl leading-[1.1]">
-          O maior projeto de 
-          <img src="../assets/img/crianca.png" alt="Criança sorrindo" />
-          <div className="text-transparent bg-clip-text bg-gradient-to-r from-accent to-peach">
-              do mundo.
+    <div className="min-h-screen bg-base">
+      {/* --- HERO SECTION --- */}
+      <section 
+        className="relative pt-32 pb-20 md:pt-48 md:pb-32 px-6 text-center flex flex-col items-center justify-center bg-cover bg-center bg-no-repeat"
+        style={{ 
+          backgroundImage: `linear-gradient(to bottom, rgba(48, 52, 70, 0.8), rgba(48, 52, 70, 0.9)), url(${criancaTristeImg})` 
+        }}
+      >        
+        <div className="relative z-10 max-w-7xl mx-auto flex flex-col items-center">
+          <div className="text-text font-semibold tracking-widest uppercase text-xs mb-4 animate-fade-in">
+            Turma do Bem Digital
           </div>
-        </h1>
-        <p className="mt-8 text-lg md:text-xl text-subtext max-w-2xl leading-relaxed">
-          Conectamos profissionais da odontologia, escolas e doadores para transformar 
-          a saúde bucal de milhares de crianças em vulnerabilidade.
-        </p>
-        
-        <div className="mt-10 flex flex-col sm:flex-row gap-4">
-          <Link 
-            to="/doar" 
-            className="px-8 py-4 bg-accent text-base font-bold rounded-apple hover:brightness-110 transition-all hover:scale-105 active:scale-95 shadow-lg shadow-accent/20"
-          >
-            Começar uma Mudança
-          </Link>
-          <Link 
-            to="/sobre" 
-            className="px-8 py-4 bg-mantle text-text border border-white/10 rounded-apple hover:bg-white/5 transition-all"
-          >
-            Saiba como funciona
-          </Link>
+          <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-text max-w-4xl leading-[1.1]">
+            O maior projeto de odontologia social do Brasil, agora digital.
+            <div className="text-transparent bg-clip-text bg-gradient-to-r from-accent to-peach">
+              Transformando sorrisos, conectando corações.
+            </div>
+          </h1>
+          <p className="mt-8 text-lg md:text-xl text-subtext max-w-2xl leading-relaxed">
+            Conectamos profissionais da odontologia, escolas e doadores para transformar 
+            a saúde bucal de milhares de crianças em vulnerabilidade.
+          </p>
+          
+          <div className="mt-10 flex flex-col sm:flex-row gap-4">
+            <Link to="/doar" className="px-8 py-4 bg-accent text-base font-bold rounded-apple hover:brightness-110 transition-all hover:scale-105 shadow-lg shadow-accent/20">
+              Começar uma Mudança
+            </Link>
+            <Link to="./Sobre" className="px-8 py-4 bg-mantle text-text border border-white/10 rounded-apple hover:bg-white/5 transition-all">
+              Saiba como funciona
+            </Link>
+          </div>
         </div>
       </section>
 
@@ -63,7 +67,7 @@ const Home: React.FC = () => {
             <p className="text-subtext text-sm mb-6 leading-relaxed">
               Doe seu tempo e talento para atender crianças na sua própria clínica.
             </p>
-            <Link to="/seja-voluntario" className="text-peach font-medium hover:underline inline-flex items-center gap-2">
+            <Link to="/sejavoluntario" className="text-peach font-medium hover:underline inline-flex items-center gap-2">
               Seja voluntário →
             </Link>
           </div>
