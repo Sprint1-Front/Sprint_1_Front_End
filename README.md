@@ -1,7 +1,7 @@
 # Turma do Bem - Website Institucional (Sprint 3)
 
 <p align="center">
-  <a href="https://github.com/Sprint1-Front/Sprint_3_Front_End"><img src="https://img.shields.io/badge/github-repo-blue?logo=github" alt="GitHub Repo"></a>
+  <a href="https://github.com/Sprint1-Front/Sprint_3_Front_End"><img src="https://img.shields.io/badge/github-repo-blue?logo=github" alt="GitHub"></a>
   <img src="https://img.shields.io/badge/status-em%20andamento-yellow" alt="Status">
   <img src="https://img.shields.io/badge/tecnologias-REACT-blue" alt="Tecnologias">
   <img src="https://img.shields.io/badge/tecnologias-TAILWIND%20%7C%20CSS-blue" alt="Tecnologias">
@@ -128,3 +128,11 @@ A estrutura de pastas está organizada da seguinte forma:
 1.  **Sprint 02:** Melhoria da responsividade para dispositivos móveis.
 2.  **Sprint 03:** Utilização do REACT com Tailwind para estilização da página mais moderna e atual.
 3.  **Sprint 04:** EM BREVE...
+
+---
+
+# GITHUB
+
+<a href="https://github.com/Sprint1-Front/Sprint_3_Front_End">
+  <img src="https://img.shields.io/badge/github-repo-blue?logo=github" alt="GitHub">
+</a>
