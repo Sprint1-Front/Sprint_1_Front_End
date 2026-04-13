@@ -67,9 +67,14 @@ A estrutura de pastas está organizada da seguinte forma:
 
 # PAGINAS
 
-# HOME:
+## HOME
 
-![alt text](image.png)
+<img width="1822" height="949" alt="Captura de tela 2026-04-12 203929" src="https://github.com/user-attachments/assets/27356116-28b8-4cc1-a2d5-ab6685d35355" />
+
+## Doar
+
+<img width="1260" height="560" alt="2026-04-12 20 57 53 localhost 871f9834aebc" src="https://github.com/user-attachments/assets/73a74da5-b9b9-4634-9a30-45a62a657047" />
+
 
 ## 👥 Equipa de Desenvolvimento
 * **Andre Sousa Matuda** (RM: 566733)
