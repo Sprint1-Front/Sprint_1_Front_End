@@ -30,6 +30,28 @@ Este projeto consiste no desenvolvimento de um website institucional para a **Tu
 
 ---
 
+## ▶️ Como Executar o Projeto
+
+```
+bash
+# Clone o repositório
+git clone https://github.com/Sprint1-Front/Sprint_3_Front_End
+
+# Acesse a pasta
+cd Sprint_3_Front_End
+
+#Acesse a pasta do REACT
+cd turma-do-bem
+
+# Instale as dependências
+npm install
+
+# Rode o projeto
+npm run dev
+
+```
+---
+
 ## 📁 Estrutura do Projeto
 A estrutura de pastas está organizada da seguinte forma:
 
