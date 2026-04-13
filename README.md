@@ -131,6 +131,12 @@ A estrutura de pastas está organizada da seguinte forma:
 
 ---
 
+# YOUTUBE
+
+[![YouTube](https://img.shields.io/badge/YouTube-red?logo=youtube&logoColor=white)](https://youtu.be/ljSt3OGyrxM)
+
+---
+
 # GITHUB
 
 <a href="https://github.com/Sprint1-Front/Sprint_3_Front_End">
