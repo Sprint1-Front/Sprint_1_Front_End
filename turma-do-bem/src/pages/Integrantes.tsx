@@ -31,7 +31,7 @@ const integrantes: Integrante[] = [
     turma: "1TDSPB",
     foto: munizImg, 
     github: "https://github.com/paulodiedrich",
-    linkedin: "#",
+    linkedin: "https://www.linkedin.com/in/paulo-henrique-muniz-diedrich-496aba389",
   },
   {
     nome: "Guilherme Olivera Feitosa",
