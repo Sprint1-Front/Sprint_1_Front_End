@@ -22,11 +22,17 @@ Este projeto consiste no desenvolvimento de um website institucional para a **Tu
 
 ---
 
+```
 ## 🛠️ Tecnologias Utilizadas
-* **REACT:** Estruturação semântica do conteúdo e criação de funções junto com o typescript.
-* **TAILWIND:** Estilização baseada na paleta de cores *Catppuccin Latte*, garantindo uma interface moderna e acessível.
-* **TYPESCRIPT** Usado no projeto de REACT para fazer as funções e deixar a pagina responsiva.
-* **Google Fonts:** Utilização da tipografia 'Poppins' para melhor legibilidade.
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- React Router DOM
+- React Hook Form
+- Google Fonts (Poppins)
+```
 
 ---
 
@@ -140,8 +146,8 @@ A estrutura de pastas está organizada da seguinte forma:
 
 ---
 ## 👥 Equipa de Desenvolvimento
-* **Andre Sousa Matuda** (RM: 566733)
-* **Paulo Henrique Muniz Diedrich** (RM: 567618)
+* **Andre Sousa Matuda** (RM: 566733) - GitHub: https://github.com/Andre-Matuda - LinkedIn: www.linkedin.com/in/andrematuda
+* **Paulo Henrique Muniz Diedrich** (RM: 567618) - GitHub: https://github.com/GuilherOliverFeitosa - LinkedIn: 
 * **Guilherme Olivera Feitosa** (RM: 566842)
 
 ---
