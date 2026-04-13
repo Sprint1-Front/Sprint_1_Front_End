@@ -1,6 +1,7 @@
 # Turma do Bem - Website Institucional (Sprint 3)
 
 <p align="center">
+  <a href="https://github.com/Sprint1-Front/Sprint_3_Front_End"><img src="https://img.shields.io/badge/github-repo-blue?logo=github" alt="GitHub Repo"></a>
   <img src="https://img.shields.io/badge/status-em%20andamento-yellow" alt="Status">
   <img src="https://img.shields.io/badge/tecnologias-REACT-blue" alt="Tecnologias">
   <img src="https://img.shields.io/badge/tecnologias-TAILWIND%20%7C%20CSS-blue" alt="Tecnologias">
