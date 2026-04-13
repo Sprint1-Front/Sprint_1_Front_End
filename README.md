@@ -146,9 +146,22 @@ A estrutura de pastas está organizada da seguinte forma:
 
 ---
 ## 👥 Equipa de Desenvolvimento
-* **Andre Sousa Matuda** (RM: 566733) - GitHub: https://github.com/Andre-Matuda - LinkedIn: www.linkedin.com/in/andrematuda
-* **Paulo Henrique Muniz Diedrich** (RM: 567618) - GitHub: https://github.com/paulodiedrich - LinkedIn: https://www.linkedin.com/in/paulo-henrique-muniz-diedrich-496aba389
-* **Guilherme Olivera Feitosa** (RM: 566842) - GitHub: https://github.com/GuilherOliverFeitosa - LinkedIn: https://www.linkedin.com/in/guilherme-oliveira-feitosa-762b56389
+
+### Andre Sousa Matuda
+- RM: 566733
+- GitHub: https://github.com/Andre-Matuda
+- LinkedIn: www.linkedin.com/in/andrematuda
+
+### Paulo Henrique Muniz Diedrich
+- RM: 567618
+- GitHub: https://github.com/paulodiedrich
+- LinkedIn: https://www.linkedin.com/in/paulo-henrique-muniz-diedrich-496aba389
+
+### Guilherme Oliveira Feitosa
+- RM: 566842
+- GitHub: https://github.com/GuilherOliverFeitosa
+- LinkedIn: https://www.linkedin.com/in/guilherme-oliveira-feitosa-762b56389
+- 
 ---
 
 ## 🚀 Próximos Passos (Roadmap)
