@@ -75,7 +75,47 @@ A estrutura de pastas está organizada da seguinte forma:
 
 <img width="1260" height="560" alt="2026-04-12 20 57 53 localhost 871f9834aebc" src="https://github.com/user-attachments/assets/73a74da5-b9b9-4634-9a30-45a62a657047" />
 
+## Cadastro Aluno
 
+<img width="546" height="852" alt="1" src="https://github.com/user-attachments/assets/1cf806cb-6374-473a-8453-6999813030d1" />
+
+## Cadastro Dentista
+
+<img width="1253" height="900" alt="2026-04-12 21 06 40 localhost 24b41bdbb876" src="https://github.com/user-attachments/assets/4e491c4a-0dd8-4a4f-a86e-eea8a33d3973" />
+
+## FAQ
+
+<img width="1293" height="446" alt="Captura de tela 2026-04-12 205601" src="https://github.com/user-attachments/assets/1af36cb8-1ea7-495f-b593-ceb7089db578" />
+
+
+## Contato
+
+<img width="894" height="839" alt="2026-04-12 20 54 44 localhost de4de73b7cf7" src="https://github.com/user-attachments/assets/b7d91b6c-bfd0-41e0-9b0a-3621ab9a4979" />
+
+## Sobre
+
+<img width="1258" height="688" alt="2026-04-12 21 03 13 localhost e1c8e881c1e7" src="https://github.com/user-attachments/assets/1a283f96-39ba-4e12-a31d-129b65fbe5ac" />
+
+
+## Solução
+
+<img width="1245" height="907" alt="2026-04-12 21 05 32 localhost 022e0497981c" src="https://github.com/user-attachments/assets/a1e8c487-3383-4366-bb2d-f374289ef125" />
+
+
+## Dentistas
+
+
+
+## Projetos
+
+<img width="1272" height="527" alt="2026-04-12 21 04 02 localhost d9684187782f" src="https://github.com/user-attachments/assets/af713dfc-d02e-4f25-a6ba-47c32d02209a" />
+
+
+## Integrantes
+
+<img width="1289" height="859" alt="2026-04-12 20 59 54 localhost 9a0875e79d1c" src="https://github.com/user-attachments/assets/a75462c2-647d-48a1-b4d0-a98919bf9a24" />
+
+---
 ## 👥 Equipa de Desenvolvimento
 * **Andre Sousa Matuda** (RM: 566733)
 * **Paulo Henrique Muniz Diedrich** (RM: 567618)
