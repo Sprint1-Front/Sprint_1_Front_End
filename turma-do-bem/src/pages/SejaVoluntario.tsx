@@ -1,4 +1,5 @@
 import { useMemo, useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 type Dentista = {
   id: number;
@@ -28,6 +29,13 @@ const SejaVoluntario: React.FC = () => {
         especialidade: "Ortodontia",
         cidade: "Rio de Janeiro",
         contato: "carlos@email.com",
+      },
+      {
+        id: 3,
+        nome: "Dr. Alexandre C. Jesus",
+        especialidade: "Odontia",
+        cidade: "São Paulo",
+        contato: "alexandrecj@emial.com"
       },
     ];
 
@@ -110,12 +118,10 @@ const SejaVoluntario: React.FC = () => {
         )}
       </section>
       <div className="mt-10 text-center text-sm text-text">
-        <p>Se você é um dentista e deseja se voluntariar, entre em contato conosco!</p>
-        <button
-          onClick={() => window.alert("Formulário de voluntariado")}
-          className="mt-2 px-6 py-3 bg-accent text-subtext font-medium rounded-apple hover:bg-green-600 transition-all"
-        >
-          Quero ser voluntário
+        <button>
+          <Link to="/cadastro-dentista" className="w-full py-3 bg-accent text-base font-bold rounded-apple transition-all hover:brightness-110 active:scale-95">
+            Seja um Dentista
+          </Link>
         </button>
       </div>
     </main>

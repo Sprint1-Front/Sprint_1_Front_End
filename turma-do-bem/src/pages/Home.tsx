@@ -67,7 +67,7 @@ const Home: React.FC = () => {
             <p className="text-subtext text-sm mb-6 leading-relaxed">
               Doe seu tempo e talento para atender crianças na sua própria clínica.
             </p>
-            <Link to="/sejavoluntario" className="text-peach font-medium hover:underline inline-flex items-center gap-2">
+            <Link to="/seja-voluntario" className="text-peach font-medium hover:underline inline-flex items-center gap-2">
               Seja voluntário →
             </Link>
           </div>

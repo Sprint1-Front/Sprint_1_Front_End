@@ -1,10 +1,12 @@
 # Turma do Bem - Website Institucional (Sprint 3)
 
 <p align="center">
+  <a href="https://github.com/Sprint1-Front/Sprint_3_Front_End"><img src="https://img.shields.io/badge/github-repo-blue?logo=github" alt="GitHub"></a>
   <img src="https://img.shields.io/badge/status-em%20andamento-yellow" alt="Status">
   <img src="https://img.shields.io/badge/tecnologias-REACT-blue" alt="Tecnologias">
   <img src="https://img.shields.io/badge/tecnologias-TAILWIND%20%7C%20CSS-blue" alt="Tecnologias">
   <img src="https://img.shields.io/badge/tecnologias-TYPESCRIPT-blue" alt="Tecnologias">
+  <img src="https://img.shields.io/badge/tecnologias-GOOGLE%20FONTS-blue" alt="Tecnologias">
 </p>
 
 ## 📖 Sobre o Projeto
@@ -64,106 +66,73 @@ A estrutura de pastas está organizada da seguinte forma:
 
 ---
 
-## 📄 Páginas do Site
+# PAGINAS
 
-O projeto conta com as seguintes páginas para uma navegação completa:
+## HOME
 
-* **🏠 Home:** A página principal e de boas-vindas.
-  <p align="center">
-    
+<img width="1822" height="949" alt="Captura de tela 2026-04-12 203929" src="https://github.com/user-attachments/assets/27356116-28b8-4cc1-a2d5-ab6685d35355" />
 
+## Doar
 
+<img width="1260" height="560" alt="2026-04-12 20 57 53 localhost 871f9834aebc" src="https://github.com/user-attachments/assets/73a74da5-b9b9-4634-9a30-45a62a657047" />
 
+## Cadastro Aluno
 
+<img width="546" height="852" alt="1" src="https://github.com/user-attachments/assets/1cf806cb-6374-473a-8453-6999813030d1" />
 
-  </p>
+## Cadastro Dentista
 
-* **👥 Integrantes:** Apresentação da equipe de desenvolvimento.
-  <p align="center">
+<img width="1253" height="900" alt="2026-04-12 21 06 40 localhost 24b41bdbb876" src="https://github.com/user-attachments/assets/4e491c4a-0dd8-4a4f-a86e-eea8a33d3973" />
 
+## FAQ
 
-https://github.com/user-attachments/assets/2f621a48-a837-4aca-a950-d5e3b1742330
-
-
-
-https://github.com/user-attachments/assets/b011161e-030c-4224-9d85-f71125fd1183
+<img width="1293" height="446" alt="Captura de tela 2026-04-12 205601" src="https://github.com/user-attachments/assets/1af36cb8-1ea7-495f-b593-ceb7089db578" />
 
 
+## Contato
+
+<img width="894" height="839" alt="2026-04-12 20 54 44 localhost de4de73b7cf7" src="https://github.com/user-attachments/assets/b7d91b6c-bfd0-41e0-9b0a-3621ab9a4979" />
+
+## Sobre
+
+<img width="1258" height="688" alt="2026-04-12 21 03 13 localhost e1c8e881c1e7" src="https://github.com/user-attachments/assets/1a283f96-39ba-4e12-a31d-129b65fbe5ac" />
 
 
-  </p>
+## Solução
 
-* **❗ Sobre:** Detalhes sobre a missão da Turma do Bem.
-  <p align="center">
-  
-
-https://github.com/user-attachments/assets/2265b979-5962-4774-a2bd-2497535324a6
+<img width="1245" height="907" alt="2026-04-12 21 05 32 localhost 022e0497981c" src="https://github.com/user-attachments/assets/a1e8c487-3383-4366-bb2d-f374289ef125" />
 
 
+## Dentistas
 
-https://github.com/user-attachments/assets/ed396758-9395-4bac-996f-e1220f673b16
+<img width="1251" height="644" alt="2026-04-12 21 20 57 localhost 1f116e17a578" src="https://github.com/user-attachments/assets/9cd64acd-71b3-4f8e-b6b8-de5e9143c96d" />
 
+## Projetos
 
-  </p>
-  
-* **📞 Contato:** Formulário e informações de contato.
-  <p align="center">
-  
-
-https://github.com/user-attachments/assets/386ed4d0-4da5-4463-be49-dcdbe9014159
+<img width="1272" height="527" alt="2026-04-12 21 04 02 localhost d9684187782f" src="https://github.com/user-attachments/assets/af713dfc-d02e-4f25-a6ba-47c32d02209a" />
 
 
+## Integrantes
 
-https://github.com/user-attachments/assets/9f1620b3-a176-4fc1-ac6c-3f1eefd6fb35
+<img width="1289" height="859" alt="2026-04-12 20 59 54 localhost 9a0875e79d1c" src="https://github.com/user-attachments/assets/a75462c2-647d-48a1-b4d0-a98919bf9a24" />
 
-
-
-
-  </p>
-
-* **❓ FAQ:** Perguntas frequentes sobre a organização.
-  <p align="center">
-    
-
-https://github.com/user-attachments/assets/60f293bc-2c0f-46a1-8167-421d32e13d58
-
-
-
-https://github.com/user-attachments/assets/b92f49a4-da5f-4bbe-949b-b93251949c8a
-
-
-
-
-  </p>
-
-  * **🙌 Voluntario:** Página de voluntariados.  <img src="https://img.shields.io/badge/status-em andamento-yellow" alt="Status em BREVE">
-
-  * **❤️ Doações:** Página para doar.  <img src="https://img.shields.io/badge/status-em andamento-yellow" alt="Status em BREVE">
+---
+## 👥 Equipa de Desenvolvimento
+* **Andre Sousa Matuda** (RM: 566733)
+* **Paulo Henrique Muniz Diedrich** (RM: 567618)
+* **Guilherme Olivera Feitosa** (RM: 566842)
 
 ---
 
-## ✒️ Autores
-
-Projeto desenvolvido pela equipe:
-
-* 👨‍💻 **Andre Sousa Matuda**
-* 👨‍💻 **Paulo Henrique Muniz Diedrich**
-* 👨‍💻 **Guilherme Olivera Feitosa**
+## 🚀 Próximos Passos (Roadmap)
+1.  **Sprint 02:** Melhoria da responsividade para dispositivos móveis.
+2.  **Sprint 03:** Utilização do REACT com Tailwind para estilização da página mais moderna e atual.
+3.  **Sprint 04:** EM BREVE...
 
 ---
 
-## Link Github
+# GITHUB
 
-<br>
-
-<p align="center">
-  <a href="https://github.com/Sprint1-Front/Sprint_1_Front_End">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="Link para o Repositório no GitHub">
-  </a>
-</p>
-
----
-
-<p align="center">
-  Feito com ❤️ para a Pro Ale
-</p>
+<a href="https://github.com/Sprint1-Front/Sprint_3_Front_End">
+  <img src="https://img.shields.io/badge/github-repo-blue?logo=github" alt="GitHub">
+</a>
