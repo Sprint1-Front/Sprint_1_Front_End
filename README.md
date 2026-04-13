@@ -94,7 +94,7 @@ A estrutura de pastas está organizada da seguinte forma:
 
 ---
 
-# PAGINAS
+# 📸 Preview das Páginas
 
 ## HOME
 
